@@ -40,3 +40,38 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Navigation and layout */
+.nav {
+  background: #f8f9fb;
+  border-bottom: 1px solid #e6e9ef;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+}
+.nav a.active {
+  background: #6366f1;
+  color: #fff;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.page {
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: left;
+}
