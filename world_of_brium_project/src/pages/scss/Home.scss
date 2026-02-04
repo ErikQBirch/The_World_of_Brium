@@ -1,0 +1,22 @@
+//Variables
+$primary-color: #00312b;
+$secondary-color: #005B51;
+$tertiary-color: #009D8B;
+$accent-color: #0FD0B9;
+$light-background-color: #CBEEF3;
+$dark-background-color: #000000;
+
+
+
+@media only all and (min-width: 0){
+  main{
+    #home_banner{
+      background-color: $dark-background-color;
+      color: #fff;
+    }
+  }
+} //mob
+@media only all and (min-width: 760px){} //min
+@media only all and (min-width: 992px){} //med
+@media only all and (min-width: 1200px){} //max
+@media only all and (min-width: 1600px){} //mega
