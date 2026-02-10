@@ -9,12 +9,17 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    // background-color: $secondary-color;
+    background-color: white; //temporary light mode default
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    .container{
+      padding:0;
+      margin:0;
+    }
   }
 
   a {
