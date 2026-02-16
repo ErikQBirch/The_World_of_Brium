@@ -1,10 +1,7 @@
+@use '../../global.scss' as *;
+
 //Variables
-$primary-color: #00312b;
-$secondary-color: #005B51;
-$tertiary-color: #009D8B;
-$accent-color: #0FD0B9;
-$light-background-color: #CBEEF3;
-$dark-background-color: #000000;
+
 
 
 
@@ -23,18 +20,18 @@ $dark-background-color: #000000;
       flex-direction: column;
       align-items: center;
       background:
-      radial-gradient($accent-color 3px, transparent 4px),
-      radial-gradient($accent-color 3px, transparent 4px),
-      linear-gradient($primary-color 4px, transparent 0),
+      radial-gradient($tertiary-color 3px, transparent 4px),
+      radial-gradient($tertiary-color 3px, transparent 4px),
+      linear-gradient($secondary-color 4px, transparent 0),
       linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
       linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-      $primary-color;
+      $secondary-color;
       background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
       background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
       color: #fff;
       margin: 2.5rem 0;
       // padding: 2rem;
-      height: 25vh;
+      height: 40vh;
       overflow: hidden;
       .filter{
         position: relative;
@@ -43,17 +40,28 @@ $dark-background-color: #000000;
         width:100%;
         height:100%;
         // background: $secondary-color;
-        opacity: 0.5;
+        // opacity: 0.5;
         z-index: 1;
         margin:0;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color:white;
-        h3{}
+        color:$accent-color;
+        .text-container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          // gap: 1rem;
+          h2{
+            margin:0;
+          }
+          p{
+            margin:0;
+          }
+        }
         figure{
-          width: 0.5vw;
+          width: 10rem;
           img{
             width: 100%;
           }
@@ -62,7 +70,7 @@ $dark-background-color: #000000;
       }
     }
     #author_intro{
-      margin: 2.5rem 0;
+      margin: -2.5rem 0 0 0;
       padding: 2rem;
       display: flex;
       flex-direction: column;
