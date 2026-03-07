@@ -1,0 +1,11 @@
+@media only all and (min-width: 0) {
+  .footer {
+    background: #252525;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .footer p {
+    margin: 0;
+  }
+}/*# sourceMappingURL=Footer.css.map */

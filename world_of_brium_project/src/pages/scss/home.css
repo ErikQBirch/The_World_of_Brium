@@ -1,0 +1,172 @@
+@media only all and (min-width: 0) {
+  main {
+    padding: 0;
+    margin: 0 auto;
+    width: 100vw;
+    color: black;
+  }
+  main h2 {
+    margin: 0;
+  }
+  main #home_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#009D8B 3px, transparent 4px), radial-gradient(#009D8B 3px, transparent 4px), linear-gradient(#005B51 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #005B51;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    border-radius: 15px;
+    color: #fff;
+    margin: 2.5rem auto;
+    height: 65vh;
+    width: 90vw;
+    overflow: hidden;
+  }
+  main #home_banner .filter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  main #home_banner .filter a:link, main #home_banner .filter a:visited, main #home_banner .filter a:hover, main #home_banner .filter a:active {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    color: #C6AF00;
+  }
+  main #home_banner .filter a:link .text-container, main #home_banner .filter a:visited .text-container, main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  main #home_banner .filter a:link .text-container h1, main #home_banner .filter a:visited .text-container h1, main #home_banner .filter a:hover .text-container h1, main #home_banner .filter a:active .text-container h1 {
+    margin: 1rem;
+    text-align: center;
+  }
+  main #home_banner .filter a:link .text-container p, main #home_banner .filter a:visited .text-container p, main #home_banner .filter a:hover .text-container p, main #home_banner .filter a:active .text-container p {
+    margin: 0;
+  }
+  main #home_banner .filter a:link figure, main #home_banner .filter a:visited figure, main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
+    width: 10rem;
+    margin: 0;
+  }
+  main #home_banner .filter a:link figure a:link, main #home_banner .filter a:link figure a:visited, main #home_banner .filter a:link figure a:hover, main #home_banner .filter a:link figure a:active, main #home_banner .filter a:visited figure a:link, main #home_banner .filter a:visited figure a:visited, main #home_banner .filter a:visited figure a:hover, main #home_banner .filter a:visited figure a:active, main #home_banner .filter a:hover figure a:link, main #home_banner .filter a:hover figure a:visited, main #home_banner .filter a:hover figure a:hover, main #home_banner .filter a:hover figure a:active, main #home_banner .filter a:active figure a:link, main #home_banner .filter a:active figure a:visited, main #home_banner .filter a:active figure a:hover, main #home_banner .filter a:active figure a:active {
+    text-decoration: none;
+    color: white;
+  }
+  main #home_banner .filter a:link figure img, main #home_banner .filter a:visited figure img, main #home_banner .filter a:hover figure img, main #home_banner .filter a:active figure img {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  main #author_intro {
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 49, 43, 0.5);
+    color: white;
+  }
+  main #author_intro figure {
+    width: 15rem;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    border-radius: 25%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+  main #author_intro figure img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  main #author_intro section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  main #author_intro section h1 {
+    margin: 0;
+    text-align: center;
+    line-height: 1.1;
+  }
+  main #author_intro section p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0;
+  }
+  main #signup {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    background-color: rgba(198, 175, 0, 0.5);
+  }
+  main #signup h1 {
+    margin: 0;
+  }
+  main #signup p {
+    margin: 0;
+    text-align: center;
+    max-width: 600px;
+  }
+}
+@media only all and (min-width: 760px) {
+  main #home_banner .filter a:link, main #home_banner .filter a:visited, main #home_banner .filter a:hover, main #home_banner .filter a:active {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+  main #home_banner .filter a:link .text-container, main #home_banner .filter a:visited .text-container, main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
+    width: 40%;
+  }
+  main #home_banner .filter a:link figure, main #home_banner .filter a:visited figure, main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+  main #home_banner .filter a:link figure img, main #home_banner .filter a:visited figure img, main #home_banner .filter a:hover figure img, main #home_banner .filter a:active figure img {
+    width: 75%;
+    height: auto;
+  }
+  main #home_banner .filter {
+    flex-direction: row-reverse;
+  }
+  main #author_intro figure {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+  }
+  main #author_intro p {
+    display: flex;
+    float: right;
+    width: 50%;
+  }
+}
+@media only all and (min-width: 1600px) {
+  main #home_banner {
+    height: 60vh;
+  }
+  main #home_banner .filter figure {
+    width: 20rem;
+  }
+}/*# sourceMappingURL=Home.css.map */

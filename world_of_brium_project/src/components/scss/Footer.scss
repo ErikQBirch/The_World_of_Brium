@@ -1,0 +1,19 @@
+@use '../../global' as *;
+
+@media only all and (min-width: 0){ //Mobile Mode
+  .footer{
+    background: $dark-background-color;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    p{
+      margin:0;
+    }
+  }
+}
+@media only screen and (min-width: 760px) { //Min-Mode
+}
+@media only all and (min-width: 992px){} //med
+@media only all and (min-width: 1200px){} //max
+@media only all and (min-width: 1600px){
+} //mega
