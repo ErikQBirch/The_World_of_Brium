@@ -93,30 +93,41 @@
     color: #fff;
   }
 }
-@media only screen and (min-width: 760px) {
-  .hamburger {
-    display: none;
-  }
-  .nav-container {
+@media only screen and (min-width: 992px) {
+  .nav .nav-container {
     justify-content: center;
     padding: 1rem 2rem;
   }
-  .nav-menu {
-    position: static;
+  .nav .nav-container .hamburger {
+    display: none;
+  }
+  .nav .nav-container .nav-menu {
+    position: static !important;
     width: auto;
     height: auto;
-    background: transparent;
-    transform: none;
+    background: transparent !important;
+    transform: none !important;
     flex-direction: row;
     padding: 0rem;
-    gap: 1rem;
+    gap: 2rem;
   }
-  .nav-menu li {
+  .nav .nav-container .nav-menu li {
     font-size: rem;
   }
-  .nav a {
-    padding: 0.4rem 0.6rem;
-    font-size: 2.5rem;
+  .nav .nav-container .nav-menu li a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
     border-radius: 2.5rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .nav .nav-container .nav-menu li a.active {
+    background: #009D8B;
+    color: #fff;
+  }
+  .nav .nav-container .nav-menu li a:hover {
+    background: #C6AF00;
+    color: #fff;
   }
 }/*# sourceMappingURL=NavBar.css.map */
