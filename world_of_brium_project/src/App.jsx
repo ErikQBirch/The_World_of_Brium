@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Books from './pages/Books'
+import Books_id from './pages/Books_id'
 import About from './pages/About'
 import Newsletter from './pages/Newsletter'
 import Blog from './pages/Blog'
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
+          <Route path="/books/:id" element={<Books_id />} />
           <Route path="/about" element={<About />} />
           <Route path="/newsletter" element={<Newsletter />} />
           <Route path="/blog" element={<Blog />} />

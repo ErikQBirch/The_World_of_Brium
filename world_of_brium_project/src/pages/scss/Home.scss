@@ -17,6 +17,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       background:
       radial-gradient($tertiary-color 3px, transparent 4px),
       radial-gradient($tertiary-color 3px, transparent 4px),
@@ -32,46 +33,55 @@
       color: #fff;
       margin: 2.5rem auto;
       // padding: 2rem;
-      height: 50vh;
+      height: 65vh;
       width: 90vw;
       overflow: hidden;
       .filter{
-        position: relative;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        // background: $secondary-color;
-        // opacity: 0.5;
-        z-index: 1;
-        margin:0;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        color:$accent-color;
-        .text-container{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          color: white;
-          // gap: 1rem;
-          h2{
-            margin:0;
-          }
-          p{
-            margin:0;
-          }
-        }
-        figure{
-          width: 10rem;
+        display:flex;
+        width: 100%;
+        height: 100%;
+        a:link, a:visited, a:hover, a:active{
+          position: relative;
+          top:0;
+          left:0;
+          width:100%;
+          height:100%;
+          // background: $secondary-color;
+          // opacity: 0.5;
+          z-index: 1;
           margin:0;
-          img{
-            width: 100%;
-            margin: 1rem auto;
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: center;
+          justify-content: center;
+          color:$accent-color;
+          .text-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            // gap: 1rem;
+            h1{
+              margin:1rem;
+              text-align:center;
+            }
+            p{
+              margin:0;
+            }
+          }
+          figure{
+            width: 10rem;
+            margin:0;
+            a:link, a:visited, a:hover, a:active{
+              text-decoration: none;
+              color: white;
+            }
+            img{
+              width: 100%;
+              margin: 1rem auto;
+            }
           }
         }
-        p{}
       }
     }
     #author_intro{
@@ -84,26 +94,35 @@
       background-color: color.adjust($primary-color, $alpha: -0.5);
       color: white;
       figure{
-        width: 50vw;
+        width: 15rem;
         box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
         border-radius: 25%;
         overflow: hidden;
         display:flex;
         align-items: center;
-        justify-content: center;
+        justify-self: center;
         img{
+          display:flex;
           width: 100%;
           height: 100%;
         }
       }
-      h1{
-        margin: 0;
-        text-align: center;
-        line-height: 1.1;
-      }
-      p{
-        text-align: center;
-        max-width: 600px;
+      section{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          h1{
+            margin: 0;
+            text-align: center;
+            line-height: 1.1;
+          }
+          p{
+            text-align: center;
+            max-width: 600px;
+            margin:0;
+          }
       }
     }
     #signup{
@@ -128,38 +147,54 @@
 } //mob
 @media only all and (min-width: 760px){
     main{
-    h2{
-    }
-    #home_banner{
-      .filter{
-        .text-container{
-          h2{
+      h2{
+      }
+      #home_banner{
+        .filter{
+          a:link, a:visited, a:hover, a:active{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            column-gap: 2.5rem;
+            .text-container{
+              // margin: 0 2rem;
+              width:40%;
+              h2{
+              }
+              p{
+              }
+            }
+            figure{
+              display:flex;
+              align-items: center;
+              justify-content: center;
+              width: 40%;
+              // width: 15rem;
+              img{
+                width: 75%;
+                height: auto;
+              }
+            }
           }
-          p{
-          }
+          flex-direction: row-reverse;
         }
+      }
+      #author_intro{
         figure{
+          // width: 12.5rem;
+          display:inline-block;
+          vertical-align: top;
+          float: left;
           img{
           }
         }
-        p{}
-      }
-    }
-    #author_intro{
-      figure{
-        width: 12.5rem;
-        display:inline-block;
-        vertical-align: top;
-        float: left;
-        img{
+        p{
+          display:flex;
+          float: right;
+          width: 50%;
         }
       }
-      p{
-        display:flex;
-        float: right;
-        width: 50%;
-      }
-    }
   }
 } //min
 @media only all and (min-width: 992px){} //med
