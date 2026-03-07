@@ -1,16 +1,14 @@
 @use '../../global.scss' as *;
+@use "sass:color";
 
 //Variables
-
-
-
 
 @media only all and (min-width: 0){
   main{
     // background-color: black;
     padding:0;
     margin:0 auto;
-    width: 90vw;
+    width: 100vw;
     color:black;
     h2{
       margin:0;
@@ -28,10 +26,14 @@
       $secondary-color;
       background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
       background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
+      border-radius: 15px;
+      
       color: #fff;
-      margin: 2.5rem 0;
+      margin: 2.5rem auto;
       // padding: 2rem;
-      height: 40vh;
+      height: 50vh;
+      width: 90vw;
       overflow: hidden;
       .filter{
         position: relative;
@@ -44,7 +46,7 @@
         z-index: 1;
         margin:0;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         color:$accent-color;
@@ -52,6 +54,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          color: white;
           // gap: 1rem;
           h2{
             margin:0;
@@ -62,34 +65,133 @@
         }
         figure{
           width: 10rem;
+          margin:0;
           img{
             width: 100%;
+            margin: 1rem auto;
           }
         }
         p{}
       }
     }
     #author_intro{
-      margin: -2.5rem 0 0 0;
+      margin: 0;
       padding: 2rem;
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      background-color: color.adjust($primary-color, $alpha: -0.5);
+      color: white;
       figure{
         width: 50vw;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        border-radius: 25%;
+        overflow: hidden;
+        display:flex;
+        align-items: center;
+        justify-content: center;
         img{
           width: 100%;
-          border-radius: 25%;
+          height: 100%;
         }
+      }
+      h1{
+        margin: 0;
+        text-align: center;
+        line-height: 1.1;
       }
       p{
         text-align: center;
         max-width: 600px;
       }
     }
+    #signup{
+      margin: 2.5rem 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      color:white;
+      background-color: color.adjust($accent-color, $alpha: -0.5);
+      h1{
+        margin:0;
+      }
+      p{
+        margin:0;
+        text-align: center;
+        max-width: 600px;
+      }
+    }
   }
 } //mob
-@media only all and (min-width: 760px){} //min
+@media only all and (min-width: 760px){
+    main{
+    h2{
+    }
+    #home_banner{
+      .filter{
+        .text-container{
+          h2{
+          }
+          p{
+          }
+        }
+        figure{
+          img{
+          }
+        }
+        p{}
+      }
+    }
+    #author_intro{
+      figure{
+        width: 12.5rem;
+        display:inline-block;
+        vertical-align: top;
+        float: left;
+        img{
+        }
+      }
+      p{
+        display:flex;
+        float: right;
+        width: 50%;
+      }
+    }
+  }
+} //min
 @media only all and (min-width: 992px){} //med
 @media only all and (min-width: 1200px){} //max
-@media only all and (min-width: 1600px){} //mega
+@media only all and (min-width: 1600px){
+      main{
+    h2{
+    }
+    #home_banner{
+      height: 60vh;
+      .filter{
+        .text-container{
+          h2{
+          }
+          p{
+          }
+        }
+        figure{
+          width: 20rem;
+          img{
+          }
+        }
+        p{}
+      }
+    }
+    #author_intro{
+      figure{
+        img{
+        }
+      }
+      p{
+      }
+    }
+  }
+} //mega

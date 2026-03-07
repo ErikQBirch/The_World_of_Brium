@@ -2,7 +2,7 @@
   main {
     padding: 0;
     margin: 0 auto;
-    width: 90vw;
+    width: 100vw;
     color: black;
   }
   main h2 {
@@ -15,9 +15,11 @@
     background: radial-gradient(#009D8B 3px, transparent 4px), radial-gradient(#009D8B 3px, transparent 4px), linear-gradient(#005B51 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #005B51;
     background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    border-radius: 15px;
     color: #fff;
-    margin: 2.5rem 0;
-    height: 40vh;
+    margin: 2.5rem auto;
+    height: 50vh;
+    width: 90vw;
     overflow: hidden;
   }
   main #home_banner .filter {
@@ -29,7 +31,7 @@
     z-index: 1;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     color: #C6AF00;
@@ -38,6 +40,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
   }
   main #home_banner .filter .text-container h2 {
     margin: 0;
@@ -47,26 +50,80 @@
   }
   main #home_banner .filter figure {
     width: 10rem;
+    margin: 0;
   }
   main #home_banner .filter figure img {
     width: 100%;
+    margin: 1rem auto;
   }
   main #author_intro {
-    margin: -2.5rem 0 0 0;
+    margin: 0;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 49, 43, 0.5);
+    color: white;
   }
   main #author_intro figure {
     width: 50vw;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    border-radius: 25%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   main #author_intro figure img {
     width: 100%;
-    border-radius: 25%;
+    height: 100%;
+  }
+  main #author_intro h1 {
+    margin: 0;
+    text-align: center;
+    line-height: 1.1;
   }
   main #author_intro p {
     text-align: center;
     max-width: 600px;
+  }
+  main #signup {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    background-color: rgba(198, 175, 0, 0.5);
+  }
+  main #signup h1 {
+    margin: 0;
+  }
+  main #signup p {
+    margin: 0;
+    text-align: center;
+    max-width: 600px;
+  }
+}
+@media only all and (min-width: 760px) {
+  main #author_intro figure {
+    width: 12.5rem;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+  }
+  main #author_intro p {
+    display: flex;
+    float: right;
+    width: 50%;
+  }
+}
+@media only all and (min-width: 1600px) {
+  main #home_banner {
+    height: 60vh;
+  }
+  main #home_banner .filter figure {
+    width: 20rem;
   }
 }/*# sourceMappingURL=Home.css.map */

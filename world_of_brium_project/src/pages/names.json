@@ -1,0 +1,44 @@
+{
+  "Names": [
+    {
+      "id":"1",
+      "h1":"Clovis",
+      "imgSrc":"/images/author.jpg"
+    },
+    {
+      "id":"2",
+      "h1":"Honest",
+      "imgSrc":"/images/author.jpg"
+    },
+    {
+      "id":"3",
+      "h1":"Demitri",
+      "imgSrc":"/images/author.jpg"
+    },
+    {
+      "id":"4",
+      "h1":"Tsenoh",
+      "imgSrc":"/images/author.jpg"
+    },
+    {
+      "id":"5",
+      "h1":"Lukas",
+      "imgSrc":"/images/author.jpg"
+    },
+    {
+      "id":"6",
+      "h1":"Nyles",
+      "imgSrc":"/images/author.jpg"
+    },
+    {
+      "id":"7",
+      "h1":"Sophie",
+      "imgSrc":"/images/author.jpg"
+    },
+    {
+      "id":"8",
+      "h1":"Bennet",
+      "imgSrc":"/images/author.jpg"
+    }
+  ]
+}

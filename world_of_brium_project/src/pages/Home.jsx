@@ -1,6 +1,8 @@
 import './scss/Home.scss';
+import DOMPurify from 'dompurify';
 import authorImg from '../assets/images/author.jpg';
-import sampleBook from '../assets/images/sample_book2.png';
+import sampleBook from '../assets/images/sample_book1.png';
+
 
 export default function Home() {
   return (
@@ -8,25 +10,25 @@ export default function Home() {
       <section id="home_banner">
         <article id="home_banner_filter" className='filter'>
           <div className="text-container">
-            {/* <h2>Home</h2>
-            <p>Welcome to the world of Brium.</p> */}
+            {/* <h2>Home</h2> */}
+            <p>Welcome to the World of Brium.</p>
           </div>
-          {/* <figure>
+          <figure>
             <img src={sampleBook} alt="sample_book" />
-          </figure> */}
+          </figure>
         </article>
       </section>
       <section id="author_intro">
-        <h3>Discover Brium</h3>
         <figure>
           <img src={authorImg} alt="author_img" />
         </figure>
-        <p>Explore the rich lore, characters, and adventures that await you in Brium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quasi necessitatibus magnam, enim blanditiis libero. Veniam fuga voluptates nesciunt debitis, iure omnis doloribus obcaecati deserunt mollitia voluptatum id perspiciatis quod saepe corrupti. Totam, error voluptatem! Non quidem veritatis quibusdam, cupiditate modi consequuntur saepe maiores necessitatibus mollitia ipsam numquam odio eaque maxime animi sint quaerat nisi nesciunt aspernatur. Inventore, architecto exercitationem?</p>
+        <h1>A Glimpse at <br/>Jeremy Cole</h1>
+        <p>Explore the rich lore, characters, and adventures that await you in Brium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum amet deleniti provident, sed totam.</p>
       </section>
       <section id="signup">
-        <h3>Stay Updated</h3>
+        <h1>Stay Updated</h1>
         <p>Sign up for our newsletter to receive the latest news and updates about Brium.</p>
-        
+        <button>Sign Up</button>
       </section>
     </main>
   )
