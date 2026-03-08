@@ -8,11 +8,8 @@
     // background-color: black;
     padding:0;
     margin:0 auto;
-    width: 100vw;
+    width: 100%;
     color:black;
-    h2{
-      margin:0;
-    }
     #home_banner{
       display: flex;
       flex-direction: column;
@@ -31,9 +28,9 @@
       border-radius: 15px;
       
       color: #fff;
-      margin: 2.5rem auto;
+      margin: 2.5rem auto 5rem auto;
       // padding: 2rem;
-      height: 65vh;
+      height: 70vh;
       width: 90vw;
       overflow: hidden;
       .filter{
@@ -54,7 +51,8 @@
           flex-direction: column-reverse;
           align-items: center;
           justify-content: center;
-          color:$accent-color;
+          // color:$accent-color;
+          padding: 0 10vw;
           .text-container{
             display: flex;
             flex-direction: column;
@@ -70,22 +68,28 @@
             }
           }
           figure{
-            width: 10rem;
-            margin:0;
-            a:link, a:visited, a:hover, a:active{
-              text-decoration: none;
-              color: white;
-            }
+            width: 45vw;
+            margin:0 auto;
+            text-decoration: none;
+            color: white;
+            padding: 0 10vw;
+            display: flex;
             img{
               width: 100%;
-              margin: 1rem auto;
+              margin: 0rem auto;
             }
+          }
+        }
+        a:hover, a:active{
+          box-shadow: 0 0 50px $accent-color;
+          figure{
+            // box-shadow: 0 0 50px color.adjust($accent-color, $alpha: -0.5);
           }
         }
       }
     }
     #author_intro{
-      margin: 0;
+      margin: 5rem auto;
       padding: 2rem;
       display: flex;
       flex-direction: column;
@@ -126,7 +130,7 @@
       }
     }
     #signup{
-      margin: 2.5rem 0;
+      margin: 5rem 0;
       padding: 2rem;
       display: flex;
       flex-direction: column;
@@ -147,9 +151,8 @@
 } //mob
 @media only all and (min-width: 760px){
     main{
-      h2{
-      }
       #home_banner{
+        height: 40vh;
         .filter{
           a:link, a:visited, a:hover, a:active{
             display: flex;
@@ -157,10 +160,15 @@
             justify-content: center;
             align-items: center;
             column-gap: 2.5rem;
+            // padding: 0 15vw;
+            padding:0;
             .text-container{
-              // margin: 0 2rem;
-              width:40%;
-              h2{
+              margin: 0;
+              width:20rem;
+              font-size: 125%;
+              h1{
+                margin:0;
+                line-height: 1.1;
               }
               p{
               }
@@ -169,10 +177,12 @@
               display:flex;
               align-items: center;
               justify-content: center;
-              width: 40%;
+              width: 12.5rem;
               // width: 15rem;
+              margin:0;
+              padding:0;
               img{
-                width: 75%;
+                // width: 75%;
                 height: auto;
               }
             }
@@ -181,35 +191,158 @@
         }
       }
       #author_intro{
+        margin: 10rem auto;
+        padding: 5rem 0;
+        flex-direction: row-reverse;
         figure{
-          // width: 12.5rem;
+          width: 40%;
           display:inline-block;
           vertical-align: top;
           float: left;
           img{
           }
         }
-        p{
+        section{
           display:flex;
+          flex-direction: column;
+          vertical-align: top;
           float: right;
-          width: 50%;
-        }
-      }
-  }
-} //min
-@media only all and (min-width: 992px){} //med
-@media only all and (min-width: 1200px){} //max
-@media only all and (min-width: 1600px){
-      main{
-    h2{
-    }
-    #home_banner{
-      height: 60vh;
-      .filter{
-        .text-container{
-          h2{
+          width: 40%;
+          h1{
+            margin:0;
+            text-align: center;
+            line-height: 1.1;
+            width: 100%;
           }
           p{
+            width: 100%;
+          }
+          button{
+            margin: 0 auto;
+          }
+        }
+      }
+      #signup{
+        margin: 5rem 0;
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        color:white;
+        background-color: color.adjust($accent-color, $alpha: -0.5);
+      h1{
+        margin:0;
+      }
+      p{
+        margin:0;
+        text-align: center;
+        max-width: 600px;
+      }
+    }
+  }
+} //min
+@media only all and (min-width: 992px){
+  main{
+    #home_banner{
+      height: 50vh;
+      .filter{
+        a:link, a:visited, a:hover, a:active{
+          .text-container{
+            width: 25rem;
+            font-size:150%;
+            h1{
+            }
+            p{
+            }
+          }
+          figure{
+            width: 17.5rem;
+            img{
+            }
+          }
+        }
+      }
+    }
+    #author_intro{
+      figure{
+        img{
+        }
+      }
+      section{
+        h1{
+        }
+        p{
+        }
+        button{
+        }
+      }
+    }
+    #signup{
+    h1{
+    }
+    p{
+    }
+    }
+  }
+} //med
+@media only all and (min-width: 1200px){
+        main{
+      h2{
+      }
+      #home_banner{
+        height: 50vh;
+        .filter{
+          a:link, a:visited, a:hover, a:active{
+            .text-container{
+              h1{
+              }
+              p{
+              }
+            }
+            figure{
+              width: 17.5rem;
+              img{
+              }
+            }
+          }
+        }
+      }
+      #author_intro{
+        figure{
+          img{
+          }
+        }
+        section{
+          h1{
+          }
+          p{
+          }
+          button{
+          }
+        }
+      }
+      #signup{
+      h1{
+      }
+      p{
+      }
+    }
+  }
+} //max
+@media only all and (min-width: 1600px){
+  main{
+    #home_banner{
+      height: 70vh;
+      .filter{
+        a:link, a:visited, a:hover, a:active{
+          .text-container{
+            width: 40rem;
+            font-size:250%;
+            h1{
+            }
+            p{
+            }
           }
         }
         figure{
@@ -218,6 +351,8 @@
           }
         }
         p{}
+        }
+        .text-container{
       }
     }
     #author_intro{

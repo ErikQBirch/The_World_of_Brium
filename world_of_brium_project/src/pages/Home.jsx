@@ -13,7 +13,7 @@ export default function Home() {
           <Link to="/books/BRIUM001">
             <div className="text-container">
               {/* <h2>Home</h2> */}
-              <h1>Welcome to the World of Brium.</h1>
+              <h1>Welcome to the <br/>World of Brium</h1>
             </div>
             <figure>
                 <img src={sampleBook} alt="sample_book" />

@@ -2,11 +2,8 @@
   main {
     padding: 0;
     margin: 0 auto;
-    width: 100vw;
+    width: 100%;
     color: black;
-  }
-  main h2 {
-    margin: 0;
   }
   main #home_banner {
     display: flex;
@@ -18,8 +15,8 @@
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     border-radius: 15px;
     color: #fff;
-    margin: 2.5rem auto;
-    height: 65vh;
+    margin: 2.5rem auto 5rem auto;
+    height: 70vh;
     width: 90vw;
     overflow: hidden;
   }
@@ -40,7 +37,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    color: #C6AF00;
+    padding: 0 10vw;
   }
   main #home_banner .filter a:link .text-container, main #home_banner .filter a:visited .text-container, main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
     display: flex;
@@ -56,19 +53,22 @@
     margin: 0;
   }
   main #home_banner .filter a:link figure, main #home_banner .filter a:visited figure, main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
-    width: 10rem;
-    margin: 0;
-  }
-  main #home_banner .filter a:link figure a:link, main #home_banner .filter a:link figure a:visited, main #home_banner .filter a:link figure a:hover, main #home_banner .filter a:link figure a:active, main #home_banner .filter a:visited figure a:link, main #home_banner .filter a:visited figure a:visited, main #home_banner .filter a:visited figure a:hover, main #home_banner .filter a:visited figure a:active, main #home_banner .filter a:hover figure a:link, main #home_banner .filter a:hover figure a:visited, main #home_banner .filter a:hover figure a:hover, main #home_banner .filter a:hover figure a:active, main #home_banner .filter a:active figure a:link, main #home_banner .filter a:active figure a:visited, main #home_banner .filter a:active figure a:hover, main #home_banner .filter a:active figure a:active {
+    width: 45vw;
+    margin: 0 auto;
     text-decoration: none;
     color: white;
+    padding: 0 10vw;
+    display: flex;
   }
   main #home_banner .filter a:link figure img, main #home_banner .filter a:visited figure img, main #home_banner .filter a:hover figure img, main #home_banner .filter a:active figure img {
     width: 100%;
-    margin: 1rem auto;
+    margin: 0rem auto;
+  }
+  main #home_banner .filter a:hover, main #home_banner .filter a:active {
+    box-shadow: 0 0 50px #C6AF00;
   }
   main #author_intro {
-    margin: 0;
+    margin: 5rem auto;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@
     margin: 0;
   }
   main #signup {
-    margin: 2.5rem 0;
+    margin: 5rem 0;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -127,6 +127,9 @@
   }
 }
 @media only all and (min-width: 760px) {
+  main #home_banner {
+    height: 40vh;
+  }
   main #home_banner .filter a:link, main #home_banner .filter a:visited, main #home_banner .filter a:hover, main #home_banner .filter a:active {
     display: flex;
     flex-direction: row-reverse;
@@ -134,37 +137,107 @@
     align-items: center;
     -moz-column-gap: 2.5rem;
          column-gap: 2.5rem;
+    padding: 0;
   }
   main #home_banner .filter a:link .text-container, main #home_banner .filter a:visited .text-container, main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
-    width: 40%;
+    margin: 0;
+    width: 20rem;
+    font-size: 125%;
+  }
+  main #home_banner .filter a:link .text-container h1, main #home_banner .filter a:visited .text-container h1, main #home_banner .filter a:hover .text-container h1, main #home_banner .filter a:active .text-container h1 {
+    margin: 0;
+    line-height: 1.1;
   }
   main #home_banner .filter a:link figure, main #home_banner .filter a:visited figure, main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 12.5rem;
+    margin: 0;
+    padding: 0;
   }
   main #home_banner .filter a:link figure img, main #home_banner .filter a:visited figure img, main #home_banner .filter a:hover figure img, main #home_banner .filter a:active figure img {
-    width: 75%;
     height: auto;
   }
   main #home_banner .filter {
     flex-direction: row-reverse;
   }
+  main #author_intro {
+    margin: 10rem auto;
+    padding: 5rem 0;
+    flex-direction: row-reverse;
+  }
   main #author_intro figure {
+    width: 40%;
     display: inline-block;
     vertical-align: top;
     float: left;
   }
-  main #author_intro p {
+  main #author_intro section {
     display: flex;
+    flex-direction: column;
+    vertical-align: top;
     float: right;
-    width: 50%;
+    width: 40%;
+  }
+  main #author_intro section h1 {
+    margin: 0;
+    text-align: center;
+    line-height: 1.1;
+    width: 100%;
+  }
+  main #author_intro section p {
+    width: 100%;
+  }
+  main #author_intro section button {
+    margin: 0 auto;
+  }
+  main #signup {
+    margin: 5rem 0;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    background-color: rgba(198, 175, 0, 0.5);
+  }
+  main #signup h1 {
+    margin: 0;
+  }
+  main #signup p {
+    margin: 0;
+    text-align: center;
+    max-width: 600px;
+  }
+}
+@media only all and (min-width: 992px) {
+  main #home_banner {
+    height: 50vh;
+  }
+  main #home_banner .filter a:link .text-container, main #home_banner .filter a:visited .text-container, main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
+    width: 25rem;
+    font-size: 150%;
+  }
+  main #home_banner .filter a:link figure, main #home_banner .filter a:visited figure, main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
+    width: 17.5rem;
+  }
+}
+@media only all and (min-width: 1200px) {
+  main #home_banner {
+    height: 50vh;
+  }
+  main #home_banner .filter a:link figure, main #home_banner .filter a:visited figure, main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
+    width: 17.5rem;
   }
 }
 @media only all and (min-width: 1600px) {
   main #home_banner {
-    height: 60vh;
+    height: 70vh;
+  }
+  main #home_banner .filter a:link .text-container, main #home_banner .filter a:visited .text-container, main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
+    width: 40rem;
+    font-size: 250%;
   }
   main #home_banner .filter figure {
     width: 20rem;
