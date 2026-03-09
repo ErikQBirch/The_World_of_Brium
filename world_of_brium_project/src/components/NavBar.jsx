@@ -18,7 +18,7 @@ export default function NavBar() {
         </figure>
       </NavLink>
       <div className="nav-container">
-        <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
+        <button className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu} aria-label="Toggle menu">
           <span className="hamburger-line"></span>
           <span className="hamburger-line"></span>
           <span className="hamburger-line"></span>

@@ -48,6 +48,7 @@
   main #home_banner .filter a:link .text-container h1, main #home_banner .filter a:visited .text-container h1, main #home_banner .filter a:hover .text-container h1, main #home_banner .filter a:active .text-container h1 {
     margin: 1rem;
     text-align: center;
+    line-height: 1.2;
   }
   main #home_banner .filter a:link .text-container p, main #home_banner .filter a:visited .text-container p, main #home_banner .filter a:hover .text-container p, main #home_banner .filter a:active .text-container p {
     margin: 0;
@@ -64,8 +65,13 @@
     width: 100%;
     margin: 0rem auto;
   }
-  main #home_banner .filter a:hover, main #home_banner .filter a:active {
-    box-shadow: 0 0 50px #C6AF00;
+  main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 50px #c6af00;
+  }
+  main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
+    transition: all 0.3s ease;
+    color: #C6AF00;
   }
   main #author_intro {
     margin: 5rem auto;
@@ -78,7 +84,7 @@
   }
   main #author_intro figure {
     width: 15rem;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgb(255, 255, 255);
     border-radius: 25%;
     overflow: hidden;
     display: flex;
@@ -100,7 +106,7 @@
   main #author_intro section h1 {
     margin: 0;
     text-align: center;
-    line-height: 1.1;
+    line-height: 1.2;
   }
   main #author_intro section p {
     text-align: center;
@@ -146,7 +152,7 @@
   }
   main #home_banner .filter a:link .text-container h1, main #home_banner .filter a:visited .text-container h1, main #home_banner .filter a:hover .text-container h1, main #home_banner .filter a:active .text-container h1 {
     margin: 0;
-    line-height: 1.1;
+    line-height: 1.2;
   }
   main #home_banner .filter a:link figure, main #home_banner .filter a:visited figure, main #home_banner .filter a:hover figure, main #home_banner .filter a:active figure {
     display: flex;
@@ -183,7 +189,7 @@
   main #author_intro section h1 {
     margin: 0;
     text-align: center;
-    line-height: 1.1;
+    line-height: 1.2;
     width: 100%;
   }
   main #author_intro section p {
@@ -234,6 +240,9 @@
 @media only all and (min-width: 1600px) {
   main #home_banner {
     height: 70vh;
+  }
+  main #home_banner .filter a:link, main #home_banner .filter a:visited, main #home_banner .filter a:hover, main #home_banner .filter a:active {
+    gap: 5rem;
   }
   main #home_banner .filter a:link .text-container, main #home_banner .filter a:visited .text-container, main #home_banner .filter a:hover .text-container, main #home_banner .filter a:active .text-container {
     width: 40rem;

@@ -49,6 +49,15 @@
     transition: all 0.3s ease;
     transform-origin: center;
   }
+  .nav .nav-container .hamburger.open .hamburger-line:nth-child(1) {
+    transform: rotate(55deg) translate(4px, 12px);
+  }
+  .nav .nav-container .hamburger.open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  .nav .nav-container .hamburger.open .hamburger-line:nth-child(3) {
+    transform: rotate(-50deg) translate(8px, -17px);
+  }
   .nav .nav-container .nav-menu {
     list-style: none;
     display: flex;
@@ -74,7 +83,7 @@
   }
   .nav .nav-container .nav-menu li {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .nav .nav-container .nav-menu li .nav a {
     color: white;
