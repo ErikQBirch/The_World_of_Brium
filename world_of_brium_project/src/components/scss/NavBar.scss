@@ -7,6 +7,7 @@
     display:flex;
     align-items:center;
     justify-content: space-between;
+    // height: 12.5vh;
     .logo{
       padding: 0.5rem 1rem;
       figure{
@@ -115,15 +116,7 @@
       }
     }
   }
-
-
-
-
-
-
-  
 }
-
 @media only screen and (min-width: 992px) { //Desktop Mode
   .nav {
     .nav-container {

@@ -1,1 +1,5 @@
-/*# sourceMappingURL=global.css.map */
+@media only all and (min-width: 0) {
+  main {
+    min-height: 80vh;
+  }
+}/*# sourceMappingURL=global.css.map */

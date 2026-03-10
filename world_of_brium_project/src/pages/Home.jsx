@@ -10,7 +10,7 @@ export default function Home() {
     <main className="page home">
       <section id="home_banner">
         <article id="home_banner_filter" className='contentHolder'>
-          <Link to="/books/BRIUM001">
+          <Link to="/books/1">
             <div className="text-container">
               {/* <h2>Home</h2> */}
               <h1>Welcome to the <br/>World of Brium</h1>
