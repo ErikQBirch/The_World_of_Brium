@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="page home">
       <section id="home_banner">
-        <article id="home_banner_filter" className='filter'>
+        <article id="home_banner_filter" className='contentHolder'>
           <Link to="/books/BRIUM001">
             <div className="text-container">
               {/* <h2>Home</h2> */}
@@ -23,19 +23,20 @@ export default function Home() {
         </article>
       </section>
       <section id="author_intro">
-        <figure>
-          <Link to="/author">
-            <img src={authorImg} alt="author_img" />
-          </Link>
-        </figure>
-        <section>
-          <h1>A Glimpse at <br/>Jeremy Cole</h1>
-          <p>Explore the rich lore, characters, and adventures that await you in Brium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum amet deleniti provident, sed totam.</p>
-          <button>
-            <Link to="/author">Learn More</Link>
-          </button>
-        </section>
-
+        <div className="contentHolder">
+          <figure>
+            <Link to="/author">
+              <img src={authorImg} alt="author_img" />
+            </Link>
+          </figure>
+          <section>
+            <h1>A Glimpse at <br/>Jeremy Cole</h1>
+            <p>Explore the rich lore, characters, and adventures that await you in Brium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum amet deleniti provident, sed totam.</p>
+            <button>
+              <Link to="/author">Learn More</Link>
+            </button>
+          </section>
+        </div>
       </section>
       <section id="signup">
         <h1>Stay Updated</h1>

@@ -5,7 +5,6 @@
 
 @media only all and (min-width: 0){
   main{
-    // background-color: black;
     padding:0;
     margin:0 auto;
     width: 100%;
@@ -24,16 +23,16 @@
       $secondary-color;
       background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
       background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-
       border-radius: 15px;
       
       color: #fff;
       margin: 2.5rem auto 5rem auto;
-      // padding: 2rem;
       height: 70vh;
       width: 90vw;
       overflow: hidden;
-      .filter{
+
+      box-shadow: 0 0 50px color.adjust($secondary-color, $alpha: 1);
+      .contentHolder{
         display:flex;
         width: 100%;
         height: 100%;
@@ -43,24 +42,21 @@
           left:0;
           width:100%;
           height:100%;
-          // background: $secondary-color;
-          // opacity: 0.5;
           z-index: 1;
           margin:0;
           display: flex;
           flex-direction: column-reverse;
           align-items: center;
           justify-content: center;
-          // color:$accent-color;
           padding: 0 10vw;
+          gap: 1rem;
           .text-container{
             display: flex;
             flex-direction: column;
             align-items: center;
             color: white;
-            // gap: 1rem;
             h1{
-              margin:1rem;
+              margin:0rem;
               text-align:center;
               line-height: 1.2;
             }
@@ -70,11 +66,12 @@
           }
           figure{
             width: 45vw;
+            max-width: 250px;
             margin:0 auto;
             text-decoration: none;
             color: white;
-            padding: 0 10vw;
             display: flex;
+            box-shadow: 0 0 50px color.adjust(white, $alpha: 0);
             img{
               width: 100%;
               margin: 0rem auto;
@@ -82,59 +79,72 @@
           }
         }
         a:hover, a:active{
-          // box-shadow: 0 0 50px $accent-color;
           figure{
             transition: all 0.3s ease;
             // box-shadow: 0 0 50px color.adjust(white, $alpha: 0);
             box-shadow: 0 0 50px color.adjust($accent-color, $alpha: 1);
+            img{
+              display:flex;
+            }
           }
-            .text-container{
-              transition: all 0.3s ease;
-              // box-shadow: 0 0 50px color.adjust(white, $alpha: 0);
-              color: $accent-color;
+          .text-container{
+            transition: all 0.3s ease;
+            // box-shadow: 0 0 50px color.adjust(white, $alpha: 0);
+            color: $accent-color;
+          }
         }
-      }
       }
     }
     #author_intro{
       margin: 5rem auto;
       padding: 2rem;
       display: flex;
-      flex-direction: column;
       align-items: center;
-
       background-color: color.adjust($primary-color, $alpha: -0.5);
       color: white;
-      figure{
-        width: 15rem;
-        box-shadow: 0 0 50px rgba(255, 255, 255, 1);
-        border-radius: 25%;
-        overflow: hidden;
+      box-shadow: 0 0 50px color.adjust($primary-color, $alpha: 0);
+      .contentHolder{
+        flex-direction: column;
         display:flex;
-        align-items: center;
-        justify-self: center;
-        img{
+        width: 100%;
+        height: 100%;
+        figure{
+          width: 75vw;
+          max-width: 400px;
+          box-shadow: 0 0 50px rgba(255, 255, 255, 1);
+          border-radius: 25%;
+          overflow: hidden;
           display:flex;
-          width: 100%;
-          height: 100%;
-        }
-      }
-      section{
-          display:flex;
-          flex-direction: column;
           align-items: center;
-          justify-content: center;
-          gap: 1rem;
-          h1{
-            margin: 0;
-            text-align: center;
-            line-height: 1.2;
+          justify-self: center;
+          margin: 5rem auto;
+          img{
+            display:flex;
+            width: 100%;
+            height: 100%;
           }
-          p{
-            text-align: center;
-            max-width: 600px;
-            margin:0;
-          }
+        }
+        section{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin: 0rem auto;
+            h1{
+              margin: 0;
+              text-align: center;
+              line-height: 1.2;
+            }
+            p{
+              text-align: center;
+              max-width: 600px;
+              margin:0;
+            }
+            button{
+              margin: 2.5rem auto;
+            }
+        }
       }
     }
     #signup{
@@ -146,6 +156,7 @@
       gap: 1rem;
       color:white;
       background-color: color.adjust($accent-color, $alpha: -0.5);
+      box-shadow: 0 0 50px color.adjust($accent-color, $alpha: -0.5);
       h1{
         margin:0;
       }
@@ -160,8 +171,8 @@
 @media only all and (min-width: 760px){
     main{
       #home_banner{
-        height: 40vh;
-        .filter{
+        height: 45vh;
+        .contentHolder{
           a:link, a:visited, a:hover, a:active{
             display: flex;
             flex-direction: row-reverse;
@@ -186,6 +197,7 @@
               align-items: center;
               justify-content: center;
               width: 12.5rem;
+              max-width: none;
               // width: 15rem;
               margin:0;
               padding:0;
@@ -200,33 +212,50 @@
       }
       #author_intro{
         margin: 10rem auto;
-        padding: 5rem 0;
-        flex-direction: row-reverse;
-        figure{
-          width: 40%;
-          display:inline-block;
-          vertical-align: top;
-          float: left;
-          img{
-          }
-        }
-        section{
+        padding: 7.5rem 0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+          // background-color: color.adjust($primary-color, $alpha: -0.5);
+          // color: white;
+        .contentHolder{
           display:flex;
-          flex-direction: column;
-          vertical-align: top;
-          float: right;
-          width: 40%;
-          h1{
+          flex-direction: row-reverse;
+          width: 100%;
+          height: 100%;
+          align-items: center;
+          justify-content: center;
+          margin:0 auto;
+          gap: 2.5rem;
+          figure{
+            width: 40%;
+            // display:inline-block;
+            // vertical-align: top;
+            // float: left;
             margin:0;
-            text-align: center;
-            line-height: 1.2;
-            width: 100%;
+            img{
+            }
           }
-          p{
-            width: 100%;
-          }
-          button{
-            margin: 0 auto;
+          section{
+            display:flex;
+            flex-direction: column;
+            // vertical-align: top;
+            // float: right;
+            width: 40%;
+            margin:0;
+            h1{
+              margin:0;
+              text-align: left;
+              line-height: 1.2;
+              width: 100%;
+            }
+            p{
+              width: 100%;
+              text-align: left;
+            }
+            button{
+              margin: 0 auto 0 0;
+            }
           }
         }
       }
@@ -253,8 +282,8 @@
 @media only all and (min-width: 992px){
   main{
     #home_banner{
-      height: 50vh;
-      .filter{
+      height: 60vh;
+      .contentHolder{
         a:link, a:visited, a:hover, a:active{
           .text-container{
             width: 25rem;
@@ -273,16 +302,19 @@
       }
     }
     #author_intro{
-      figure{
-        img{
+      .contentHolder{
+        gap: 5rem;
+        figure{
+          img{
+          }
         }
-      }
-      section{
-        h1{
-        }
-        p{
-        }
-        button{
+        section{
+          h1{
+          }
+          p{
+          }
+          button{
+          }
         }
       }
     }
@@ -295,12 +327,13 @@
   }
 } //med
 @media only all and (min-width: 1200px){
-        main{
+    main{
       h2{
       }
       #home_banner{
-        height: 50vh;
-        .filter{
+        // height: 50vh;
+        margin: 5rem auto;
+        .contentHolder{
           a:link, a:visited, a:hover, a:active{
             .text-container{
               h1{
@@ -317,34 +350,42 @@
         }
       }
       #author_intro{
-        figure{
-          img{
+        // padding: 7.5rem 0;
+        gap: 10rem;
+        .contentHolder{
+          width: 80%;
+          max-width: 1200px;
+          display: flex;
+          margin: 0 auto;
+          figure{
+            img{
+            }
           }
-        }
-        section{
-          h1{
-          }
-          p{
-          }
-          button{
+          section{
+            h1{
+            }
+            p{
+            }
+            button{
+            }
           }
         }
       }
       #signup{
-      h1{
-      }
-      p{
+        h1{
+        }
+        p{
+        }
       }
     }
-  }
 } //max
 @media only all and (min-width: 1600px){
   main{
     #home_banner{
       height: 70vh;
-      .filter{
+      .contentHolder{
         a:link, a:visited, a:hover, a:active{
-          gap:5rem;
+          gap:7.5rem;
           .text-container{
             width: 40rem;
             font-size:250%;
@@ -353,16 +394,14 @@
             p{
             }
           }
-        }
-        figure{
-          width: 20rem;
-          img{
+          figure{
+            width: 22.5rem;
+            img{
+            }
           }
         }
-        p{}
-        }
-        .text-container{
       }
+        p{}
     }
     #author_intro{
       figure{

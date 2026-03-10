@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <footer className="footer"> 
       <h3>Footer</h3>
-      <section class="footer-links">
+      <section className="footer-links">
         <p>&copy; 2026 The World of Brium. All rights reserved.</p>
       </section>
     </footer>
