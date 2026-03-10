@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 // import logoImg from '../../public/images/placeholder.jpg';
 import './scss/Footer.scss'
