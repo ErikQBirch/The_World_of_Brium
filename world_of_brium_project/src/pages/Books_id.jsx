@@ -27,9 +27,9 @@ import { ContentRenderer } from "../components/ContentRenderer";
       <main className="page books" id="booksIdPage">
           {book && (
             <div className="contentHolder">
-              <ContentRenderer items={book.Content.ExtendedSummary} />
-              <ContentRenderer items={book.Content.AuthorsComments} />
-              <ContentRenderer items={book.Content.ImageGallery} />
+              <ContentRenderer sectionId="extended-summary" items={book.Content.ExtendedSummary} />
+              <ContentRenderer sectionId="authors-comments" items={book.Content.AuthorsComments} />
+              <ContentRenderer sectionId="image-gallery" items={book.Content.ImageGallery} />
             </div>
           )}
         {/* <p>Explore books from the world of Brium.</p> */}
