@@ -7,7 +7,7 @@ import sampleBook from '../assets/images/sample_book1.png';
 
 export default function Home() {
   return (
-    <main className="page home">
+    <main className="page home" id="homePage">
       <section id="home_banner">
         <article id="home_banner_filter" className='contentHolder'>
           <Link to="/books/1">

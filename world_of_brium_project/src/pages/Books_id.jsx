@@ -34,7 +34,7 @@ import './scss/Books_id.scss'
     // const book = searchParams.get('book'); // returns "electronics"
    
     return (
-      <main className="page books">
+      <main className="page books" id="booksIdPage">
           {book && (
             <div className="contentHolder">
               <h1>{book.Title}</h1>

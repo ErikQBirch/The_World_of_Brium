@@ -4,7 +4,7 @@
 //Variables
 
 @media only all and (min-width: 0){
-  main{
+  main#homePage{
     padding:0;
     margin:0 auto;
     width: 100%;
@@ -169,7 +169,7 @@
   }
 } //mob
 @media only all and (min-width: 760px){
-    main{
+    main#homePage{
       #home_banner{
         height: 45vh;
         .contentHolder{
@@ -280,7 +280,7 @@
   }
 } //min
 @media only all and (min-width: 992px){
-  main{
+  main#homePage{
     #home_banner{
       height: 60vh;
       .contentHolder{
@@ -327,7 +327,7 @@
   }
 } //med
 @media only all and (min-width: 1200px){
-    main{
+    main#homePage{
       h2{
       }
       #home_banner{
@@ -380,7 +380,7 @@
     }
 } //max
 @media only all and (min-width: 1600px){
-  main{
+  main#homePage{
     #home_banner{
       height: 70vh;
       .contentHolder{
