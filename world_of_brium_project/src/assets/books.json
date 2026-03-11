@@ -4,25 +4,30 @@
       "id":"1",
       "Title":"First Book",
       "Brief_Summary":"This is my first book",
-      "Image": "/images/author.jpg",
-      "ExtendedSummary": [
-        { "type":"h1", "value":"First Book"},
-        { "type":"p", "value":"This is my first book"},
-        { "type":"img","src":"/images/author.jpg", "alt":"image1"},
-        { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
-        { "type":"h2", "value": "Subheading"},
-        { "type":"img","src":"/images/author.jpg", "alt":"image2"},
-        { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
-      ],
-      "AuthorsComments": [
-        { "type":"h1", "value":"First Book"},
-        { "type":"p", "value":"This is my first book"},
-        { "type":"img","src":"/images/author.jpg", "alt":"image1"},
-        { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
-        { "type":"h2", "value": "Subheading"},
-        { "type":"img","src":"/images/author.jpg", "alt":"image2"},
-        { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
-      ]
+      "Content" : {
+        "ImageGallery": [
+          {"type":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
+          {"type":"img", "src": "/images/author.jpg", "alt": "Author Image"}
+        ],
+        "ExtendedSummary": [
+          { "type":"h1", "value":"First Book"},
+          { "type":"p", "value":"This is my first book"},
+          { "type":"img","src":"/images/sample_book1.png", "alt":"image1"},
+          { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+          { "type":"h2", "value": "Subheading"},
+          { "type":"img","src":"/images/author.jpg", "alt":"image2"},
+          { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+        ],
+        "AuthorsComments": [
+          { "type":"h1", "value":"First Book"},
+          { "type":"p", "value":"This is my first book"},
+          { "type":"img","src":"/images/author.jpg", "alt":"image1"},
+          { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+          { "type":"h2", "value": "Subheading"},
+          { "type":"img","src":"/images/author.jpg", "alt":"image2"},
+          { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+        ]
+      }
     },
     {
       "id":"2",
