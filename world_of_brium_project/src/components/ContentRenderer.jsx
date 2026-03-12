@@ -19,7 +19,8 @@ export const ContentRenderer = ({ items = [], sectionId }) => {
   return (
     <section id={sectionId || undefined}>
       {items.map((item, index) => {
-        const { type, value, src, alt, ...rest } = item;
+        // pull out common props and also look for optional image source
+        const { type, value, src, alt, srcImg, ...rest } = item;
         switch (type) {
           case 'h1':
             return <h1 key={index} {...rest}>{value}</h1>;
@@ -30,11 +31,23 @@ export const ContentRenderer = ({ items = [], sectionId }) => {
           case 'p':
             return <p key={index} {...rest}>{value}</p>;
           case 'img':
-            return <figure key={index}><img key={index} src={src} alt={alt || ''} {...rest} /></figure>
+            return <figure key={index}><img key={index} src={src} alt={alt || ''} {...rest} /></figure>;
           case "a":
-            return <a key={index} href={item.href} {...rest}>{value}</a>;
+            return srcImg ? (
+              <a key={index} href={item.href} {...rest}>
+                <img src={srcImg} alt={alt || ''} />
+              </a>
+            ) : (
+              <a key={index} href={item.href} {...rest}>{value}</a>
+            );
           case "link":
-            return <Link key={index} to={item.to} {...rest}>{value}</Link>;
+            return srcImg ? (
+              <Link key={index} to={item.to} {...rest}>
+                <img src={srcImg} alt={alt || ''} />
+              </Link>
+            ) : (
+              <Link key={index} to={item.to} {...rest}>{value}</Link>
+            );
           // add more cases as needed (ul, li, blockquote, etc.)
           default:
             return null;

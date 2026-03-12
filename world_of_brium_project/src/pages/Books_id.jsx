@@ -28,6 +28,7 @@ import { ContentRenderer } from "../components/ContentRenderer";
               <ContentRenderer sectionId="extended-summary" items={book.Content.ExtendedSummary} />
               <ContentRenderer sectionId="authors-comments" items={book.Content.AuthorsComments} />
               <ContentRenderer sectionId="image-gallery" items={galleryItems} />
+              <ContentRenderer sectionId="related-books" items={book.Content.RelatedBooks} />
             </div>
           )}
 

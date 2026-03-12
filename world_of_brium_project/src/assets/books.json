@@ -24,9 +24,9 @@
           {"type":"img", "src": "/images/author.jpg", "alt": "Author Image"}
         ],
          "RelatedBooks": [
-          {"id":"1", "Title":"First Book"},
-          {"id":"2", "Title":"Second Book"},
-          {"id":"3", "Title":"Third Book"}
+          { "type":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/sample_book1.png"},
+          { "type":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/sample_book1.png"},
+          { "type":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/sample_book1.png"}
         ]
       }
     },
