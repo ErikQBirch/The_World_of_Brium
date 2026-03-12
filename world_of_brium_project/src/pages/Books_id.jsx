@@ -16,24 +16,16 @@ import { ContentRenderer } from "../components/ContentRenderer";
           {book && (
             <div className="contentHolder">
               <ContentRenderer
-                sectionId="extended-summary"
-                sectionType={book.Content.ExtendedSummary.type}
-                items={book.Content.ExtendedSummary.elements}
+                content={book.Content[0]}
               />
               <ContentRenderer
-                sectionId="authors-comments"
-                sectionType={book.Content.AuthorsComments.type}
-                items={book.Content.AuthorsComments.elements}
+                content={book.Content[1]}
               />
               <ContentRenderer
-                sectionId="image-gallery"
-                sectionType={book.Content.ImageGallery.type}
-                items={book.Content.ImageGallery.elements}
+                content={book.Content[2]}
               />
               <ContentRenderer
-                sectionId="related-books"
-                sectionType={book.Content.RelatedBooks.type}
-                items={book.Content.RelatedBooks.elements}
+                content={book.Content[3]}
               />
             </div>
           )}

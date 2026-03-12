@@ -9,15 +9,18 @@ import { Link } from 'react-router-dom';
 // and the appropriate additional fields (`value`, `src`, `alt`, etc.).
 // This keeps the markup for books, blogs, comments, etc. consistent
 // and avoids repeating switch logic in every page component.
-export const ContentRenderer = ({ items = [], sectionId, sectionType = 'document' }) => {
+export const ContentRenderer = ({ content }) => {
   const [popup, setPopup] = React.useState(null);
 
   // choose which items actually get rendered.  For galleries we only
   // want image items (JSON currently uses type: 'img').
   const rendered =
-    sectionType === 'gallery'
-      ? items.filter(i => i.type === 'img')
-      : items;
+    content && content.type === 'gallery'
+      ? content.elements.filter(i => i.type === 'img')
+      : content?.elements || [];
+
+  // debug: make sure JSON is arriving
+  // console.log('rendered content', content, rendered);
 
   if (!Array.isArray(rendered)) return null;
 
@@ -26,13 +29,13 @@ export const ContentRenderer = ({ items = [], sectionId, sectionType = 'document
   // `sectionId` is provided, the element will still render but without
   // an id attribute.
   return (
-    <section id={sectionId || undefined}>
+    <section id={content.label || undefined}>
       {rendered.map((item, index) => {
         // the caller can indicate the kind of section this item
         // represents; documents use the existing element switch.
         const {type, value, src, alt, srcImg, ...rest } = item;
 
-        switch (sectionType) {
+        switch (content.type) {
           case 'document':
             switch (type) {
               case 'h1':
@@ -86,7 +89,7 @@ export const ContentRenderer = ({ items = [], sectionId, sectionType = 'document
       })}
 
       {/* popup overlay for gallery images */}
-      {sectionType === 'gallery' && popup && (
+      {content.type === 'gallery' && popup && (
         <div className="image-popup" onClick={() => setPopup(null)}>
           <div className="inner">
             <button className="close" aria-label="close">×</button>
