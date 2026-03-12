@@ -34,10 +34,14 @@
         },
          "RelatedBooks": {
           "type":"carousel",
+          "limit": 3,
           "elements": [
            { "type":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/sample_book1.png"},
            { "type":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/sample_book1.png"},
-           { "type":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/sample_book1.png"}
+           { "type":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/sample_book1.png"},
+           { "type":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/sample_book1.png"},
+           { "type":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/sample_book1.png"},
+           { "type":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/sample_book1.png"}
           ]
          }
       }
