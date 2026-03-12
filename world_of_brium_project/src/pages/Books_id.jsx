@@ -1,38 +1,45 @@
+import React from 'react';
 // import { useSearchParams } from 'react-router-dom';
 import { useParams } from "react-router-dom";
 import booksJSON from '../assets/books.json';
 import './scss/Books_id.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
-
-// export default function Books() {
-  // const [searchParams] = useSearchParams();
-  // const book = searchParams.get('book'); // returns "electronics"  
-
-//   return (
-  //     <div>
-  //       <h1>Showing results for {book}</h1>
-  //       {/* Logic to load specific content based on 'book' */}
-  //     </div>s
-  //   );
-  // }
-  
+ 
   export default function Books() {
     // const [searchParams] = useSearchParams();
     const { id } = useParams();
     const book = booksJSON.Books.find(book => book.id === id);
-    console.log(book);
-    // console.log(booksJSON.Books)
-   
+
+    // state for popup image
+    const [popup, setPopup] = React.useState(null);
+
+    // prepare gallery items with click handlers only when book is loaded
+    const galleryItems = book
+      ? book.Content.ImageGallery.map((item) => ({
+          ...item,
+          onClick: () => setPopup({ src: item.src, alt: item.alt }),
+        }))
+      : [];
+
     return (
       <main className="page books" id="booksIdPage">
           {book && (
             <div className="contentHolder">
               <ContentRenderer sectionId="extended-summary" items={book.Content.ExtendedSummary} />
               <ContentRenderer sectionId="authors-comments" items={book.Content.AuthorsComments} />
-              <ContentRenderer sectionId="image-gallery" items={book.Content.ImageGallery} />
+              <ContentRenderer sectionId="image-gallery" items={galleryItems} />
             </div>
           )}
-        {/* <p>Explore books from the world of Brium.</p> */}
+
+          {/* overlay popup for clicked images */}
+          {popup && (
+            <div className="image-popup" onClick={() => setPopup(null)}>
+              <div className="inner">
+                {/* <button className="close" aria-label="close">×</button> */}
+                <img src={popup.src} alt={popup.alt || ''} />
+              </div>
+            </div>
+          )}
       </main>
     )
 }

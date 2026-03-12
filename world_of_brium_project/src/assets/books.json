@@ -5,10 +5,6 @@
       "Title":"First Book",
       "Brief_Summary":"This is my first book",
       "Content" : {
-        "ImageGallery": [
-          {"type":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
-          {"type":"img", "src": "/images/author.jpg", "alt": "Author Image"}
-        ],
         "ExtendedSummary": [
           { "type":"h1", "value":"First Book"},
           { "type":"img","src":"/images/sample_book1.png", "alt":"image1"},
@@ -22,6 +18,15 @@
           { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
           { "type":"img","src":"/images/author.jpg", "alt":"image1"},
           { "type":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+        ],
+        "ImageGallery": [
+          {"type":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
+          {"type":"img", "src": "/images/author.jpg", "alt": "Author Image"}
+        ],
+         "RelatedBooks": [
+          {"id":"1", "Title":"First Book"},
+          {"id":"2", "Title":"Second Book"},
+          {"id":"3", "Title":"Third Book"}
         ]
       }
     },

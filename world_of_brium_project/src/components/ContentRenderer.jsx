@@ -30,7 +30,7 @@ export const ContentRenderer = ({ items = [], sectionId }) => {
           case 'p':
             return <p key={index} {...rest}>{value}</p>;
           case 'img':
-            return <figure><img key={index} src={src} alt={alt || ''} {...rest} /></figure>
+            return <figure key={index}><img key={index} src={src} alt={alt || ''} {...rest} /></figure>
           case "a":
             return <a key={index} href={item.href} {...rest}>{value}</a>;
           case "link":

@@ -45,6 +45,51 @@
           }
         }
       }
+
+      /* popup overlay for clicked gallery images */
+    }
+    .image-popup{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0,0,0,0.75);
+      /* blur whatever is behind the overlay (browser must support backdrop-filter) */
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      cursor: pointer;
+
+      .inner{
+        position: relative;
+        max-width: 90%;
+        max-height: 90%;
+      }
+
+      img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: auto;
+      }
+
+      .close{
+        position: absolute;
+        top: -1rem;
+        right: -1rem;
+        background: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        line-height: 1;
+        cursor: pointer;
+      }
     }
   }
 } //mob
