@@ -15,7 +15,7 @@ import { ContentRenderer } from "../components/ContentRenderer";
 
     // prepare gallery items with click handlers only when book is loaded
     const galleryItems = book
-      ? book.Content.ImageGallery.map((item) => ({
+      ? book.Content.ImageGallery.elements.map((item) => ({
           ...item,
           onClick: () => setPopup({ src: item.src, alt: item.alt }),
         }))
@@ -25,10 +25,10 @@ import { ContentRenderer } from "../components/ContentRenderer";
       <main className="page books" id="booksIdPage">
           {book && (
             <div className="contentHolder">
-              <ContentRenderer sectionId="extended-summary" items={book.Content.ExtendedSummary} />
-              <ContentRenderer sectionId="authors-comments" items={book.Content.AuthorsComments} />
+              <ContentRenderer sectionId="extended-summary" items={book.Content.ExtendedSummary.elements} />
+              <ContentRenderer sectionId="authors-comments" items={book.Content.AuthorsComments.elements} />
               <ContentRenderer sectionId="image-gallery" items={galleryItems} />
-              <ContentRenderer sectionId="related-books" items={book.Content.RelatedBooks} />
+              <ContentRenderer sectionId="related-books" items={book.Content.RelatedBooks.elements} />
             </div>
           )}
 
