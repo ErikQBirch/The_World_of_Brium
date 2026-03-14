@@ -16,16 +16,16 @@ import { ContentRenderer } from "../components/ContentRenderer";
           {book && (
             <div className="contentHolder">
               <ContentRenderer
-                content={book.Content[0]}
+                content={book.contentSections[0]}
               />
               <ContentRenderer
-                content={book.Content[1]}
+                content={book.contentSections[1]}
               />
               <ContentRenderer
-                content={book.Content[2]}
+                content={book.contentSections[2]}
               />
               <ContentRenderer
-                content={book.Content[3]}
+                content={book.contentSections[3]}
               />
             </div>
           )}

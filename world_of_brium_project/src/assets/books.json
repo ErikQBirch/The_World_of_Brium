@@ -4,7 +4,7 @@
       "id":"1",
       "Title":"First Book",
       "Brief_Summary":"This is my first book",
-      "Content" : [
+      "contentSections" : [
         {
           "label":"ExtendedSummary",
           "type":"document",
@@ -54,7 +54,7 @@
       "id":"2",
       "Title":"Second Book",
       "Brief_Summary":"This is my second book",
-      "Content" : {
+      "contentSections" : {
         "ExtendedSummary": {
           "type":"document",
           "elements": [
