@@ -28,6 +28,10 @@ jobs:
       - name: Build
         run: npm run build
 
+      #4.5 Copy index.html to 404.html for GitHub Pages client-side routing support
+      - name: Copy index.html to 404.html
+        run: cp dist/index.html dist/404.html
+
       # 5. Deploy the 'dist' folder to the 'gh-pages' branch
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
