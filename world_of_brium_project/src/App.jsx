@@ -12,7 +12,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/The_World_of_Brium'>
       <NavBar />
       <div className="container">
         <Routes>
