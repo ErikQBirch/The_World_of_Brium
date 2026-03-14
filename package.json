@@ -1,7 +1,10 @@
 {
-  "dependencies": {
-    "react-router-dom": "^6.30.3",
-    "build": "vite build && cp dist/index.html dist/404.html",
-    "deploy": "gh-pages -d dist"
+  "name": "your-project-name",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"         
   }
 }
