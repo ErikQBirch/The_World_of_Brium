@@ -8,6 +8,7 @@ import { ContentRenderer } from "../components/ContentRenderer";
   export default function Books() {
     // const [searchParams] = useSearchParams();
     const { id } = useParams();
+    console.log('id from params', id);
     const book = booksJSON.Books.find(book => book.id === id);
 
 
