@@ -6,14 +6,21 @@ $tertiary-color: #009D8B;
 // $accent-color: #0FD0B9;
 $accent-color: #C6AF00;
 $light-background-color: #CBEEF3;
+// $light-background-color: rgb(230,239,244);
 $dark-background-color: #252525;
+
+$nightmode-text-color: #f0f0f0;
+$daymode-text-color: #252525;
 
 //OPTION_2: DARK BLUE THEME
 //OPTION_3: DARK GREEN THEME
 
 
-
+// 
 @media only all and (min-width: 0){
+  main{
+    min-height:80vh;
+  }
 } //mob
 @media only all and (min-width: 760px){} //min
 @media only all and (min-width: 992px){} //med

@@ -7,6 +7,7 @@
     display:flex;
     align-items:center;
     justify-content: space-between;
+    // height: 12.5vh;
     .logo{
       padding: 0.5rem 1rem;
       figure{
@@ -48,6 +49,17 @@
           transition: all 0.3s ease;
           transform-origin: center;
         }
+        &.open {
+          .hamburger-line:nth-child(1) {
+            transform: rotate(55deg) translate(4px, 12px);
+          }
+          .hamburger-line:nth-child(2) {
+            opacity: 0;
+          }
+          .hamburger-line:nth-child(3) {
+            transform: rotate(-50deg) translate(8px, -17px);
+          }
+        }
       }
       .nav-menu {
         list-style: none;
@@ -78,7 +90,7 @@
         margin: 0;
         // overflow:hidden;
         // border-radius: 4px;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         .nav a {
           // color: rgb(150, 150, 150);
           color:white;
@@ -104,44 +116,50 @@
       }
     }
   }
-
-
-
-
-
-
-  
 }
+@media only screen and (min-width: 992px) { //Desktop Mode
+  .nav {
+    .nav-container {
+      justify-content: center;
+      padding: 1rem 2rem;
 
-@media only screen and (min-width: 760px) { //Min-Mode
-  .hamburger {
-    display: none;
-  }
+      .hamburger {
+        display: none;
+      }
 
-  .nav-container {
-    justify-content: center;
-    padding: 1rem 2rem;
-  }
+      .nav-menu {
+        position: static !important;
+        width: auto;
+        height: auto;
+        background: transparent !important;
+        transform: none !important;
+        flex-direction: row;
+        padding: 0rem;
+        gap: 2rem;
 
-  .nav-menu {
-    position: static;
-    width: auto;
-    height: auto;
-    background: transparent;
-    transform: none;
-    flex-direction: row;
-    padding: 0rem;
-    gap: 1rem;
-  }
+        li {
+          font-size: rem;
+          
+          a {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border-radius: 2.5rem;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
 
-  .nav-menu li {
-    font-size: rem;
-    // padding: 0.4rem 0.6rem;
-  }
-  
-  .nav a {
-    padding: 0.4rem 0.6rem;
-    font-size: 2.5rem;
-    border-radius: 2.5rem;
+            &.active {
+              background: $tertiary-color;
+              color: #fff;
+            }
+
+            &:hover {
+              background: $accent-color;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
   }
 }

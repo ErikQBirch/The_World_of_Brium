@@ -7,13 +7,13 @@ import sampleBook from '../assets/images/sample_book1.png';
 
 export default function Home() {
   return (
-    <main className="page home">
+    <main className="page home" id="homePage">
       <section id="home_banner">
-        <article id="home_banner_filter" className='filter'>
-          <Link to="/books/BRIUM001">
+        <article id="home_banner_filter" className='contentHolder'>
+          <Link to="/books/1">
             <div className="text-container">
               {/* <h2>Home</h2> */}
-              <h1>Welcome to the World of Brium.</h1>
+              <h1>Welcome to the <br/>World of Brium</h1>
             </div>
             <figure>
                 <img src={sampleBook} alt="sample_book" />
@@ -23,19 +23,20 @@ export default function Home() {
         </article>
       </section>
       <section id="author_intro">
-        <figure>
-          <Link to="/author">
-            <img src={authorImg} alt="author_img" />
-          </Link>
-        </figure>
-        <section>
-          <h1>A Glimpse at <br/>Jeremy Cole</h1>
-          <p>Explore the rich lore, characters, and adventures that await you in Brium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum amet deleniti provident, sed totam.</p>
-          <button>
-            <Link to="/author">Learn More</Link>
-          </button>
-        </section>
-
+        <div className="contentHolder">
+          <figure>
+            <Link to="/author">
+              <img src={authorImg} alt="author_img" />
+            </Link>
+          </figure>
+          <section>
+            <h1>A Glimpse at <br/>Jeremy Cole</h1>
+            <p>Explore the rich lore, characters, and adventures that await you in Brium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum amet deleniti provident, sed totam.</p>
+            <button>
+              <Link to="/author">Learn More</Link>
+            </button>
+          </section>
+        </div>
       </section>
       <section id="signup">
         <h1>Stay Updated</h1>
