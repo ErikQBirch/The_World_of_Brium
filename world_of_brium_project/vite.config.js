@@ -6,6 +6,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ['react', 'react-dom'],
   },
+  base: 'The_World_of_Brium',
   plugins: [
     react({
       babel: {
@@ -13,4 +14,5 @@ export default defineConfig({
       },
     }),
   ],
+  
 })
