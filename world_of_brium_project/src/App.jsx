@@ -1,5 +1,5 @@
 import './App.css'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -12,7 +12,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename='/The_World_of_Brium'>
       <NavBar />
       <div className="container">
         <Routes>
@@ -28,7 +28,7 @@ function App() {
       <section>
         <Footer />
       </section>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
