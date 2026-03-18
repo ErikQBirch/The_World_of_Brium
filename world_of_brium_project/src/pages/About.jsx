@@ -12,7 +12,8 @@ import { ContentRenderer } from "../components/ContentRenderer";
     // const book = booksJSON.Books.find(book => book.id === id);
     
     const author = authorJSON.Author;
-
+    console.log('author', author);
+    
     return (
       <main className="page books" id="booksIdPage">
           {author && (

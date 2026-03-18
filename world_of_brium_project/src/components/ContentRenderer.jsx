@@ -24,15 +24,15 @@ export const ContentRenderer = ({ content }) => {
 
   if (!Array.isArray(rendered)) return null;
 
-  console.log('rendered content', content, rendered);
+  // console.log('rendered content', content, rendered);
 
   // Helper function to render items recursively
   const renderItems = (items, contentType) => {
     return items.map((item, index) => {
       const { element, value, src, alt, srcImg, ...rest } = item;
 
-      console.log(item);
-      console.log(element, value, src, alt, srcImg);
+      // console.log(item);
+      // console.log(element, value, src, alt, srcImg);
 
       switch (contentType) {
         case 'document':
@@ -65,6 +65,7 @@ export const ContentRenderer = ({ content }) => {
               );
             case 'div':
               // Recursive rendering for div elements
+              console.log(value, contentType);
               return (
                 <div key={index} {...rest}>
                   {renderItems(value || [], contentType)}

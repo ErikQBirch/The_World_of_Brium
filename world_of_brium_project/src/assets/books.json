@@ -33,6 +33,15 @@
           "elementArray": [
             {"element":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
             {"element":"img", "src": "/images/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/sample_book1.png", "alt": "Sample Book 1"},
             {"element":"img", "src": "/images/author.jpg", "alt": "Author Image"}
         ]
         },
