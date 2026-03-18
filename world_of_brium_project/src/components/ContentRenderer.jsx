@@ -46,11 +46,11 @@ export const ContentRenderer = ({ content }) => {
             case 'p':
               return <p key={index} {...rest}>{value}</p>;
             case 'img':
-              return <figure key={index}><img src={src} alt={alt || ''} {...rest} /></figure>;
+              return <figure key={index}><img src={`${import.meta.env.BASE_URL}${src.replace(/^\//,'')}`} alt={alt || ''} {...rest} /></figure>;
             case "a":
               return srcImg ? (
                 <a key={index} href={item.href} {...rest}>
-                  <img src={srcImg} alt={alt || ''} />
+                  <img src={`${import.meta.env.BASE_URL}${srcImg.replace(/^\//,'')}`} alt={alt || ''} />
                 </a>
               ) : (
                 <a key={index} href={item.href} {...rest}>{value}</a>
@@ -58,7 +58,7 @@ export const ContentRenderer = ({ content }) => {
             case "link":
               return srcImg ? (
                 <Link key={index} to={item.to} {...rest}>
-                  <img src={srcImg} alt={alt || ''} />
+                  <img src={`${import.meta.env.BASE_URL}${srcImg.replace(/^\//,'')}`} alt={alt || ''} />
                 </Link>
               ) : (
                 <Link key={index} to={item.to} {...rest}>{value}</Link>
@@ -79,7 +79,7 @@ export const ContentRenderer = ({ content }) => {
           return (
             <figure key={index} className="gallery-item">
               <img
-                src={item.src}
+                src={`${import.meta.env.BASE_URL}${item.src.replace(/^\//,'')}`}
                 alt={item.alt || ''}
                 {...rest}
                 onClick={() => setPopup({ src: item.src, alt: item.alt })}
@@ -108,7 +108,7 @@ export const ContentRenderer = ({ content }) => {
         <div className="image-popup" onClick={() => setPopup(null)}>
           <div className="inner">
             <button className="close" aria-label="close">×</button>
-            <img src={popup.src} alt={popup.alt || ''} />
+            <img src={`${import.meta.env.BASE_URL}${popup.src.replace(/^\//,'')}`} alt={popup.alt || ''} />
           </div>
         </div>
       )}
