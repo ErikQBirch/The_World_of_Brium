@@ -15,23 +15,28 @@ export const ContentRenderer = ({ content }) => {
   // choose which items actually get rendered.  For galleries we only
   // want image items (JSON currently uses type: 'img').
   const rendered =
-    content && content.type === 'gallery'
-      ? content.elements.filter(i => i.type === 'img')
-      : content?.elements || [];
+    content && content.contentType === 'gallery'
+      ? content.elementArray.filter(i => i.element === 'img')
+      : content?.elementArray || [];
 
   // debug: make sure JSON is arriving
   // console.log('rendered content', content, rendered);
 
   if (!Array.isArray(rendered)) return null;
 
+  console.log('rendered content', content, rendered);
+
   // Helper function to render items recursively
   const renderItems = (items, contentType) => {
     return items.map((item, index) => {
-      const { type, value, src, alt, srcImg, ...rest } = item;
+      const { element, value, src, alt, srcImg, ...rest } = item;
+
+      console.log(item);
+      console.log(element, value, src, alt, srcImg);
 
       switch (contentType) {
         case 'document':
-          switch (type) {
+          switch (element) {
             case 'h1':
               return <h1 key={index} {...rest}>{value}</h1>;
             case 'h2':

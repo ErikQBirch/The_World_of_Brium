@@ -1,7 +1,7 @@
 import './scss/Home.scss';
 import DOMPurify from 'dompurify';
-import authorImg from '../assets/images/author.jpg';
-import sampleBook from '../assets/images/sample_book1.png';
+import authorImg from '../../public/images/author.jpg';
+import sampleBook from '../../public/images/sample_book1.png';
 import namesJSON from "./names.json";
 import blogsJSON from "../assets/blogs.json";
 
