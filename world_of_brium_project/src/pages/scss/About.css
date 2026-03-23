@@ -1,0 +1,28 @@
+@media only all and (min-width: 0) {
+  main {
+    min-height: 80vh;
+  }
+}
+@media only all and (min-width: 0) {
+  main#aboutPage .contentHolder {
+    width: 80vw;
+  }
+  main#aboutPage .contentHolder section#JeremyColeBio figure {
+    width: 200px;
+  }
+  main#aboutPage .contentHolder section#JeremyColeBio figure img {
+    display: flex;
+    width: 100%;
+  }
+}
+@media only all and (min-width: 1200px) {
+  main#aboutPage section.booksContent {
+    width: 90%;
+  }
+  main#aboutPage section.booksContent .series .books-list {
+    gap: 2.5rem;
+  }
+  main#aboutPage section.booksContent .series .books-list .book-item figure {
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,62 @@
+@use '../../global.scss' as *;
+@use "sass:color";
+
+//Variables
+
+@media only all and (min-width: 0){
+    main#aboutPage{
+      .contentHolder{
+        width: 80vw;
+        section#JeremyColeBio{
+          figure{
+            width: 200px;
+            img{
+              display:flex;
+              width: 100%;
+            }
+          }
+          .contentHolder_info{
+            h1{
+              
+            }
+            h2{}
+            p{}
+          }
+        }
+      }
+    }
+} //mob
+@media only all and (min-width: 760px){
+    main#aboutPage{}
+} //min
+@media only all and (min-width: 992px){
+  main#aboutPage{}
+} //med
+@media only all and (min-width: 1200px){
+    main#aboutPage{
+      h1{
+      }
+      section.booksContent{
+        width: 90%;
+        .series{
+          h2{
+          }
+          .books-list{
+            gap: 2.5rem;
+            .book-item{
+              figure{
+                max-width: 300px;
+                img{
+                }
+              }
+              h3{
+              }
+            }
+          }
+        }
+      }
+    }
+} //max
+@media only all and (min-width: 1600px){
+  main#aboutPage{}
+} //mega

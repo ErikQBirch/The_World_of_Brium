@@ -1,1 +1,49 @@
-/*# sourceMappingURL=Books_id.css.map */
+@media only all and (min-width: 0) {
+  main {
+    min-height: 80vh;
+  }
+}
+@media only all and (min-width: 0) {
+  main#booksIdPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  main#booksIdPage .contentHolder {
+    max-width: 800px;
+    width: 100%;
+  }
+  main#booksIdPage .contentHolder section {
+    padding: 0 2.5rem;
+  }
+  main#booksIdPage .contentHolder #ExtendedSummary {
+    margin-bottom: 2rem;
+  }
+  main#booksIdPage .contentHolder #AuthorsComments {
+    margin-bottom: 2rem;
+  }
+  main#booksIdPage .contentHolder #ImageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  main#booksIdPage .contentHolder #ImageGallery figure {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+  }
+  main#booksIdPage .contentHolder #ImageGallery figure img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  main#booksIdPage .contentHolder #ImageGallery figure img:hover {
+    transform: scale(1.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+}/*# sourceMappingURL=Books_id.css.map */

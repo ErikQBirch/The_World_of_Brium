@@ -1,6 +1,7 @@
 import React from 'react';
 // import { useParams } from "react-router-dom";
 import booksJSON from '../assets/books.json'; 
+import './scss/Books.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
 
 export default function Books() {
@@ -21,24 +22,26 @@ export default function Books() {
   );
 
   return (
-    <main className="page books">
-      <h2>Books</h2>
-      <section>
+    <main id="booksPage" className="page books">
+      <h1>Books</h1>
+      <section className="booksContent">
         {filteredSeries.map((series, index) => (
-          <section key={index} className="series">
-            <h3>{series.name}</h3>
-            {booksArray
-              .filter(book => book.seriesID === series.id)
-              .map(book => (
-                <div key={book.id} className="book-summary">
-                  <h3>{book.Title}</h3>
-                  <figure>
-                    <img src={`${import.meta.env.BASE_URL}${book.bookCover.replace(/^\//,'')}`} alt={book.Title} />
-                  </figure>
-                  {/* <p>{book.Brief_Summary}</p> */}
-                </div>
-              ))}
-          </section>
+          <div key={index} className="series">
+            <h2>{series.name}</h2>
+            <div className="books-list">
+              {booksArray
+                .filter(book => book.seriesID === series.id)
+                .map(book => (
+                  <article key={book.id} className="book-item">
+                    <figure>
+                      <img src={`${import.meta.env.BASE_URL}${book.bookCover.replace(/^\//,'')}`} alt={book.Title} />
+                    </figure>
+                    <h3>{book.Title}</h3>
+                    {/* <p>{book.Brief_Summary}</p> */}
+                  </article>
+                ))}
+            </div>
+          </div>
         ))}
       </section>
     </main>

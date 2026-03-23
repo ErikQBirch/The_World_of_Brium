@@ -15,7 +15,7 @@ import { ContentRenderer } from "../components/ContentRenderer";
     console.log('author', author);
     
     return (
-      <main className="page books" id="booksIdPage">
+      <main className="page books" id="aboutPage">
           {author && (
             <div className="contentHolder">
               <ContentRenderer

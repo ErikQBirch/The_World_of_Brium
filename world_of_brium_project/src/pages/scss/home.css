@@ -1,11 +1,16 @@
 @media only all and (min-width: 0) {
   main {
+    min-height: 80vh;
+  }
+}
+@media only all and (min-width: 0) {
+  main#homePage {
     padding: 0;
     margin: 0 auto;
     width: 100%;
     color: black;
   }
-  main #home_banner {
+  main#homePage #home_banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,12 +26,12 @@
     overflow: hidden;
     box-shadow: 0 0 50px #005b51;
   }
-  main #home_banner .contentHolder {
+  main#homePage #home_banner .contentHolder {
     display: flex;
     width: 100%;
     height: 100%;
   }
-  main #home_banner .contentHolder a:link, main #home_banner .contentHolder a:visited, main #home_banner .contentHolder a:hover, main #home_banner .contentHolder a:active {
+  main#homePage #home_banner .contentHolder a:link, main#homePage #home_banner .contentHolder a:visited, main#homePage #home_banner .contentHolder a:hover, main#homePage #home_banner .contentHolder a:active {
     position: relative;
     top: 0;
     left: 0;
@@ -41,21 +46,21 @@
     padding: 0 10vw;
     gap: 1rem;
   }
-  main #home_banner .contentHolder a:link .text-container, main #home_banner .contentHolder a:visited .text-container, main #home_banner .contentHolder a:hover .text-container, main #home_banner .contentHolder a:active .text-container {
+  main#homePage #home_banner .contentHolder a:link .text-container, main#homePage #home_banner .contentHolder a:visited .text-container, main#homePage #home_banner .contentHolder a:hover .text-container, main#homePage #home_banner .contentHolder a:active .text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
   }
-  main #home_banner .contentHolder a:link .text-container h1, main #home_banner .contentHolder a:visited .text-container h1, main #home_banner .contentHolder a:hover .text-container h1, main #home_banner .contentHolder a:active .text-container h1 {
+  main#homePage #home_banner .contentHolder a:link .text-container h1, main#homePage #home_banner .contentHolder a:visited .text-container h1, main#homePage #home_banner .contentHolder a:hover .text-container h1, main#homePage #home_banner .contentHolder a:active .text-container h1 {
     margin: 0rem;
     text-align: center;
     line-height: 1.2;
   }
-  main #home_banner .contentHolder a:link .text-container p, main #home_banner .contentHolder a:visited .text-container p, main #home_banner .contentHolder a:hover .text-container p, main #home_banner .contentHolder a:active .text-container p {
+  main#homePage #home_banner .contentHolder a:link .text-container p, main#homePage #home_banner .contentHolder a:visited .text-container p, main#homePage #home_banner .contentHolder a:hover .text-container p, main#homePage #home_banner .contentHolder a:active .text-container p {
     margin: 0;
   }
-  main #home_banner .contentHolder a:link figure, main #home_banner .contentHolder a:visited figure, main #home_banner .contentHolder a:hover figure, main #home_banner .contentHolder a:active figure {
+  main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     width: 45vw;
     max-width: 250px;
     margin: 0 auto;
@@ -64,22 +69,22 @@
     display: flex;
     box-shadow: 0 0 50px white;
   }
-  main #home_banner .contentHolder a:link figure img, main #home_banner .contentHolder a:visited figure img, main #home_banner .contentHolder a:hover figure img, main #home_banner .contentHolder a:active figure img {
+  main#homePage #home_banner .contentHolder a:link figure img, main#homePage #home_banner .contentHolder a:visited figure img, main#homePage #home_banner .contentHolder a:hover figure img, main#homePage #home_banner .contentHolder a:active figure img {
     width: 100%;
     margin: 0rem auto;
   }
-  main #home_banner .contentHolder a:hover figure, main #home_banner .contentHolder a:active figure {
+  main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     transition: all 0.3s ease;
     box-shadow: 0 0 50px #c6af00;
   }
-  main #home_banner .contentHolder a:hover figure img, main #home_banner .contentHolder a:active figure img {
+  main#homePage #home_banner .contentHolder a:hover figure img, main#homePage #home_banner .contentHolder a:active figure img {
     display: flex;
   }
-  main #home_banner .contentHolder a:hover .text-container, main #home_banner .contentHolder a:active .text-container {
+  main#homePage #home_banner .contentHolder a:hover .text-container, main#homePage #home_banner .contentHolder a:active .text-container {
     transition: all 0.3s ease;
     color: #C6AF00;
   }
-  main #author_intro {
+  main#homePage #author_intro {
     margin: 5rem auto;
     padding: 2rem;
     display: flex;
@@ -88,13 +93,13 @@
     color: white;
     box-shadow: 0 0 50px #00312b;
   }
-  main #author_intro .contentHolder {
+  main#homePage #author_intro .contentHolder {
     flex-direction: column;
     display: flex;
     width: 100%;
     height: 100%;
   }
-  main #author_intro .contentHolder figure {
+  main#homePage #author_intro .contentHolder figure {
     width: 75vw;
     max-width: 400px;
     box-shadow: 0 0 50px rgb(255, 255, 255);
@@ -105,12 +110,12 @@
     justify-self: center;
     margin: 5rem auto;
   }
-  main #author_intro .contentHolder figure img {
+  main#homePage #author_intro .contentHolder figure img {
     display: flex;
     width: 100%;
     height: 100%;
   }
-  main #author_intro .contentHolder section {
+  main#homePage #author_intro .contentHolder section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,20 +123,20 @@
     gap: 1rem;
     margin: 0rem auto;
   }
-  main #author_intro .contentHolder section h1 {
+  main#homePage #author_intro .contentHolder section h1 {
     margin: 0;
     text-align: center;
     line-height: 1.2;
   }
-  main #author_intro .contentHolder section p {
+  main#homePage #author_intro .contentHolder section p {
     text-align: center;
     max-width: 600px;
     margin: 0;
   }
-  main #author_intro .contentHolder section button {
+  main#homePage #author_intro .contentHolder section button {
     margin: 2.5rem auto;
   }
-  main #signup {
+  main#homePage #signup {
     margin: 5rem 0;
     padding: 2rem;
     display: flex;
@@ -142,20 +147,21 @@
     background-color: rgba(198, 175, 0, 0.5);
     box-shadow: 0 0 50px rgba(198, 175, 0, 0.5);
   }
-  main #signup h1 {
+  main#homePage #signup h1 {
     margin: 0;
+    text-align: center;
   }
-  main #signup p {
+  main#homePage #signup p {
     margin: 0;
     text-align: center;
     max-width: 600px;
   }
 }
 @media only all and (min-width: 760px) {
-  main #home_banner {
+  main#homePage #home_banner {
     height: 45vh;
   }
-  main #home_banner .contentHolder a:link, main #home_banner .contentHolder a:visited, main #home_banner .contentHolder a:hover, main #home_banner .contentHolder a:active {
+  main#homePage #home_banner .contentHolder a:link, main#homePage #home_banner .contentHolder a:visited, main#homePage #home_banner .contentHolder a:hover, main#homePage #home_banner .contentHolder a:active {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -164,16 +170,16 @@
          column-gap: 2.5rem;
     padding: 0;
   }
-  main #home_banner .contentHolder a:link .text-container, main #home_banner .contentHolder a:visited .text-container, main #home_banner .contentHolder a:hover .text-container, main #home_banner .contentHolder a:active .text-container {
+  main#homePage #home_banner .contentHolder a:link .text-container, main#homePage #home_banner .contentHolder a:visited .text-container, main#homePage #home_banner .contentHolder a:hover .text-container, main#homePage #home_banner .contentHolder a:active .text-container {
     margin: 0;
     width: 20rem;
     font-size: 125%;
   }
-  main #home_banner .contentHolder a:link .text-container h1, main #home_banner .contentHolder a:visited .text-container h1, main #home_banner .contentHolder a:hover .text-container h1, main #home_banner .contentHolder a:active .text-container h1 {
+  main#homePage #home_banner .contentHolder a:link .text-container h1, main#homePage #home_banner .contentHolder a:visited .text-container h1, main#homePage #home_banner .contentHolder a:hover .text-container h1, main#homePage #home_banner .contentHolder a:active .text-container h1 {
     margin: 0;
     line-height: 1.2;
   }
-  main #home_banner .contentHolder a:link figure, main #home_banner .contentHolder a:visited figure, main #home_banner .contentHolder a:hover figure, main #home_banner .contentHolder a:active figure {
+  main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,20 +188,20 @@
     margin: 0;
     padding: 0;
   }
-  main #home_banner .contentHolder a:link figure img, main #home_banner .contentHolder a:visited figure img, main #home_banner .contentHolder a:hover figure img, main #home_banner .contentHolder a:active figure img {
+  main#homePage #home_banner .contentHolder a:link figure img, main#homePage #home_banner .contentHolder a:visited figure img, main#homePage #home_banner .contentHolder a:hover figure img, main#homePage #home_banner .contentHolder a:active figure img {
     height: auto;
   }
-  main #home_banner .contentHolder {
+  main#homePage #home_banner .contentHolder {
     flex-direction: row-reverse;
   }
-  main #author_intro {
+  main#homePage #author_intro {
     margin: 10rem auto;
     padding: 7.5rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  main #author_intro .contentHolder {
+  main#homePage #author_intro .contentHolder {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -205,30 +211,30 @@
     margin: 0 auto;
     gap: 2.5rem;
   }
-  main #author_intro .contentHolder figure {
+  main#homePage #author_intro .contentHolder figure {
     width: 40%;
     margin: 0;
   }
-  main #author_intro .contentHolder section {
+  main#homePage #author_intro .contentHolder section {
     display: flex;
     flex-direction: column;
     width: 40%;
     margin: 0;
   }
-  main #author_intro .contentHolder section h1 {
+  main#homePage #author_intro .contentHolder section h1 {
     margin: 0;
     text-align: left;
     line-height: 1.2;
     width: 100%;
   }
-  main #author_intro .contentHolder section p {
+  main#homePage #author_intro .contentHolder section p {
     width: 100%;
     text-align: left;
   }
-  main #author_intro .contentHolder section button {
+  main#homePage #author_intro .contentHolder section button {
     margin: 0 auto 0 0;
   }
-  main #signup {
+  main#homePage #signup {
     margin: 5rem 0;
     padding: 5rem 0;
     display: flex;
@@ -238,41 +244,41 @@
     color: white;
     background-color: rgba(198, 175, 0, 0.5);
   }
-  main #signup h1 {
+  main#homePage #signup h1 {
     margin: 0;
   }
-  main #signup p {
+  main#homePage #signup p {
     margin: 0;
     text-align: center;
     max-width: 600px;
   }
 }
 @media only all and (min-width: 992px) {
-  main #home_banner {
+  main#homePage #home_banner {
     height: 60vh;
   }
-  main #home_banner .contentHolder a:link .text-container, main #home_banner .contentHolder a:visited .text-container, main #home_banner .contentHolder a:hover .text-container, main #home_banner .contentHolder a:active .text-container {
+  main#homePage #home_banner .contentHolder a:link .text-container, main#homePage #home_banner .contentHolder a:visited .text-container, main#homePage #home_banner .contentHolder a:hover .text-container, main#homePage #home_banner .contentHolder a:active .text-container {
     width: 25rem;
     font-size: 150%;
   }
-  main #home_banner .contentHolder a:link figure, main #home_banner .contentHolder a:visited figure, main #home_banner .contentHolder a:hover figure, main #home_banner .contentHolder a:active figure {
+  main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     width: 17.5rem;
   }
-  main #author_intro .contentHolder {
+  main#homePage #author_intro .contentHolder {
     gap: 5rem;
   }
 }
 @media only all and (min-width: 1200px) {
-  main #home_banner {
+  main#homePage #home_banner {
     margin: 5rem auto;
   }
-  main #home_banner .contentHolder a:link figure, main #home_banner .contentHolder a:visited figure, main #home_banner .contentHolder a:hover figure, main #home_banner .contentHolder a:active figure {
+  main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     width: 17.5rem;
   }
-  main #author_intro {
+  main#homePage #author_intro {
     gap: 10rem;
   }
-  main #author_intro .contentHolder {
+  main#homePage #author_intro .contentHolder {
     width: 80%;
     max-width: 1200px;
     display: flex;
@@ -280,17 +286,17 @@
   }
 }
 @media only all and (min-width: 1600px) {
-  main #home_banner {
+  main#homePage #home_banner {
     height: 70vh;
   }
-  main #home_banner .contentHolder a:link, main #home_banner .contentHolder a:visited, main #home_banner .contentHolder a:hover, main #home_banner .contentHolder a:active {
+  main#homePage #home_banner .contentHolder a:link, main#homePage #home_banner .contentHolder a:visited, main#homePage #home_banner .contentHolder a:hover, main#homePage #home_banner .contentHolder a:active {
     gap: 7.5rem;
   }
-  main #home_banner .contentHolder a:link .text-container, main #home_banner .contentHolder a:visited .text-container, main #home_banner .contentHolder a:hover .text-container, main #home_banner .contentHolder a:active .text-container {
+  main#homePage #home_banner .contentHolder a:link .text-container, main#homePage #home_banner .contentHolder a:visited .text-container, main#homePage #home_banner .contentHolder a:hover .text-container, main#homePage #home_banner .contentHolder a:active .text-container {
     width: 40rem;
     font-size: 250%;
   }
-  main #home_banner .contentHolder a:link figure, main #home_banner .contentHolder a:visited figure, main #home_banner .contentHolder a:hover figure, main #home_banner .contentHolder a:active figure {
+  main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     width: 22.5rem;
   }
 }/*# sourceMappingURL=Home.css.map */

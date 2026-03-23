@@ -25,9 +25,9 @@
     {
       "id":"1",
       "Title":"First Book",
+      "bookThmbnail":"/images/bookCovers/sample_book1.png",
       "bookCover": "/images/bookCovers/sample_book1.png",
       "seriesID": "1",
-      "briefSummary":"This is my first book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -92,9 +92,9 @@
     {
       "id":"2",
       "Title":"Second Book",
+      "bookThmbnail":"/images/bookCovers/sample_book2.png",
       "bookCover": "/images/bookCovers/sample_book2.png",
       "seriesID": "2",
-      "briefSummary":"This is my second book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -159,9 +159,9 @@
     {
       "id":"3",
       "Title":"Third Book",
+      "bookThmbnail":"/images/bookCovers/sample_book3.png",
       "bookCover": "/images/bookCovers/sample_book3.png",
       "seriesID": "2",
-      "briefSummary":"This is my third book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -226,9 +226,9 @@
     {
       "id":"4",
       "Title":"Fourth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book4.png",
       "bookCover": "/images/bookCovers/sample_book4.png",
       "seriesID": "3",
-      "briefSummary":"This is my fourth book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -293,9 +293,9 @@
     {
       "id":"5",
       "Title":"Fifth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book1.png",
       "bookCover": "/images/bookCovers/sample_book1.png",
       "seriesID": "3",
-      "briefSummary":"This is my Fifth Book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -360,9 +360,9 @@
     {
       "id":"6",
       "Title":"Sixth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book6.png",
       "bookCover": "/images/bookCovers/sample_book6.png",
       "seriesID": "3",
-      "briefSummary":"This is my sixth book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -427,9 +427,9 @@
     {
       "id":"7",
       "Title":"Seventh Book",
+      "bookThmbnail":"/images/bookCovers/sample_book7.png",
       "bookCover": "/images/bookCovers/sample_book7.png",
       "seriesID": "4",
-      "briefSummary":"This is my seventh book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -494,9 +494,9 @@
     {
       "id":"8",
       "Title":"Eighth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book8.png",
       "bookCover": "/images/bookCovers/sample_book8.png",
       "seriesID": "4",
-      "briefSummary":"This is my eighth book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -561,9 +561,9 @@
     {
       "id":"9",
       "Title":"Ninth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book9.png",
       "bookCover": "/images/bookCovers/sample_book9.png",
       "seriesID": "4",
-      "briefSummary":"This is my ninth book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -628,9 +628,9 @@
     {
       "id":"10",
       "Title":"Tenth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book10.png",
       "bookCover": "/images/bookCovers/sample_book10.png",
       "seriesID": "4",
-      "briefSummary":"This is my tenth book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -695,9 +695,9 @@
     {
       "id":"11",
       "Title":"Eleventh Book",
+      "bookThmbnail":"/images/bookCovers/sample_book11.png",
       "bookCover": "/images/bookCovers/sample_book11.png",
       "seriesID": "5",
-      "briefSummary":"This is my eleventh book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -762,9 +762,9 @@
     {
       "id":"12",
       "Title":"Twelfth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book12.png",
       "bookCover": "/images/bookCovers/sample_book12.png",
       "seriesID": "6",
-      "briefSummary":"This is my twelfth book",
       "contentSections" : [
         {
           "label":"ExtendedSummary",
@@ -773,6 +773,341 @@
           "elementArray": [
             { "element":"h1", "value":"Twelfth Book"},
             { "element":"img","src":"/images/bookCovers/sample_book12.png", "alt":"image12"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        },
+        {
+          "label":"AuthorsComments",
+          "sectionTitle":"Author's Comments",  
+          "contentType":"document",
+            "elementArray": [
+              { "element":"h2", "value":"Author's Comments"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+              { "element":"img","src":"/images/bookCovers/author.jpg", "alt":"image1"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+            ]
+        },
+        {
+          "label":"ImageGallery",
+          "sectionTitle":"Image Gallery",
+          "contentType":"gallery",
+          "elementArray": [
+            {"element":"h2", "value":"Image Gallery"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+        ]
+        },
+        {
+          "label":"RelatedBooks",
+          "sectionTitle":"Related Books",
+          "contentType":"carousel",
+          "limit": 3,
+          "elementArray": [
+            { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/bookCovers/sample_book1.png"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"13",
+      "Title":"Thirteenth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book12.png",
+      "bookCover": "/images/bookCovers/sample_book12.png",
+      "seriesID": "1",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Thirteenth Book"},
+            { "element":"img","src":"/images/bookCovers/sample_book12.png", "alt":"image12"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        },
+        {
+          "label":"AuthorsComments",
+          "sectionTitle":"Author's Comments",  
+          "contentType":"document",
+            "elementArray": [
+              { "element":"h2", "value":"Author's Comments"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+              { "element":"img","src":"/images/bookCovers/author.jpg", "alt":"image1"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+            ]
+        },
+        {
+          "label":"ImageGallery",
+          "sectionTitle":"Image Gallery",
+          "contentType":"gallery",
+          "elementArray": [
+            {"element":"h2", "value":"Image Gallery"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+        ]
+        },
+        {
+          "label":"RelatedBooks",
+          "sectionTitle":"Related Books",
+          "contentType":"carousel",
+          "limit": 3,
+          "elementArray": [
+            { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/bookCovers/sample_book1.png"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"14",
+      "Title":"Fourteenth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book4.png",
+      "bookCover": "/images/bookCovers/sample_book4.png",
+      "seriesID": "4",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Fourteenth Book"},
+            { "element":"img","src":"/images/bookCovers/sample_book4.png", "alt":"image14"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        },
+        {
+          "label":"AuthorsComments",
+          "sectionTitle":"Author's Comments",  
+          "contentType":"document",
+            "elementArray": [
+              { "element":"h2", "value":"Author's Comments"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+              { "element":"img","src":"/images/bookCovers/author.jpg", "alt":"image1"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+            ]
+        },
+        {
+          "label":"ImageGallery",
+          "sectionTitle":"Image Gallery",
+          "contentType":"gallery",
+          "elementArray": [
+            {"element":"h2", "value":"Image Gallery"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+        ]
+        },
+        {
+          "label":"RelatedBooks",
+          "sectionTitle":"Related Books",
+          "contentType":"carousel",
+          "limit": 3,
+          "elementArray": [
+            { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/bookCovers/sample_book1.png"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"15",
+      "Title":"Fifteenth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book5.png",
+      "bookCover": "/images/bookCovers/sample_book5.png",
+      "seriesID": "5",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Fifteenth Book"},
+            { "element":"img","src":"/images/bookCovers/sample_book5.png", "alt":"image15"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        },
+        {
+          "label":"AuthorsComments",
+          "sectionTitle":"Author's Comments",  
+          "contentType":"document",
+            "elementArray": [
+              { "element":"h2", "value":"Author's Comments"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+              { "element":"img","src":"/images/bookCovers/author.jpg", "alt":"image1"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+            ]
+        },
+        {
+          "label":"ImageGallery",
+          "sectionTitle":"Image Gallery",
+          "contentType":"gallery",
+          "elementArray": [
+            {"element":"h2", "value":"Image Gallery"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+        ]
+        },
+        {
+          "label":"RelatedBooks",
+          "sectionTitle":"Related Books",
+          "contentType":"carousel",
+          "limit": 3,
+          "elementArray": [
+            { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/bookCovers/sample_book1.png"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"16",
+      "Title":"Sixteenth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book6.png",
+      "bookCover": "/images/bookCovers/sample_book6.png",
+      "seriesID": "6",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Sixteenth Book"},
+            { "element":"img","src":"/images/bookCovers/sample_book6.png", "alt":"image16"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        },
+        {
+          "label":"AuthorsComments",
+          "sectionTitle":"Author's Comments",  
+          "contentType":"document",
+            "elementArray": [
+              { "element":"h2", "value":"Author's Comments"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+              { "element":"img","src":"/images/bookCovers/author.jpg", "alt":"image1"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+            ]
+        },
+        {
+          "label":"ImageGallery",
+          "sectionTitle":"Image Gallery",
+          "contentType":"gallery",
+          "elementArray": [
+            {"element":"h2", "value":"Image Gallery"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+        ]
+        },
+        {
+          "label":"RelatedBooks",
+          "sectionTitle":"Related Books",
+          "contentType":"carousel",
+          "limit": 3,
+          "elementArray": [
+            { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+            { "element":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/bookCovers/sample_book1.png"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"17",
+      "Title":"Seventeenth Book",
+      "bookThmbnail":"/images/bookCovers/sample_book7.png",
+      "bookCover": "/images/bookCovers/sample_book7.png",
+      "seriesID": "7",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Seventeenth Book"},
+            { "element":"img","src":"/images/bookCovers/sample_book7.png", "alt":"image17"},
             { "element":"h2", "value": "Summary"},
             { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
             { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},

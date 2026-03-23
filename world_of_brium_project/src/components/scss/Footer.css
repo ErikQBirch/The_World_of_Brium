@@ -1,4 +1,9 @@
 @media only all and (min-width: 0) {
+  main {
+    min-height: 80vh;
+  }
+}
+@media only all and (min-width: 0) {
   .footer {
     background: #252525;
     color: white;

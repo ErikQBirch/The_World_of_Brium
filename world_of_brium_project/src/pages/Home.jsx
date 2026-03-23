@@ -1,8 +1,8 @@
 import './scss/Home.scss';
 // import DOMPurify from 'dompurify';
 import { Link } from 'react-router-dom';
-import authorImg from '../assets/images/author.jpg';
-import sampleBook from '../assets/images/sample_book1.png';
+import authorImg from '/images/author.jpg';
+import sampleBook from '/images/bookCovers/sample_book1.png';
 
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
       <section id="author_intro">
         <div className="contentHolder">
           <figure>
-            <Link to="/author">
+            <Link to="/about">
               <img src={authorImg} alt="author_img" />
             </Link>
           </figure>

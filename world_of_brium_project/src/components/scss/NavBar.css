@@ -1,10 +1,14 @@
 @media only all and (min-width: 0) {
+  main {
+    min-height: 80vh;
+  }
+}
+@media only all and (min-width: 0) {
   .nav {
     background: #00312b;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 12.5vh;
   }
   .nav .logo {
     padding: 0.5rem 1rem;

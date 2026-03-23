@@ -1,0 +1,80 @@
+@media only all and (min-width: 0) {
+  main {
+    min-height: 80vh;
+  }
+}
+@media only all and (min-width: 0) {
+  section h1, section h2, section h3, section h4, section h5, section h6 {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 auto 1rem auto;
+  }
+  section figure {
+    margin: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  section figure.gallery-item img {
+    cursor: pointer;
+  }
+  section a {
+    color: #00312b;
+    text-decoration: none;
+  }
+  section a:hover {
+    text-decoration: underline;
+  }
+  section {
+    /* gallery popup overlay styles (same as Books_id.scss) */
+  }
+  section .image-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    cursor: pointer;
+  }
+  section .image-popup .inner {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+  }
+  section .image-popup img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+  }
+  section .image-popup .close {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=ContentRenderer.css.map */
