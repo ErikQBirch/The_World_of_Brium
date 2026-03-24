@@ -13,6 +13,12 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# This should be all the way to the left!
+permissions:
+  contents: read
+  pages: write
+  id-token: write   # <--- This is the "ID Token" it's complaining about!
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build_and_deploy:
