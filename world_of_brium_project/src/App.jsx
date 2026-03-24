@@ -12,7 +12,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <BrowserRouter basename='/The_World_of_Brium'>
+    <Router basename='/The_World_of_Brium'>
       <NavBar />
       <div className="container">
         <Routes>
@@ -28,7 +28,7 @@ function App() {
       <section>
         <Footer />
       </section>
-    </BrowserRouter>
+    </Router>
   )
 }
 
