@@ -11,13 +11,16 @@ import { Link } from 'react-router-dom';
 // and avoids repeating switch logic in every page component.
 export const ContentRenderer = ({ content }) => {
   const [popup, setPopup] = React.useState(null);
+  const [showAll, setShowAll] = React.useState(false);
 
   // choose which items actually get rendered.  For galleries we only
   // want image items (JSON currently uses type: 'img').
-  const rendered =
+  const filtered =
     content && content.contentType === 'gallery'
       ? content.elementArray.filter(i => i.element === 'img')
       : content?.elementArray || [];
+
+  const rendered = content.contentType === 'gallery' && !showAll ? filtered.slice(0, 6) : filtered;
 
   // debug: make sure JSON is arriving
   // console.log('rendered content', content, rendered);
@@ -103,6 +106,12 @@ export const ContentRenderer = ({ content }) => {
   return (
     <section id={content.label || undefined}>
       {renderItems(rendered, content.contentType)}
+
+      {content.contentType === 'gallery' && filtered.length > 6 && (
+        <button onClick={() => setShowAll(!showAll)}>
+          {showAll ? 'Show Less' : 'Show More'}
+        </button>
+      )}
 
       {/* popup overlay for gallery images */}
       {content.contentType === 'gallery' && popup && (
