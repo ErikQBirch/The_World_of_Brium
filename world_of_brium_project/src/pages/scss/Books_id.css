@@ -25,9 +25,9 @@
   }
   main#booksIdPage .contentHolder {
     max-width: 800px;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    padding: 0 25px;
+    padding: 0 50px;
   }
   main#booksIdPage .contentHolder #ExtendedSummary {
     margin-bottom: 2rem;

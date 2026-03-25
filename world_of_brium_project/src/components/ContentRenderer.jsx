@@ -105,7 +105,7 @@ export const ContentRenderer = ({ content }) => {
       {renderItems(rendered, content.contentType)}
 
       {/* popup overlay for gallery images */}
-      {content.type === 'gallery' && popup && (
+      {content.contentType === 'gallery' && popup && (
         <div className="image-popup" onClick={() => setPopup(null)}>
           <div className="inner">
             <button className="close" aria-label="close">×</button>
