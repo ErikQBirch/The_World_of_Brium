@@ -1,6 +1,7 @@
 import React from 'react';
 // import { useParams } from "react-router-dom";
 import booksJSON from '../assets/books.json'; 
+import { Link } from 'react-router-dom';
 import './scss/Books.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
 
@@ -32,13 +33,13 @@ export default function Books() {
               {booksArray
                 .filter(book => book.seriesID === series.id)
                 .map(book => (
-                  <article key={book.id} className="book-item">
+                  <Link to={book.id}key={book.id} className="book-item">
                     <figure>
                       <img src={`${import.meta.env.BASE_URL}${book.bookCover.replace(/^\//,'')}`} alt={book.Title} />
                     </figure>
                     <h3>{book.Title}</h3>
                     {/* <p>{book.Brief_Summary}</p> */}
-                  </article>
+                  </Link>
                 ))}
             </div>
           </div>
