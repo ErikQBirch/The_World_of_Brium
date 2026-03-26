@@ -27,10 +27,13 @@ export default function Blog() {
                 .map(blog => (
                   <Link to={`/blogs/${blog.id}`} key={blog.id} className="blog-item">
                     <figure>
-                      <img src={`${import.meta.env.BASE_URL}${blog.thumbnail.replace(/^\//,'')}`} alt={blog.Title} />
+                      <img src={`${import.meta.env.BASE_URL}${blog.Thumbnail.replace(/^\//,'')}`} alt={blog.Title} />
                     </figure>
-                    <h3>{blog.Title}</h3>
-                    <p>{blog.Summary}</p>
+                    <div className="contentHolder_info">
+                      <h3>{blog.Title}</h3>
+                      <div>{blog.Date}</div>
+                      <p>{blog.Summary}</p>
+                    </div>
                   </Link>
                 ))}
         </div>
