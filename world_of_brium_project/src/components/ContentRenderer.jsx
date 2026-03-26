@@ -105,10 +105,12 @@ export const ContentRenderer = ({ content }) => {
   // an id attribute.
   return (
     <section id={content.label || undefined}>
-      {renderItems(rendered, content.contentType)}
+      {content.contentType === 'gallery' ? 
+        <div className="contentHolder_Gallery">{renderItems(rendered, content.contentType)}</div> : 
+        renderItems(rendered, content.contentType)}
 
       {content.contentType === 'gallery' && filtered.length > 6 && (
-        <button onClick={() => setShowAll(!showAll)}>
+        <button className="moreOrLess" onClick={() => setShowAll(!showAll)}>
           {showAll ? 'Show Less' : 'Show More'}
         </button>
       )}
