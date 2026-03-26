@@ -3,10 +3,23 @@
     min-height: 80vh;
   }
 }
+@media (prefers-color-scheme: light) {
+  main#aboutPage .contentHolder {
+    background-color: rgba(203, 238, 243, 0.5);
+    color: black;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  main#aboutPage .contentHolder {
+    background-color: rgba(0, 49, 43, 0.75);
+    color: white;
+  }
+}
 @media only all and (min-width: 0) {
   main#aboutPage .contentHolder {
-    width: 80vw;
+    width: 70vw;
     margin: 2.5rem auto;
+    padding: 2.5rem;
   }
   main#aboutPage .contentHolder section#JeremyColeBio {
     display: flex;
@@ -21,14 +34,13 @@
     width: 100%;
   }
 }
+@media only all and (min-width: 760px) {
+  main#aboutPage .contentHolder section#JeremyColeBio figure {
+    max-width: 40vw;
+  }
+}
 @media only all and (min-width: 1200px) {
-  main#aboutPage section.booksContent {
-    width: 90%;
-  }
-  main#aboutPage section.booksContent .series .books-list {
-    gap: 2.5rem;
-  }
-  main#aboutPage section.booksContent .series .books-list .book-item figure {
-    max-width: 300px;
+  main#aboutPage .contentHolder section#JeremyColeBio figure {
+    max-width: 20vw;
   }
 }/*# sourceMappingURL=About.css.map */
