@@ -9,8 +9,8 @@
           "label":"JeremyColeBio",
           "contentType":"document",
           "elementArray": [
-            { "element":"img","src":"/images/author.jpg", "alt":"image1"},
             { "element":"div", "className":"contentHolder_info","value": [
+              { "element":"img","src":"/images/author.jpg", "alt":"image1"},
               { "element":"h1", "value":"Jeremy Cole"},
               { "element":"p", "value":"Jeremy Cole is a renowned author known for his captivating storytelling and unique writing style. With a passion for crafting compelling narratives, Jeremy has captivated readers worldwide with his thought-provoking novels and engaging characters. His works often explore themes of love, loss, and the human condition, resonating deeply with audiences of all ages. Jeremy's ability to create vivid worlds and relatable characters has earned him critical acclaim and a dedicated fan base."},
               { "element":"h1", "value": "World of Brium"},

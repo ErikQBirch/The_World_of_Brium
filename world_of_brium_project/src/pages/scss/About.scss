@@ -32,14 +32,17 @@
         flex-direction:column;
         align-items: center;
 
-          figure{
-            max-width: 75vw;
-            img{
+        .contentHolder_info{
+            figure{
               display:flex;
-              width: 100%;
+              flex-direction: column;
+              margin:0 auto;
+              max-width: 60vw;
+              img{
+                display:flex;
+                width: 100%;
+              }
             }
-          }
-          .contentHolder_info{
             h1{
               
             }
@@ -54,14 +57,21 @@
     main#aboutPage{
       .contentHolder{
         section#JeremyColeBio{
-          figure{
-            max-width: 40vw;
-            img{
-
-            }
-          }
           .contentHolder_info{
-            h1{
+            display: block;
+            figure{
+              display:block;
+              max-width: 40vw;
+              float: left;
+              margin: 0 2.5rem 2.5rem 0;
+              img{
+  
+              }
+            }
+            h1:first-of-type{
+              margin-top:0;
+              line-height: 100%;
+              margin-bottom: 1rem;
             }
             h2{}
             p{}
@@ -77,13 +87,15 @@
     main#aboutPage{
       .contentHolder{
         section#JeremyColeBio{
-          figure{
-            max-width: 20vw;
-            img{
-
-            }
-          }
+          display: block;
           .contentHolder_info{
+            figure{
+              max-width: 20vw;
+              margin: 0 2.5rem 0 0;
+              img{
+  
+              }
+            }
             h1{
             }
             h2{}

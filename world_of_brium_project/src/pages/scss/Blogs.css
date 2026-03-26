@@ -33,7 +33,13 @@
     width: 400px;
     height: 200px;
     padding: 25px 10px;
-    background-color: #005B51;
+    transition: all 0.3s ease;
+    background-color: rgba(0, 157, 139, 0.5);
+  }
+  main#blogsPage section.blogsContent .blogs-list .blog-item:hover, main#blogsPage section.blogsContent .blogs-list .blog-item:active {
+    background-color: rgba(198, 175, 0, 0.5);
+    color: white;
+    text-decoration: none;
   }
   main#blogsPage section.blogsContent .blogs-list .blog-item figure {
     max-width: 150px;

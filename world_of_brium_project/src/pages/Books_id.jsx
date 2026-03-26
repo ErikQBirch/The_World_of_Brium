@@ -18,18 +18,9 @@ import { ContentRenderer } from "../components/ContentRenderer";
       <main className="page books" id="booksIdPage">
           {book && (
             <div className="contentHolder">
-              <ContentRenderer
-                content={book.contentSections[0]}
-              />
-              <ContentRenderer
-                content={book.contentSections[1]}
-              />
-              <ContentRenderer
-                content={book.contentSections[2]}
-              />
-              <ContentRenderer
-                content={book.contentSections[3]}
-              />
+              {book.contentSections.map((section, index) => (
+                <ContentRenderer key={section.id || index} content={section} />
+              ))}
             </div>
           )}
 
