@@ -5,9 +5,18 @@ import './scss/NavBar.scss'
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isArticlesDropdownOpen, setIsArticlesDropdownOpen] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
+  }
+
+  const toggleArticlesDropdown = () => {
+    setIsArticlesDropdownOpen(!isArticlesDropdownOpen)
+  }
+
+  const closeDropdown = () => {
+    setIsArticlesDropdownOpen(false)
   }
 
   return (
@@ -27,8 +36,13 @@ export default function NavBar() {
           <li><NavLink to="/" end className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Home</NavLink></li>
           <li><NavLink to="/books" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Books</NavLink></li>
           <li><NavLink to="/about" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>About</NavLink></li>
-          <li><NavLink to="/newsletter" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Newsletter</NavLink></li>
-          <li><NavLink to="/blog" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Blog</NavLink></li>
+          <li className="articles-dropdown" onMouseEnter={() => setIsArticlesDropdownOpen(true)} onMouseLeave={() => setIsArticlesDropdownOpen(false)}>
+            <button className="articles-button" onClick={toggleArticlesDropdown}>Articles</button>
+            <ul className={`dropdown-menu ${isArticlesDropdownOpen ? 'open' : ''}`}>
+              <li><NavLink to="/articles/newsletter" className={({isActive}) => isActive ? 'active' : ''} onClick={() => { setIsMenuOpen(false); closeDropdown(); }}>Newsletter</NavLink></li>
+              <li><NavLink to="/articles/blog" className={({isActive}) => isActive ? 'active' : ''} onClick={() => { setIsMenuOpen(false); closeDropdown(); }}>Blog</NavLink></li>
+            </ul>
+          </li>
           <li><NavLink to="/contact" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Contact</NavLink></li>
         </ul>
       </div>

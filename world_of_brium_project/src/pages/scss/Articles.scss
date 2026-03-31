@@ -1,0 +1,32 @@
+@use '../../global' as *;
+
+.articles-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+
+  .toggle-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: 2px solid $accent-color;
+    background: transparent;
+    color: $accent-color;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+
+    &:hover {
+      background: $accent-color;
+      color: white;
+    }
+
+    &.active {
+      background: $accent-color;
+      color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  }
+}

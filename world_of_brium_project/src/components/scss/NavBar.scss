@@ -114,6 +114,70 @@
           color: #fff;
         }
       }
+      .articles-dropdown {
+        position: relative;
+        .articles-button {
+          background: none;
+          border: none;
+          color: white;
+          font-size: 1.2rem;
+          padding: 1rem 1.5rem;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          border-radius: 2.5rem;
+          font-family: inherit;
+        }
+        .articles-button:active {
+          background: $tertiary-color;
+          color: #fff;
+        }
+        .articles-button:hover {
+          background: $accent-color;
+          color: #fff;
+        }
+        .dropdown-menu {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background: rgba(0, 0, 0, 0.9);
+          border-radius: 0.5rem;
+          min-width: 150px;
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(-10px);
+          transition: all 0.3s ease;
+          z-index: 999;
+          margin-top: 0.5rem;
+        }
+        .dropdown-menu.open {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+        }
+        .dropdown-menu li {
+          margin: 0;
+          font-size: 1.2rem;
+          a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            transition: all 0.3s ease;
+            border-radius: 0;
+          }
+          a:hover {
+            background: $accent-color;
+            padding-left: 1.25rem;
+          }
+          a.active {
+            background: $tertiary-color;
+            color: #fff;
+          }
+        }
+      }
     }
   }
 }
@@ -155,6 +219,67 @@
 
             &:hover {
               background: $accent-color;
+              color: #fff;
+            }
+          }
+        }
+        .articles-dropdown {
+          position: relative;
+          .articles-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 2.5rem;
+            font-family: inherit;
+          }
+          .articles-button:hover {
+            background: $accent-color;
+            color: #fff;
+          }
+          // Show dropdown on hover in desktop mode
+          &:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+          }
+          .dropdown-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: rgba(0, 0, 0, 0.95);
+            border-radius: 0.5rem;
+            min-width: 150px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 999;
+            margin-top: 0.5rem;
+          }
+          .dropdown-menu li {
+            margin: 0;
+            font-size: 1rem;
+            a {
+              display: block;
+              color: white;
+              text-decoration: none;
+              padding: 0.75rem 1rem;
+              transition: all 0.3s ease;
+              border-radius: 0;
+            }
+            a:hover {
+              background: $accent-color;
+              padding-left: 1.25rem;
+            }
+            a.active {
+              background: $tertiary-color;
               color: #fff;
             }
           }
