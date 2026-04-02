@@ -4,7 +4,7 @@
 //Variables
 
 @media (prefers-color-scheme: light) {
-    main#newslettersIdPage{
+    main#blogsIdPage{
       .contentHolder{
         background-color: color.adjust($light-background-color, $alpha: -0.5);
         color:black;
@@ -12,7 +12,7 @@
     }
   }
 @media (prefers-color-scheme: dark) {
-    main#newslettersIdPage{
+    main#blogsIdPage{
       .contentHolder{
         background-color: color.adjust($primary-color, $alpha: -0.25);
         color: white;
@@ -22,7 +22,7 @@
 
 
 @media only all and (min-width: 0){
-  main#newslettersIdPage{
+  main#blogsIdPage{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,14 +94,14 @@
   }
 } //mob
 @media only all and (min-width: 760px){
-    main#newslettersIdPage{}
+    main#blogsIdPage{}
 } //min
 @media only all and (min-width: 992px){
-  main#newslettersIdPage{}
+  main#blogsIdPage{}
 } //med
 @media only all and (min-width: 1200px){
-    main#newslettersIdPage{}
+    main#blogsIdPage{}
 } //max
 @media only all and (min-width: 1600px){
-  main#newslettersIdPage{}
+  main#blogsIdPage{}
 } //mega

@@ -4,79 +4,79 @@
   }
 }
 @media (prefers-color-scheme: light) {
-  main#newslettersIdPage .contentHolder {
+  main#blogsIdPage .contentHolder {
     background-color: rgba(203, 238, 243, 0.5);
     color: black;
   }
 }
 @media (prefers-color-scheme: dark) {
-  main#newslettersIdPage .contentHolder {
+  main#blogsIdPage .contentHolder {
     background-color: rgba(0, 49, 43, 0.75);
     color: white;
   }
 }
 @media only all and (min-width: 0) {
-  main#newslettersIdPage {
+  main#blogsIdPage {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
   }
-  main#newslettersIdPage .contentHolder {
+  main#blogsIdPage .contentHolder {
     max-width: 800px;
     width: 60%;
     margin: 2.5rem auto;
     padding: 0 50px;
   }
-  main#newslettersIdPage .contentHolder #ExtendedSummary {
+  main#blogsIdPage .contentHolder #ExtendedSummary {
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  main#newslettersIdPage .contentHolder #ExtendedSummary figure {
+  main#blogsIdPage .contentHolder #ExtendedSummary figure {
     max-width: 300px;
   }
-  main#newslettersIdPage .contentHolder #ExtendedSummary figure img {
+  main#blogsIdPage .contentHolder #ExtendedSummary figure img {
     display: flex;
     width: 100%;
   }
-  main#newslettersIdPage .contentHolder #AuthorsComments {
+  main#blogsIdPage .contentHolder #AuthorsComments {
     margin-bottom: 2rem;
   }
-  main#newslettersIdPage .contentHolder #ImageGallery {
+  main#blogsIdPage .contentHolder #ImageGallery {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  main#newslettersIdPage .contentHolder #ImageGallery .contentHolder_Gallery {
+  main#blogsIdPage .contentHolder #ImageGallery .contentHolder_Gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
   }
-  main#newslettersIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure {
+  main#blogsIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure {
     overflow: hidden;
     width: 150px;
     height: 150px;
     border-radius: 8px;
   }
-  main#newslettersIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure img {
+  main#blogsIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure img {
     width: 100%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
   }
-  main#newslettersIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure img:hover {
+  main#blogsIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure img:hover {
     transform: scale(1.5);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   }
-  main#newslettersIdPage .contentHolder #ImageGallery .moreOrLess {
+  main#blogsIdPage .contentHolder #ImageGallery .moreOrLess {
     width: 200px;
     margin: 2.5rem auto;
     padding: 1rem 2.5rem;
     cursor: pointer;
   }
-}/*# sourceMappingURL=Newsletters_id.css.map */
+}/*# sourceMappingURL=Blogs_id.css.map */
