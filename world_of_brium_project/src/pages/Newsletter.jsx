@@ -1,8 +1,43 @@
+import React from 'react';
+// import { useParams } from "react-router-dom";
+import newslettersJSON from '../assets/newsletters.json'; 
+import { Link } from 'react-router-dom';
+import './scss/Newsletters.scss'
+import { ContentRenderer } from "../components/ContentRenderer";
+
 export default function Newsletter() {
+  const newslettersArray = newslettersJSON.Newsletters;
+  console.log('newslettersArray', newslettersArray);
+  // const { id } = useParams();
+  // const book = booksJSON.Books.find(book => book.id === id);
+
+  // if (!book) {
+  //   return <main className="page books">Book not found</main>;
+  // }
+
+  // Filter seriesArray to only include series that have related books
+
+
   return (
-    <main className="page newsletter">
-      <h2>Newsletter</h2>
-      <p>Explore Newsletter from the world of Brium.</p>
+    <main id="newslettersPage" className="page newsletters">
+      <h1>Newsletters</h1>
+      <section className="newslettersContent">
+            <div className="newsletters-list">
+              {newslettersArray
+                .map(newsletter => (
+                  <Link to={`/newsletters/${newsletter.id}`} key={newsletter.id} className="newsletter-item">
+                    <figure>
+                      <img src={`${import.meta.env.BASE_URL}${newsletter.bookThmbnail.replace(/^\//,'')}`} alt={newsletter.Headline} />
+                    </figure>
+                    <div className="contentHolder_info">
+                      <h3>{newsletter.Headline}</h3>
+                      <div>{newsletter.datePosted}</div>
+                      <p>{newsletter.smallSummary?.length > 250 ? newsletter.smallSummary.substring(0, 250) + '...' : newsletter.smallSummary}</p>
+                    </div>
+                  </Link>
+                ))}
+        </div>
+      </section>
     </main>
   )
 }

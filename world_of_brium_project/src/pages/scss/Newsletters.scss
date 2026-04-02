@@ -1,0 +1,156 @@
+@use '../../global.scss' as *;
+@use "sass:color";
+
+//Variables
+
+@media only all and (min-width: 0){
+    main#newslettersPage{
+      h1{
+        font-size: 2rem;
+        text-align: center;
+      }
+      section.newslettersContent{
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        width: 80%;
+        margin: 0 auto 5rem auto;
+          .newsletters-list{
+            display: flex;
+            // flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            margin: 25px 0;
+            .newsletter-item{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content:space-evenly;
+                gap: .5rem;
+                margin: 0;
+                // max-width: 200px;
+                width: 80vw;
+                height: 200px;
+                padding: 25px 10px;
+                // background-color: $secondary-color;
+                transition: all 0.3s ease;
+                background-color: color.adjust($tertiary-color, $alpha: -0.5);
+                &:hover, &:active{
+                  // background-color: $tertiary-color;
+                  background-color: color.adjust($accent-color, $alpha: -0.5);
+                  color:white;
+                  text-decoration: none;
+                }
+                figure{
+                  max-width: 150px;
+                  width: 150px;
+                  // height: 225px;
+                  // border: 5px solid red;
+                  margin:0;
+                img{
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+                }
+                .contentHolder_info{
+                  display:flex;
+                  flex-direction:column;
+                  align-items: center;
+                  justify-content: center;
+                  width: 40%;
+                  h3{
+                    font-size: 1rem;
+                    margin:0;
+                    text-align: center;
+                    font-size:1.25rem;
+                  }
+                  p{
+                    text-align: center;
+                    font-size: 0.75rem;
+                    // background-color: red;
+                    // display:flex;
+                    // flex-wrap:wrap;
+                    // max-width: 100%;
+                    // white-space: normal;
+                    // overflow-wrap: break-word;
+                    // word-wrap: break-word;
+                    // box-sizing: border-box;
+                    // overflow-wrap: break-word;
+                  }
+                }
+            }
+          }
+        
+      }
+    }
+} //mob
+@media only all and (min-width: 760px){
+    main#newslettersPage{
+      h1{
+      }
+      section.newslettersContent{
+        .newsletters-list{
+          // gap: 2.5rem;
+          .newsletter-item{
+            // height: 300px;
+            figure{
+              // max-width: 200px;
+              img{
+              }
+            }
+            h3{
+            }
+          }
+        }
+      }
+    }
+} //min
+@media only all and (min-width: 992px){
+    main#newslettersPage{
+      h1{
+      }
+      section.newslettersContent{
+        .newsletters-list{
+          // gap: 2.5rem;
+          .newsletter-item{
+            height: 300px;
+            figure{
+              // max-width: 200px;
+              img{
+              }
+            }
+            h3{
+            }
+          }
+        }
+      }
+    }
+} //med
+@media only all and (min-width: 1200px){
+    main#newslettersPage{
+      h1{
+      }
+      section.newslettersContent{
+        width: 90%;
+        .newsletters-list{
+          // gap: 2.5rem;
+          .newsletter-item{
+            width: 1000px;
+            figure{
+              max-width: 225px;
+              img{
+              }
+            }
+            h3{
+            }
+          }
+        }
+      }
+    }
+} //max
+@media only all and (min-width: 1600px){
+  main#newslettersPage{}
+} //mega
