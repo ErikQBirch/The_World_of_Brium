@@ -1,0 +1,95 @@
+{
+  "Series": [
+    { "id": "1",
+      "name": "The Brium Chronicles"},
+    { "id": "2",
+      "name": "The Brium Chronicles: Origins"}, 
+    { "id": "3",
+      "name": "The Brium Chronicles: Legends"}, 
+    { "id": "4",
+      "name": "The Brium Chronicles: Legacy"}, 
+    { "id": "5",
+      "name": "The Brium Chronicles: Shadows"}, 
+    { "id": "6",
+      "name": "The Brium Chronicles: Dawn"}, 
+    { "id": "7",
+      "name": "The Brium Chronicles: Dusk"}, 
+    { "id": "8",
+      "name": "The Brium Chronicles: Eclipse"}, 
+    { "id": "9",
+      "name": "The Brium Chronicles: Rebirth"}, 
+    { "id": "10",
+      "name": "The Brium Chronicles: Ascension"}
+  ],
+  "Books": [
+    {
+      "id":"1",
+      "Title":"First Book",
+      "bookThmbnail":"/images/bookCovers/sample_book1.png",
+      "bookCover": "/images/bookCovers/sample_book1.png",
+      "seriesID": "1",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Book"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        },
+        {
+          "label":"AuthorsComments",
+          "sectionTitle":"Author's Comments",  
+          "contentType":"document",
+            "elementArray": [
+              { "element":"h2", "value":"Author's Comments"},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
+              { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+            ]
+        },
+        {
+          "label":"ImageGallery",
+          "sectionTitle":"Image Gallery",
+          "contentType":"gallery",
+          "elementArray": [
+            {"element":"h2", "value":"Image Gallery"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+        ]
+        },
+        {
+          "label":"RelatedBooks",
+          "sectionTitle":"Related Books",
+          "contentType":"carousel",
+          "limit": 3,
+          "elementArray": [
+           { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+           { "element":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+           { "element":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+           { "element":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+           { "element":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
+           { "element":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/bookCovers/sample_book1.png"}
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+

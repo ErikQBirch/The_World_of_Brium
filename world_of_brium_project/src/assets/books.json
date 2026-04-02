@@ -1,5 +1,7 @@
 {
   "Series": [
+    { "id": "0",
+      "name": "Standalones"},    
     { "id": "1",
       "name": "The Brium Chronicles"},
     { "id": "2",

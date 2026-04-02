@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
 import booksJSON from '../assets/books.json'; 
+// import onlyOne from '../assets/books_only_one.json'; 
 import { Link } from 'react-router-dom';
 import './scss/Books.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
 
 export default function Books() {
+  const navigate = useNavigate()
   const booksArray = booksJSON.Books;
   const seriesArray = booksJSON.Series;
+  // const booksArray = onlyOne.Books;
+  // const seriesArray = onlyOne.Series;
   console.log('booksArray', booksArray);
   console.log('seriesArray', seriesArray);
+  
+  // Redirect to book detail if only 1 book exists
+  useEffect(() => {
+    if (booksArray && booksArray.length === 1) {
+      navigate(`/books/${booksArray[0].id}`, { replace: true })
+    }
+  }, [booksArray, navigate])
   // const { id } = useParams();
   // const book = booksJSON.Books.find(book => book.id === id);
 

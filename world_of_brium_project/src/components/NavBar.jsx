@@ -1,11 +1,13 @@
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import logoImg from '../../public/images/placeholder.jpg';
+import booksJSON from '../assets/books.json'; 
 import './scss/NavBar.scss'
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isArticlesDropdownOpen, setIsArticlesDropdownOpen] = useState(false)
+  const navigate = useNavigate()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -17,6 +19,17 @@ export default function NavBar() {
 
   const closeDropdown = () => {
     setIsArticlesDropdownOpen(false)
+  }
+
+  const handleBooksClick = (e) => {
+    // Check if there's only 1 book
+    if (booksJSON.Books && booksJSON.Books.length === 1) {
+      e.preventDefault()
+      setIsMenuOpen(false)
+      navigate(`/books/${booksJSON.Books[0].id}`)
+    } else {
+      setIsMenuOpen(false)
+    }
   }
 
   return (
@@ -34,7 +47,7 @@ export default function NavBar() {
         </button>
         <ul className={isMenuOpen ? 'nav-menu open' : 'nav-menu'}>
           <li><NavLink to="/" end className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Home</NavLink></li>
-          <li><NavLink to="/books" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Books</NavLink></li>
+          <li><NavLink to="/books" className={({isActive}) => isActive ? 'active' : ''} onClick={handleBooksClick}>Books</NavLink></li>
           <li><NavLink to="/about" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>About</NavLink></li>
           <li className="articles-dropdown" onMouseEnter={() => setIsArticlesDropdownOpen(true)} onMouseLeave={() => setIsArticlesDropdownOpen(false)}>
             <button className="articles-button" onClick={toggleArticlesDropdown}>Articles</button>
