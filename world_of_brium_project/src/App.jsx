@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import About from './pages/About'
 import Books from './pages/Books'
 import Books_id from './pages/Books_id'
@@ -22,6 +22,8 @@ function App() {
           <Route path="/books/:id" element={<Books_id />} />
           <Route path="/about" element={<About />} />
           <Route path="/articles/*" element={<Articles />} />
+          <Route path="/blog" element={<Navigate to="/articles/blog" replace />} />
+          <Route path="/newsletter" element={<Navigate to="/articles/newsletter" replace />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
