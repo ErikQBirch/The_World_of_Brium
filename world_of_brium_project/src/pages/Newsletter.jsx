@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
 import newslettersJSON from '../assets/newsletters.json'; 
 import { Link } from 'react-router-dom';
@@ -6,10 +7,20 @@ import './scss/Newsletters.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
 
 export default function Newsletter() {
+  const navigate = useNavigate()
   const newslettersArray = newslettersJSON.Newsletters;
   console.log('newslettersArray', newslettersArray);
   // const { id } = useParams();
   // const book = booksJSON.Books.find(book => book.id === id);
+
+  // Redirect to book detail if only 1 book exists
+  useEffect(() => {
+    if (newslettersArray && newslettersArray.length === 1) {
+      navigate(`/newsletters/${newslettersArray[0].id}`, { replace: true })
+    }
+  }, [newslettersArray, navigate])
+
+  
 
   // if (!book) {
   //   return <main className="page books">Book not found</main>;

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
 import blogsJSON from '../assets/blogs.json'; 
 import { Link } from 'react-router-dom';
@@ -6,8 +7,18 @@ import './scss/Blogs.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
 
 export default function Blog() {
+  const navigate = useNavigate()
   const blogsArray = blogsJSON.Blogs;
   console.log('blogsArray', blogsArray);
+
+  // Redirect to book detail if only 1 book exists
+  useEffect(() => {
+    if (blogsArray && blogsArray.length === 1) {
+      navigate(`/blogs/${blogsArray[0].id}`, { replace: true })
+    }
+  }, [blogsArray, navigate])
+
+
   // const { id } = useParams();
   // const book = booksJSON.Books.find(book => book.id === id);
 
