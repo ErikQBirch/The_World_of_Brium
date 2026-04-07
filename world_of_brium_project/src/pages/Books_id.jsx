@@ -23,13 +23,22 @@ import { ContentRenderer } from "../components/ContentRenderer";
     return (
       <main className="page books" id="booksIdPage">
           {book && (
-            <div className="contentHolder">
-              {book.contentSections.map((section, index) => (
-                <ContentRenderer key={section.id || index} content={section} />
-              ))}
-            </div>
+            <>
+              <div className="contentHolder">
+                {book.contentSections.map((section, index) => (
+                  <ContentRenderer key={section.id || index} content={section} />
+                ))}
+              </div>
+              <a
+                className="sticky-external-link"
+                href={book.storeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Store
+              </a>
+            </>
           )}
-
       </main>
     )
 }

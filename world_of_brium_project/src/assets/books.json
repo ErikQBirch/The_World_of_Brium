@@ -29,6 +29,13 @@
       "Title":"First Book",
       "bookThmbnail":"/images/bookCovers/sample_book1.png",
       "bookCover": "/images/bookCovers/sample_book1.png",
+      "storeLinks": {
+        "Amazon": "https://www.amazon.com/dp/B08N5WRWNW",
+        "Barnes & Noble": "https://www.barnesandnoble.com/w/first-book-author/1123456789",
+        "Book Depository": "https://www.bookdepository.com/First-Book-Author/9781234567890",
+        "Jeremy's Store": "https://www.bookdepository.com/First-Book-Author/9781234567890"
+      },
+      "storeLink": "https://www.amazon.com/dp/B08N5WRWNW",
       "seriesID": "1",
       "contentSections" : [
         {
