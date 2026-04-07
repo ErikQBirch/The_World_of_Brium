@@ -24,56 +24,6 @@
           ]
         }
       ]
-    },
-    {
-      "id":"1",
-      "Headline":"First Book",
-      "datePosted": "2024-06-01",
-      "bookThmbnail":"/images/bookCovers/sample_book1.png",
-      "bookCover": "/images/bookCovers/sample_book1.png",
-      "smallSummary":"We are thrilled to announce that the first book in The Brium Chronicles series is coming soon! After years of crafting the world of Brium and developing its rich lore, characters, and conflicts, we are finally ready to share this epic fantasy adventure with you. This inaugural novel serves as the gateway into a sprawling narrative universe filled with magic, mystery, and unforgettable characters.",
-      "contentSections" : [
-        {
-          "label":"ExtendedSummary",
-          "sectionTitle":"Extended Summary",
-          "contentType":"document",
-          "elementArray": [
-            { "element":"h1", "value":"First Book"},
-            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
-            { "element":"h2", "value": "Summary"},
-            { "element":"p", "value": "We are thrilled to announce that the first book in The Brium Chronicles series is coming soon! After years of crafting the world of Brium and developing its rich lore, characters, and conflicts, we are finally ready to share this epic fantasy adventure with you. This inaugural novel serves as the gateway into a sprawling narrative universe filled with magic, mystery, and unforgettable characters."},
-            { "element":"h2", "value": "What to Expect"},
-            { "element":"p", "value": "The first book introduces readers to the stunning world of Brium, a realm where ancient civilizations have left their mark and modern struggles test the bonds of friendship and honor. You'll follow a diverse cast of characters as they navigate political intrigue, dangerous quests, and the awakening of long-forgotten powers. The narrative weaves together intimate character moments with sweeping world-building that will keep you engaged from the first page to the last."},
-            { "element":"h2", "value": "Release Date & Availability"},
-            { "element":"p", "value": "Pre-orders are opening soon! Whether you prefer physical copies, e-books, or audiobooks, we're ensuring this first adventure into Brium is accessible to everyone. Sign up for our newsletter to be notified the moment pre-orders become available, and don't miss exclusive early-reader content, character spotlights, and behind-the-scenes insights into the creation of this world. Join us on this journey into The World of Brium—your next favorite fantasy series awaits!"}
-          ]
-        }
-      ]
-    },
-    {
-      "id":"2",
-      "Headline":"First Book",
-      "datePosted": "2024-06-01",
-      "bookThmbnail":"/images/bookCovers/sample_book1.png",
-      "bookCover": "/images/bookCovers/sample_book1.png",
-      "smallSummary":"We are thrilled to announce that the first book in The Brium Chronicles series is coming soon! After years of crafting the world of Brium and developing its rich lore, characters, and conflicts, we are finally ready to share this epic fantasy adventure with you. This inaugural novel serves as the gateway into a sprawling narrative universe filled with magic, mystery, and unforgettable characters.",
-      "contentSections" : [
-        {
-          "label":"ExtendedSummary",
-          "sectionTitle":"Extended Summary",
-          "contentType":"document",
-          "elementArray": [
-            { "element":"h1", "value":"First Book"},
-            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
-            { "element":"h2", "value": "Summary"},
-            { "element":"p", "value": "We are thrilled to announce that the first book in The Brium Chronicles series is coming soon! After years of crafting the world of Brium and developing its rich lore, characters, and conflicts, we are finally ready to share this epic fantasy adventure with you. This inaugural novel serves as the gateway into a sprawling narrative universe filled with magic, mystery, and unforgettable characters."},
-            { "element":"h2", "value": "What to Expect"},
-            { "element":"p", "value": "The first book introduces readers to the stunning world of Brium, a realm where ancient civilizations have left their mark and modern struggles test the bonds of friendship and honor. You'll follow a diverse cast of characters as they navigate political intrigue, dangerous quests, and the awakening of long-forgotten powers. The narrative weaves together intimate character moments with sweeping world-building that will keep you engaged from the first page to the last."},
-            { "element":"h2", "value": "Release Date & Availability"},
-            { "element":"p", "value": "Pre-orders are opening soon! Whether you prefer physical copies, e-books, or audiobooks, we're ensuring this first adventure into Brium is accessible to everyone. Sign up for our newsletter to be notified the moment pre-orders become available, and don't miss exclusive early-reader content, character spotlights, and behind-the-scenes insights into the creation of this world. Join us on this journey into The World of Brium—your next favorite fantasy series awaits!"}
-          ]
-        }
-      ]
     }
   ]
 }
