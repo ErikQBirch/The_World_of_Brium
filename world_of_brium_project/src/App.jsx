@@ -12,6 +12,7 @@ import Newsletters_id from './pages/Newsletters_id'
 import Blog from './pages/Blog'
 import Blogs_id from './pages/Blogs_id'
 import Contact from './pages/Contact'
+import ScrollToTopBtn from './components/ScrollToTop_btn'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <ScrollToTopBtn />
       <section>
         <Footer />
       </section>
