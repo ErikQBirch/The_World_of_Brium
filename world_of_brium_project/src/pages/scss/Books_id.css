@@ -79,6 +79,9 @@
     padding: 1rem 2.5rem;
     cursor: pointer;
   }
+  main#booksIdPage .sticky-button-wrapper {
+    position: relative;
+  }
   main#booksIdPage .sticky-external-link {
     position: fixed;
     right: 1.5rem;
@@ -86,20 +89,45 @@
     z-index: 1000;
     width: 3rem;
     height: 3rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 157, 139, 0.75);
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 157, 139, 0.5);
     color: white;
     font-weight: 700;
-    text-decoration: none;
-    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
-    transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease;
   }
   main#booksIdPage .sticky-external-link:hover,
   main#booksIdPage .sticky-external-link:focus {
     transform: translateY(-2px);
     background-color: rgba(198, 175, 0, 0.75);
+  }
+  main#booksIdPage .store-dropdown {
+    position: fixed;
+    right: 5rem;
+    bottom: 2.5rem;
+    background-color: rgba(50, 50, 50, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+    padding: 0.5rem 0;
+    min-width: 150px;
+    height: -moz-fit-content;
+    height: fit-content;
+    z-index: 1001;
+  }
+  main#booksIdPage .store-dropdown a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  main#booksIdPage .store-dropdown a:hover {
+    background-color: rgba(0, 157, 139, 0.75);
   }
 }/*# sourceMappingURL=Books_id.css.map */
