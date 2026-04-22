@@ -47,7 +47,16 @@ export const ContentRenderer = ({ content }) => {
             case 'h3':
               return <h3 key={index} {...rest}>{value}</h3>;
             case 'p':
-              return <p key={index} {...rest}>{value}</p>;
+              return (
+                <p key={index} {...rest}>
+                  {value?.split('\n').map((line, i) => (
+                    <React.Fragment key={i}>
+                      {line}
+                      {i < value.split('\n').length - 1 && <br />}
+                    </React.Fragment>
+                  ))}
+                </p>
+              );
             case 'img':
               return <figure key={index}><img src={`${import.meta.env.BASE_URL}${src.replace(/^\//,'')}`} alt={alt || ''} {...rest} /></figure>;
             case "a":

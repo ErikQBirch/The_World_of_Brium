@@ -2,7 +2,7 @@ import './scss/Home.scss';
 // import DOMPurify from 'dompurify';
 import { Link } from 'react-router-dom';
 import authorImg from '/images/author.jpg';
-import sampleBook from '/images/bookCovers/sample_book1.png';
+import sampleBook from '/images/bookCovers/TheLegacyoftheLykai_cover.jpg';
 
 
 export default function Home() {

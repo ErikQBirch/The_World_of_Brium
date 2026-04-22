@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
 import booksJSON from '../assets/books.json'; 
-// import onlyOne from '../assets/books_only_one.json'; 
+// import booksJSON from '../assets/examples/books_many.json'; 
 import { Link } from 'react-router-dom';
 import './scss/Books.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
@@ -15,6 +15,7 @@ export default function Books() {
   // const seriesArray = onlyOne.Series;
   console.log('booksArray', booksArray);
   console.log('seriesArray', seriesArray);
+  console.log("hellow");
   
   // Redirect to book detail if only 1 book exists
   useEffect(() => {

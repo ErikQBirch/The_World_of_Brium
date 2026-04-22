@@ -27,8 +27,8 @@
     {
       "id":"1",
       "Title":"First Book",
-      "bookThmbnail":"/images/bookCovers/sample_book1.png",
-      "bookCover": "/images/bookCovers/sample_book1.png",
+      "bookThmbnail":"/images/bookCovers/TheLegacyoftheLykai_cover.jpg",
+      "bookCover": "/images/bookCovers/TheLegacyoftheLykai_cover.jpg",
       "storeLinks": {
         "Amazon": "https://www.amazon.com/dp/B08N5WRWNW",
         "Barnes & Noble": "https://www.barnesandnoble.com/w/first-book-author/1123456789",
@@ -44,7 +44,7 @@
           "contentType":"document",
           "elementArray": [
             { "element":"h1", "value":"First Book"},
-            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"img","src":"/images/bookCovers/TheLegacyoftheLykai_cover.jpg", "alt":"image1"},
             { "element":"h2", "value": "Summary"},
             { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
             { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."},
