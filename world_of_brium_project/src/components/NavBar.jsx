@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import logoImg from '../../public/images/placeholder.jpg';
-import booksJSON from '../assets/books.json'; 
+// import booksJSON from '../assets/books.json'; 
+import booksJSON from '../assets/examples/books_two.json'; 
 // import booksJSON from '../assets/examples/books_many.json'; 
 import './scss/NavBar.scss'
 

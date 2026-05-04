@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
-import booksJSON from '../assets/books.json'; 
+// import booksJSON from '../assets/books.json'; 
+import booksJSON from '../assets/examples/books_two.json'; 
 // import booksJSON from '../assets/examples/books_many.json'; 
 import { Link } from 'react-router-dom';
 import './scss/Books.scss'

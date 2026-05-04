@@ -1,0 +1,142 @@
+How to Add a New Book to src/assets/books.json
+
+1. Open the file:
+   src/assets/books.json
+
+2. Locate the "Books" array.
+   - This is where each book object lives.
+   - Add your new book as a new object inside the array, separated by a comma from the previous book.
+
+3. Required book attributes:
+
+   id
+   - A unique string for the new book.
+   - Example: "2"
+
+   Title
+   - The title of the book.
+   - Example: "Second Book"
+
+   bookThmbnail
+   - Path to the small thumbnail image for the book.
+   - Example: "/images/bookCovers/SecondBook_cover.jpg"
+
+   bookCover
+   - Path to the full cover image for the book.
+   - Example: "/images/bookCovers/SecondBook_cover.jpg"
+
+   storeLinks
+   - An object containing named store link URLs.
+   - Use keys such as "Amazon", "Barnes & Noble", "Book Depository", "Jeremy's Store".
+   - Example:
+     "storeLinks": {
+       "Amazon": "https://...",
+       "Barnes & Noble": "https://..."
+     }
+
+   seriesID
+   - A string that references one of the series IDs from the "Series" list.
+   - Example: "1"
+
+4. contentSections attribute:
+
+   - This is an array of section objects.
+   - Each section usually includes:
+     label, sectionTitle, contentType, elementArray
+
+   Example section structure:
+
+     {
+       "label": "ExtendedSummary",
+       "sectionTitle": "Extended Summary",
+       "contentType": "document",
+       "elementArray": [ ... ]
+     }
+
+5. elementArray details:
+
+   - elementArray is a list of content elements that the app renders in order on the books_id page. Note: if you change other attributes of the outer object but not the objects within the "elementArray", nothing will change if you try to view the individual book.
+   - Each element is an object with an "element" type and one or more supporting fields.
+
+   Common element types:
+
+     h1, h2, h3, p
+       - Use "value" to store heading or paragraph text.
+       - Example: { "element": "h2", "value": "Summary" }
+
+     img
+       - Use "src" for the image path and "alt" for the alt text.
+       - Example: { "element": "img", "src": "/images/bookCovers/SecondBook_cover.jpg", "alt": "Second Book Cover" }
+
+     link
+       - Use "href" for the link URL, "value" for the display text, and optionally "srcImg" for the image.
+       - Example: { "element": "link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/SecondBook_cover.jpg" }
+
+   - Keep each element object consistent with the examples already present in the file.
+   - You can use multiple paragraph elements to build longer text blocks.
+   - If you want to write multiple paragraphs not separated by other elements (ie. h1, h2, h3, etc.) without having to make several lines of code or a long string of "p" elements, simply add "\n\n" between where your paragraphs would split normally.
+   - Example: { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. \n\nTemporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit?}
+
+6. Example new book object:
+
+   {
+     "id":"2",
+     "Title":"Second Book",
+     "bookThmbnail":"/images/bookCovers/SecondBook_cover.jpg",
+     "bookCover":"/images/bookCovers/SecondBook_cover.jpg",
+     "storeLinks": {
+       "Amazon": "https://www.amazon.com/dp/example",
+       "Barnes & Noble": "https://www.barnesandnoble.com/w/example",
+       "Book Depository": "https://www.bookdepository.com/example"
+     },
+     "storeLink": "https://www.amazon.com/dp/example",
+     "seriesID": "1",
+     "contentSections": [
+       {
+         "label":"ExtendedSummary",
+         "sectionTitle":"Extended Summary",
+         "contentType":"document",
+         "elementArray": [
+           { "element":"h1", "value":"Second Book" },
+           { "element":"img", "src":"/images/bookCovers/SecondBook_cover.jpg", "alt":"Second Book Cover" },
+           { "element":"h2", "value":"Summary" },
+           { "element":"p", "value":"Write a short description or summary here." },
+           { "element":"p", "value":"Add more paragraphs as needed." }
+         ]
+       },
+       {
+         "label":"AuthorsComments",
+         "sectionTitle":"Author's Comments",
+         "contentType":"document",
+         "elementArray": [
+           { "element":"h2", "value":"Author's Comments" },
+           { "element":"p", "value":"Add author notes or commentary here." }
+         ]
+       },
+       {
+         "label":"ImageGallery",
+         "sectionTitle":"Image Gallery",
+         "contentType":"gallery",
+         "elementArray": []
+       },
+       {
+         "label":"RelatedBooks",
+         "sectionTitle":"Related Books",
+         "contentType":"carousel",
+         "limit": 3,
+         "elementArray": [
+           { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png" }
+         ]
+       }
+     ]
+   }
+
+7. Save the file after editing.
+
+8. Optional checks:
+   - Confirm image paths are valid and files exist in public/images.
+   - Confirm the new book id is unique.
+   - Confirm the seriesID matches an existing Series entry.
+
+That is all you need to add a new book entry to the Books array and complete the contentSections/elementArray structure.
+If still uncertain, refer to the structure of the first book.

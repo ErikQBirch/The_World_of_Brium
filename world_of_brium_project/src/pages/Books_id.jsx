@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 // import { useSearchParams } from 'react-router-dom';
 import { useParams } from "react-router-dom";
-import booksJSON from '../assets/books.json';
+// import booksJSON from '../assets/books.json';
+import booksJSON from '../assets/examples/books_two.json'; 
 // import booksJSON from '../assets/examples/books_many.json'; 
 import './scss/Books_id.scss'
 import { ContentRenderer } from "../components/ContentRenderer";

@@ -31,9 +31,9 @@ export default function Home() {
           </figure>
           <section>
             <h1>A Glimpse at <br/>Jeremy Cole</h1>
-            <p>Explore the rich lore, characters, and adventures that await you in Brium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum amet deleniti provident, sed totam.</p>
+            <p>I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series.</p>
             <button>
-              <Link to="/author">Learn More</Link>
+              <Link to="/about">Learn More</Link>
             </button>
           </section>
         </div>
