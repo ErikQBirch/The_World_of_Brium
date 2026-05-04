@@ -1,0 +1,5 @@
+1. Fix HomePage
+2. Adjust books_id gallery
+3. Add related books (doesn't have to be a carousel, a scroll-overflow would surfice)
+4. Light Mode and Dark Mode
+5. AI updates

@@ -5,6 +5,7 @@ import newslettersJSON from '../assets/newsletters.json';
 import { Link } from 'react-router-dom';
 import './scss/Newsletters.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
+import ContentComingSoon from '../components/ContentComingSoon';
 
 export default function Newsletter() {
   const navigate = useNavigate()
@@ -33,20 +34,24 @@ export default function Newsletter() {
     <main id="newslettersPage" className="page newsletters">
       <h1>Newsletters</h1>
       <section className="newslettersContent">
-            <div className="newsletters-list">
-              {newslettersArray
-                .map(newsletter => (
-                  <Link to={`/newsletters/${newsletter.id}`} key={newsletter.id} className="newsletter-item">
-                    <figure>
-                      <img src={`${import.meta.env.BASE_URL}${newsletter.bookThmbnail.replace(/^\//,'')}`} alt={newsletter.Headline} />
-                    </figure>
-                    <div className="contentHolder_info">
-                      <h3>{newsletter.Headline}</h3>
-                      <div>{newsletter.datePosted}</div>
-                      <p>{newsletter.smallSummary?.length > 250 ? newsletter.smallSummary.substring(0, 250) + '...' : newsletter.smallSummary}</p>
-                    </div>
-                  </Link>
-                ))}
+        <div className="newsletters-list">
+          {newslettersArray?.length === 0 ? (
+            <ContentComingSoon />
+          ) : (
+            newslettersArray.map(newsletter => (
+              <Link to={`/newsletters/${newsletter.id}`} key={newsletter.id} className="newsletter-item">
+                <figure>
+                  <img src={`${import.meta.env.BASE_URL}${newsletter.bookThmbnail.replace(/^\//,'')}`} alt={newsletter.Headline} />
+                </figure>
+                <div className="contentHolder_info">
+                  <h3>{newsletter.Headline}</h3>
+                  <div>{newsletter.datePosted}</div>
+                  <p>{newsletter.smallSummary?.length > 250 ? newsletter.smallSummary.substring(0, 250) + '...' : newsletter.smallSummary}</p>
+                </div>
+              </Link>
+            ))
+            
+          )}
         </div>
       </section>
     </main>

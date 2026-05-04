@@ -5,6 +5,7 @@ import blogsJSON from '../assets/blogs.json';
 import { Link } from 'react-router-dom';
 import './scss/Blogs.scss'
 import { ContentRenderer } from "../components/ContentRenderer";
+import ContentComingSoon from '../components/ContentComingSoon';
 
 export default function Blog() {
   const navigate = useNavigate()
@@ -34,7 +35,10 @@ export default function Blog() {
       <h1>Blogs</h1>
       <section className="blogsContent">
             <div className="blogs-list">
-              {blogsArray
+              {blogsArray?.length === 0 ? (
+                <ContentComingSoon />
+              ) : (
+              blogsArray
                 .map(blog => (
                   <Link to={`/blogs/${blog.id}`} key={blog.id} className="blog-item">
                     <figure>
@@ -46,7 +50,8 @@ export default function Blog() {
                       <p>{blog.Summary}</p>
                     </div>
                   </Link>
-                ))}
+                ))
+              )}
         </div>
       </section>
     </main>
