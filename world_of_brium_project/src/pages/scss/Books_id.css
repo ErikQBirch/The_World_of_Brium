@@ -79,6 +79,36 @@
     padding: 1rem 2.5rem;
     cursor: pointer;
   }
+  main#booksIdPage .contentHolder #RelatedBooks {
+    margin-bottom: 2rem;
+  }
+  main#booksIdPage .contentHolder #RelatedBooks .related-books-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px 0;
+    gap: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  main#booksIdPage .contentHolder #RelatedBooks .related-books-container figure {
+    flex: 0 0 auto;
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  main#booksIdPage .contentHolder #RelatedBooks .related-books-container figure img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  main#booksIdPage .contentHolder #RelatedBooks .related-books-container figure img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
   main#booksIdPage .sticky-button-wrapper {
     position: relative;
   }

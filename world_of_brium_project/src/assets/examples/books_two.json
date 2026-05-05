@@ -124,8 +124,28 @@
           "sectionTitle":"Image Gallery",
           "contentType":"gallery",
           "elementArray": [
-            {"element":"h2", "value":"Image Gallery"},
-            {"element":"div", "className":"gallery-container", "value":[
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+        ]
+        },
+        {
+          "label":"RelatedBooks",
+          "sectionTitle":"Related Books",
+          "contentType":"carousel",
+          "limit": 3,
+          "elementArray": [
+            {"element":"h2", "value":"Related Books"},
+            {"element":"div", "className":"related-books-container", "value":[
               {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
               {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
               {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
@@ -139,20 +159,6 @@
               {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
               {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
             ]}
-        ]
-        },
-        {
-          "label":"RelatedBooks",
-          "sectionTitle":"Related Books",
-          "contentType":"carousel",
-          "limit": 3,
-          "elementArray": [
-            { "element":"link", "href": "/books/1", "value": "First Book", "srcImg": "/images/bookCovers/sample_book1.png"},
-            { "element":"link", "href": "/books/2", "value": "Second Book", "srcImg": "/images/bookCovers/sample_book1.png"},
-            { "element":"link", "href": "/books/3", "value": "Third Book", "srcImg": "/images/bookCovers/sample_book1.png"},
-            { "element":"link", "href": "/books/4", "value": "Fourth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
-            { "element":"link", "href": "/books/5", "value": "Fifth Book", "srcImg": "/images/bookCovers/sample_book1.png"},
-            { "element":"link", "href": "/books/6", "value": "Sixth Book", "srcImg": "/images/bookCovers/sample_book1.png"}
           ]
         }
       ]

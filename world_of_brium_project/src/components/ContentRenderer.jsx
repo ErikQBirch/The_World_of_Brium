@@ -17,13 +17,13 @@ export const ContentRenderer = ({ content }) => {
   // want image items (JSON currently uses type: 'img').
 
 
-  const filtered =
+  const filtered = 
     content && content.contentType === 'gallery'
-      ? content.elementArray[1].value.filter(i => i.element === 'img')
+      ? content.elementArray.filter(i => i.element === 'img')
       : content?.elementArray || [];
       
 
-  const rendered = content.contentType === 'gallery' && !showAll ? filtered.slice(0, 6) : filtered;
+  const rendered = content.contentType === 'gallery' && !showAll ? filtered.slice(0, 8) : filtered;
 
   // debug: make sure JSON is arriving
   // console.log('rendered content', content, rendered);
@@ -119,10 +119,16 @@ export const ContentRenderer = ({ content }) => {
   return (
     <section id={content.label || undefined}>
       {content.contentType === 'gallery' ? 
-        <div className="contentHolder_Gallery">{renderItems(rendered, content.contentType)}</div> : 
+      <>
+        <h2>Image Gallery</h2>
+        <div className="contentHolder_Gallery">
+          {renderItems(rendered, content.contentType)}
+        </div> 
+      </>
+        : 
         renderItems(rendered, content.contentType)}
 
-      {content.contentType === 'gallery' && filtered.length > 6 && (
+      {content.contentType === 'gallery' && filtered.length > 8 && (
         <button className="moreOrLess" onClick={() => setShowAll(!showAll)}>
           {showAll ? 'Show Less' : 'Show More'}
         </button>
