@@ -15,10 +15,13 @@ export const ContentRenderer = ({ content }) => {
 
   // choose which items actually get rendered.  For galleries we only
   // want image items (JSON currently uses type: 'img').
+
+
   const filtered =
     content && content.contentType === 'gallery'
-      ? content.elementArray.filter(i => i.element === 'img')
+      ? content.elementArray[1].value.filter(i => i.element === 'img')
       : content?.elementArray || [];
+      
 
   const rendered = content.contentType === 'gallery' && !showAll ? filtered.slice(0, 6) : filtered;
 
@@ -37,8 +40,8 @@ export const ContentRenderer = ({ content }) => {
       // console.log(item);
       // console.log(element, value, src, alt, srcImg);
 
-      switch (contentType) {
-        case 'document':
+
+
           switch (element) {
             case 'h1':
               return <h1 key={index} {...rest}>{value}</h1>;
@@ -58,7 +61,15 @@ export const ContentRenderer = ({ content }) => {
                 </p>
               );
             case 'img':
-              return <figure key={index}><img src={`${import.meta.env.BASE_URL}${src.replace(/^\//,'')}`} alt={alt || ''} {...rest} /></figure>;
+              return (
+              <figure key={index}>
+                <img 
+                  src={`${import.meta.env.BASE_URL}${src.replace(/^\//,'')}`} 
+                  alt={alt || ''} 
+                  {...rest} 
+                  onClick={(contentType==='gallery') ? () => setPopup({ src: src, alt: alt }) : undefined}/>
+               </figure>
+              );
             case "a":
               return srcImg ? (
                 <a key={index} href={item.href} {...rest}>
@@ -87,24 +98,17 @@ export const ContentRenderer = ({ content }) => {
               return null;
           }
 
-        case 'gallery':
+        
           // gallery-specific markup: thumbnail that opens popup
-          return (
-            <figure key={index} className="gallery-item">
-              <img
-                src={`${import.meta.env.BASE_URL}${item.src.replace(/^\//,'')}`}
-                alt={item.alt || ''}
-                {...rest}
-                onClick={() => setPopup({ src: item.src, alt: item.alt })}
-              />
-            </figure>
-          );
+
+            
+  
 
         // add other section types as needed
-        default:
+
           // if no section is provided, treat it as a document
-          return null;
-      }
+
+      
     });
   };
 

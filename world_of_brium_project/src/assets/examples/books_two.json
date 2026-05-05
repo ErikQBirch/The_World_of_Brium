@@ -125,18 +125,20 @@
           "contentType":"gallery",
           "elementArray": [
             {"element":"h2", "value":"Image Gallery"},
-            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
-            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
-            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
-            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
-            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
-            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
-            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
-            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
-            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
-            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
-            {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
-            {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+            {"element":"div", "className":"gallery-container", "value":[
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
+            ]}
         ]
         },
         {
