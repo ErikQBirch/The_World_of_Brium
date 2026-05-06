@@ -89,6 +89,8 @@
     padding: 2rem;
     display: flex;
     align-items: center;
+    justify-self: center;
+    width: 90vw;
     background-color: rgba(0, 49, 43, 0.5);
     color: white;
     box-shadow: 0 0 50px #00312b;
@@ -97,7 +99,7 @@
     flex-direction: column;
     display: flex;
     width: 100%;
-    height: 100%;
+    width: 100%;
   }
   main#homePage #author_intro .contentHolder figure {
     width: 75vw;
@@ -137,13 +139,15 @@
     margin: 2.5rem auto;
   }
   main#homePage #signup {
-    margin: 5rem 0;
+    margin: 5rem auto;
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    justify-self: center;
     align-items: center;
     gap: 1rem;
     color: white;
+    width: 90vw;
     background-color: rgba(198, 175, 0, 0.5);
     box-shadow: 0 0 50px rgba(198, 175, 0, 0.5);
   }
