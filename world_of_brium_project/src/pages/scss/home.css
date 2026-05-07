@@ -21,8 +21,9 @@
     border-radius: 15px;
     color: #fff;
     margin: 2.5rem auto 5rem auto;
-    height: 70vh;
+    height: 50vh;
     width: 90vw;
+    max-width: 400px;
     overflow: hidden;
     box-shadow: 0 0 50px #005b51;
   }
@@ -61,8 +62,7 @@
     margin: 0;
   }
   main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
-    width: 45vw;
-    max-width: 250px;
+    width: 175px;
     margin: 0 auto;
     text-decoration: none;
     color: white;
@@ -86,11 +86,11 @@
   }
   main#homePage #author_intro {
     margin: 5rem auto;
-    padding: 2rem;
     display: flex;
     align-items: center;
     justify-self: center;
     width: 90vw;
+    max-width: 400px;
     background-color: rgba(0, 49, 43, 0.5);
     color: white;
     box-shadow: 0 0 50px #00312b;
@@ -102,8 +102,7 @@
     width: 100%;
   }
   main#homePage #author_intro .contentHolder figure {
-    width: 75vw;
-    max-width: 400px;
+    width: 250px;
     box-shadow: 0 0 50px rgb(255, 255, 255);
     border-radius: 25%;
     overflow: hidden;
@@ -132,7 +131,7 @@
   }
   main#homePage #author_intro .contentHolder section p {
     text-align: center;
-    max-width: 600px;
+    max-width: 75%;
     margin: 0;
   }
   main#homePage #author_intro .contentHolder section button {
@@ -140,7 +139,7 @@
   }
   main#homePage #signup {
     margin: 5rem auto;
-    padding: 2rem;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -148,8 +147,10 @@
     gap: 1rem;
     color: white;
     width: 90vw;
+    max-width: 400px;
     background-color: rgba(198, 175, 0, 0.5);
     box-shadow: 0 0 50px rgba(198, 175, 0, 0.5);
+    border-radius: 15px;
   }
   main#homePage #signup h1 {
     margin: 0;
@@ -158,12 +159,13 @@
   main#homePage #signup p {
     margin: 0;
     text-align: center;
-    max-width: 600px;
+    width: 75%;
   }
 }
 @media only all and (min-width: 760px) {
   main#homePage #home_banner {
     height: 45vh;
+    max-width: 700px;
   }
   main#homePage #home_banner .contentHolder a:link, main#homePage #home_banner .contentHolder a:visited, main#homePage #home_banner .contentHolder a:hover, main#homePage #home_banner .contentHolder a:active {
     display: flex;
@@ -204,6 +206,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 700px;
   }
   main#homePage #author_intro .contentHolder {
     display: flex;
@@ -234,6 +237,7 @@
   main#homePage #author_intro .contentHolder section p {
     width: 100%;
     text-align: left;
+    max-width: inherit;
   }
   main#homePage #author_intro .contentHolder section button {
     margin: 0 auto 0 0;
@@ -246,6 +250,7 @@
     align-items: center;
     gap: 1rem;
     color: white;
+    max-width: 700px;
     background-color: rgba(198, 175, 0, 0.5);
   }
   main#homePage #signup h1 {
@@ -254,12 +259,13 @@
   main#homePage #signup p {
     margin: 0;
     text-align: center;
-    max-width: 600px;
   }
 }
 @media only all and (min-width: 992px) {
   main#homePage #home_banner {
     height: 60vh;
+    max-width: 900px;
+    margin: 5rem auto;
   }
   main#homePage #home_banner .contentHolder a:link .text-container, main#homePage #home_banner .contentHolder a:visited .text-container, main#homePage #home_banner .contentHolder a:hover .text-container, main#homePage #home_banner .contentHolder a:active .text-container {
     width: 25rem;
@@ -268,19 +274,27 @@
   main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     width: 17.5rem;
   }
+  main#homePage #author_intro {
+    max-width: 900px;
+  }
   main#homePage #author_intro .contentHolder {
     gap: 5rem;
+  }
+  main#homePage #signup {
+    max-width: 900px;
   }
 }
 @media only all and (min-width: 1200px) {
   main#homePage #home_banner {
     margin: 5rem auto;
+    max-width: 1200px;
   }
   main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     width: 17.5rem;
   }
   main#homePage #author_intro {
     gap: 10rem;
+    max-width: 1200px;
   }
   main#homePage #author_intro .contentHolder {
     width: 80%;
@@ -288,10 +302,20 @@
     display: flex;
     margin: 0 auto;
   }
+  main#homePage #author_intro .contentHolder section h1 {
+    font-size: 300%;
+  }
+  main#homePage #author_intro .contentHolder section p {
+    font-size: 150%;
+  }
+  main#homePage #signup {
+    max-width: 1200px;
+  }
 }
 @media only all and (min-width: 1600px) {
   main#homePage #home_banner {
     height: 70vh;
+    max-width: 1600px;
   }
   main#homePage #home_banner .contentHolder a:link, main#homePage #home_banner .contentHolder a:visited, main#homePage #home_banner .contentHolder a:hover, main#homePage #home_banner .contentHolder a:active {
     gap: 7.5rem;
@@ -302,5 +326,11 @@
   }
   main#homePage #home_banner .contentHolder a:link figure, main#homePage #home_banner .contentHolder a:visited figure, main#homePage #home_banner .contentHolder a:hover figure, main#homePage #home_banner .contentHolder a:active figure {
     width: 22.5rem;
+  }
+  main#homePage #author_intro {
+    max-width: 1600px;
+  }
+  main#homePage #signup {
+    max-width: 1600px;
   }
 }/*# sourceMappingURL=Home.css.map */
