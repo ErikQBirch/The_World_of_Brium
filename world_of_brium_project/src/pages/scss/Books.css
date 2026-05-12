@@ -43,7 +43,8 @@
     margin: 0;
   }
   main#booksPage section.booksContent .series .books-list .book-item figure {
-    max-width: 150px;
+    width: 150px;
+    height: 225px;
     margin: 0;
   }
   main#booksPage section.booksContent .series .books-list .book-item figure img {
@@ -63,7 +64,8 @@
     gap: 2.5rem;
   }
   main#booksPage section.booksContent .series .books-list .book-item figure {
-    max-width: 200px;
+    width: 200px;
+    height: 300px;
   }
 }
 @media only all and (min-width: 1200px) {
@@ -74,6 +76,7 @@
     gap: 2.5rem;
   }
   main#booksPage section.booksContent .series .books-list .book-item figure {
-    max-width: 300px;
+    width: 300px;
+    height: 450px;
   }
 }/*# sourceMappingURL=Books.css.map */

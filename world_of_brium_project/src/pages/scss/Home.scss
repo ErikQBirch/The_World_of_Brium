@@ -27,7 +27,7 @@
       
       color: #fff;
       margin: 2.5rem auto 5rem auto;
-      height: 50vh;
+      height: 450px;
       width: 90vw;
       max-width: 400px;
       overflow: hidden;
@@ -112,7 +112,6 @@
         flex-direction: column;
         display:flex;
         width: 100%;
-        width: 100%;
         figure{
           width: 250px;
           // max-width: 400px;
@@ -181,7 +180,7 @@
 @media only all and (min-width: 760px){
     main#homePage{
       #home_banner{
-        height: 45vh;
+        height: 400px;
         max-width: 700px;
         .contentHolder{
           a:link, a:visited, a:hover, a:active{
@@ -296,9 +295,9 @@
 @media only all and (min-width: 992px){
   main#homePage{
     #home_banner{
-      height: 60vh;
-        max-width: 900px;
-        margin: 5rem auto;
+      height: 500px;
+      max-width: 900px;
+      margin: 5rem auto;
       .contentHolder{
         a:link, a:visited, a:hover, a:active{
           .text-container{
@@ -349,7 +348,7 @@
       h2{
       }
       #home_banner{
-        // height: 50vh;
+        height: 550px;
         margin: 5rem auto;
         max-width: 1200px;
         .contentHolder{
@@ -405,7 +404,7 @@
 @media only all and (min-width: 1600px){
   main#homePage{
     #home_banner{
-      height: 70vh;
+      height: 650px;
       max-width: 1600px;
       .contentHolder{
         a:link, a:visited, a:hover, a:active{

@@ -126,8 +126,9 @@ export const ContentRenderer = ({ content }) => {
         </div> 
       </>
         : 
-        renderItems(rendered, content.contentType)}
-
+        renderItems(rendered, content.contentType)
+      }
+      
       {content.contentType === 'gallery' && filtered.length > 8 && (
         <button className="moreOrLess" onClick={() => setShowAll(!showAll)}>
           {showAll ? 'Show Less' : 'Show More'}

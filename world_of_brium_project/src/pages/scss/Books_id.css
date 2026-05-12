@@ -59,8 +59,8 @@
   }
   main#booksIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure {
     overflow: hidden;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border-radius: 8px;
   }
   main#booksIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure img {
@@ -159,5 +159,11 @@
   }
   main#booksIdPage .store-dropdown a:hover {
     background-color: rgba(0, 157, 139, 0.75);
+  }
+}
+@media only all and (min-width: 760px) {
+  main#booksIdPage .contentHolder #ImageGallery .contentHolder_Gallery figure {
+    width: 175px;
+    height: 175px;
   }
 }/*# sourceMappingURL=Books_id.css.map */
