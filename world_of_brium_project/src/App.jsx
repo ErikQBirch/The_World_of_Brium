@@ -12,11 +12,15 @@ import Newsletters_id from './pages/Newsletters_id'
 import Blog from './pages/Blog'
 import Blogs_id from './pages/Blogs_id'
 import Contact from './pages/Contact'
-import ScrollToTopBtn from './components/ScrollToTop_btn'
+import ScrollToTopBtn from './components/ScrollToTopBtn'
+import LightDarkToggle from './components/LightDarkToggle'
 
 function App() {
+  
+
   return (
     <Router basename='/The_World_of_Brium'>
+
       <NavBar />
       <div className="container">
         <Routes>
@@ -33,6 +37,7 @@ function App() {
         </Routes>
       </div>
       <ScrollToTopBtn />
+      <LightDarkToggle />
       <section>
         <Footer />
       </section>
@@ -41,5 +46,3 @@ function App() {
 }
 
 export default App
-
-//Are we going to work now?

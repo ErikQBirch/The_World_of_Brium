@@ -75,7 +75,7 @@
               {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
               {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"},
               {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
-              {"element":"img", "src": "/images/bookCovers/sample_book1.png", "alt": "Sample Book 1"},
+              {"element":"img", "src": "/images/bookCovers/sample_book1.pjng", "alt": "Sample Book 1"},
               {"element":"img", "src": "/images/bookCovers/author.jpg", "alt": "Author Image"}
         ]
         },
