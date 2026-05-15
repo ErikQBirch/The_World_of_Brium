@@ -3,37 +3,42 @@
 
 //Variables
 
-@media (prefers-color-scheme: light) {
-    main#booksIdPage{
-      .contentHolder{
-        background-color: color.adjust($light-background-color, $alpha: -0.5);
-        color:black;
-      }
-    }
-  }
-@media (prefers-color-scheme: dark) {
-    main#booksIdPage{
-      .contentHolder{
-        background-color: color.adjust($primary-color, $alpha: -0.25);
-        color: white;
-      }
-    }
-  }
+// @media (prefers-color-scheme: light) {
+//     main#booksIdPage{
+//       .contentHolder{
+//         background-color: color.adjust($light-background-color, $alpha: -0.5);
+//         color:black;
+//       }
+//     }
+//   }
+// @media (prefers-color-scheme: dark) {
+//     main#booksIdPage{
+//       .contentHolder{
+//         background-color: color.adjust($primary-color, $alpha: -0.25);
+//         color: white;
+//       }
+//     }
+//   }
 
 
 @media only all and (min-width: 0){
+  .books-page .scroll-to-top-btn{
+    bottom: 8.5rem !important;
+  }
   main#booksIdPage{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     // padding: 20px;
-    color:white;
     .contentHolder{
       max-width: 800px;
       width: 60%;
       margin: 2.5rem auto;
       padding: 0 50px;
+      background-color: var(--section-bg-color);
+      border-radius: 15px;
+      box-shadow: 0 0 50px var(--section-bg-color);
       section{
       }
       #ExtendedSummary{

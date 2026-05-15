@@ -18,6 +18,13 @@ import { ContentRenderer } from "../components/ContentRenderer";
       window.scrollTo(0, 0)
     }, [id])
 
+    // Add a page-level class so global elements (like the scroll button)
+    // can be scoped to this page even if they're rendered outside the page
+    useEffect(() => {
+      document.documentElement.classList.add('books-page')
+      return () => document.documentElement.classList.remove('books-page')
+    }, [])
+
     useEffect(() => {
       const handleDocumentClick = (event) => {
         if (dropdownOpen && dropdownWrapperRef.current && !dropdownWrapperRef.current.contains(event.target)) {

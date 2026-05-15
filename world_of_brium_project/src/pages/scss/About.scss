@@ -3,30 +3,31 @@
 
 //Variables
 
-@media (prefers-color-scheme: light) {
-    main#aboutPage{
-      .contentHolder{
-        background-color: color.adjust($light-background-color, $alpha: -0.5);
-        color:black;
-      }
-    }
-  }
-@media (prefers-color-scheme: dark) {
-    main#aboutPage{
-      .contentHolder{
-        background-color: color.adjust($primary-color, $alpha: -0.25);
-        color: white;
-      }
-    }
-  }
+// @media (prefers-color-scheme: light) {
+//     main#aboutPage{
+//       .contentHolder{
+//         background-color: color.adjust($light-background-color, $alpha: -0.5);
+//         // color:black;
+//       }
+//     }
+//   }
+// @media (prefers-color-scheme: dark) {
+//     main#aboutPage{
+//       .contentHolder{
+//         background-color: color.adjust($primary-color, $alpha: -0.25);
+//         // color: white;
+//       }
+//     }
+//   }
 
 
 @media only all and (min-width: 0){
     main#aboutPage{
       .contentHolder{
-        width: 70vw;
-        margin: 2.5rem auto;
-        padding: 2.5rem;
+      width: 70vw;
+      margin: 2.5rem auto;
+      padding: 2.5rem;
+      background-color: var(--section-bg-color);
         section#JeremyColeBio{
         display:flex;
         flex-direction:column;

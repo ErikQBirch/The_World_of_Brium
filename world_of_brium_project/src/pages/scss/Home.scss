@@ -8,7 +8,7 @@
     padding:0;
     margin:0 auto;
     width: 100%;
-    color:black;
+    // color:black;
     #home_banner{
       display: flex;
       flex-direction: column;
@@ -32,7 +32,7 @@
       max-width: 400px;
       overflow: hidden;
 
-      box-shadow: 0 0 50px color.adjust($secondary-color, $alpha: 1);
+      box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
       .contentHolder{
         display:flex;
         width: 100%;
@@ -105,9 +105,11 @@
       justify-self: center;
       width: 90vw;
       max-width: 400px;
-      background-color: color.adjust($primary-color, $alpha: -0.5);
-      color: white;
-      box-shadow: 0 0 50px color.adjust($primary-color, $alpha: 0);
+      background-color: var(--section-bg-color);
+      // background-color: color.adjust(var(--section-bg-color), $alpha: -0.5);
+      // color: white;
+      box-shadow: 0 0 50px var(--section-bg-color);
+      border-radius: 15px;
       .contentHolder{
         flex-direction: column;
         display:flex;
@@ -116,7 +118,7 @@
           width: 250px;
           // max-width: 400px;
           box-shadow: 0 0 50px rgba(255, 255, 255, 1);
-          border-radius: 25%;
+          border-radius: 25px;
           overflow: hidden;
           display:flex;
           align-items: center;

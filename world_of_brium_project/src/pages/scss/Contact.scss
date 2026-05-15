@@ -1,0 +1,33 @@
+@use '../../global.scss' as *;
+@use "sass:color";
+
+//Variables
+
+@media (prefers-color-scheme: light) {
+    main#aboutPage{
+      .contentHolder{
+        background-color: color.adjust($light-background-color, $alpha: -0.5);
+        color:black;
+      }
+    }
+  }
+@media (prefers-color-scheme: dark) {
+    main#aboutPage{
+      .contentHolder{
+        background-color: color.adjust($primary-color, $alpha: -0.25);
+        color: white;
+      }
+    }
+  }
+
+
+@media only all and (min-width: 0){
+} //mob
+@media only all and (min-width: 760px){
+} //min
+@media only all and (min-width: 992px){
+} //med
+@media only all and (min-width: 1200px){
+} //max
+@media only all and (min-width: 1600px){
+} //mega

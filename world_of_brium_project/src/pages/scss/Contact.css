@@ -1,0 +1,17 @@
+@media only all and (min-width: 0) {
+  main {
+    min-height: 80vh;
+  }
+}
+@media (prefers-color-scheme: light) {
+  main#aboutPage .contentHolder {
+    background-color: rgba(203, 238, 243, 0.5);
+    color: black;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  main#aboutPage .contentHolder {
+    background-color: rgba(0, 49, 43, 0.75);
+    color: white;
+  }
+}/*# sourceMappingURL=Contact.css.map */
