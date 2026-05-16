@@ -3,25 +3,61 @@
 
 //Variables
 
-@media (prefers-color-scheme: light) {
-    main#aboutPage{
-      .contentHolder{
-        background-color: color.adjust($light-background-color, $alpha: -0.5);
-        color:black;
-      }
-    }
-  }
-@media (prefers-color-scheme: dark) {
-    main#aboutPage{
-      .contentHolder{
-        background-color: color.adjust($primary-color, $alpha: -0.25);
-        color: white;
-      }
-    }
-  }
+// @media (prefers-color-scheme: light) {
+//     main#aboutPage{
+//       .contentHolder{
+//         background-color: color.adjust($light-background-color, $alpha: -0.5);
+//         color:black;
+//       }
+//     }
+//   }
+// @media (prefers-color-scheme: dark) {
+//     main#aboutPage{
+//       .contentHolder{
+//         background-color: color.adjust($primary-color, $alpha: -0.25);
+//         color: white;
+//       }
+//     }
+//   }
 
 
 @media only all and (min-width: 0){
+    main#contactIdPage{
+      .contentHolder{
+      width: 70vw;
+      margin: 2.5rem auto;
+      padding: 2.5rem;
+      background-color: var(--section-bg-color);
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+        section#ContactInfo{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        ul{
+          list-style: none;
+          display:flex;
+          gap: 2.5rem;
+          padding:0;
+          li{
+            a{
+              color: var(--link-color);
+              font-size: 1.25rem;
+              transition: color 0.2s ease;
+              display:flex;
+              flex-direction: column;
+              align-items: center;
+              &:hover{
+                color: #747bff;
+              }
+
+            }
+          }
+        }
+        }
+      }
+    }
 } //mob
 @media only all and (min-width: 760px){
 } //min

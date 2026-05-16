@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import './scss/Contact.scss'
 
 
 // import './scss/LightDarkToggle.scss'
@@ -27,49 +28,51 @@ export default function Contact() {
   }
 
   return (
-    <main className="page contact">
-      <h2>Contact</h2>
-      <section>
-        <ul>
-          {contactMethods.map((method) => (
-            <li onMouseEnter={() => setHoveredItem(method.name.toLowerCase())}
-                onMouseLeave={() => setHoveredItem(null)}>
+    <main className="page contact" id="contactIdPage">
+      <div className="contentHolder">
+        <h2>Contact</h2>
+        <section id="ContactInfo">
+          <ul>
+            {contactMethods.map((method) => (
+              <li onMouseEnter={() => setHoveredItem(method.name.toLowerCase())}
+                  onMouseLeave={() => setHoveredItem(null)}>
+                {method.url ? (
+                  <a href={method.url} target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={method.icon} bounce={hoveredItem === method.name.toLowerCase()} />
+                    <span>{method.name}</span>
+                  </a>
+                ) : (
+                  <a href="#" onClick={copyEmailToClipboard}>
+                    <FontAwesomeIcon icon={method.icon} bounce={hoveredItem === method.name.toLowerCase()} />
+                    <span>{method.name}</span>
+                  </a>
+                )}
+              </li>
+          
+                ))}
+            {/* {contactMethods.map((method) => (
               {method.url ? (
-                <a href={method.url} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={method.icon} bounce={hoveredItem === method.name.toLowerCase()} />
+                <li
+                  key={method.name}
+                  onClick={() => window.open(method.url, '_blank')}
+                >
+                  <FontAwesomeIcon icon={method.icon} />
                   <span>{method.name}</span>
-                </a>
+                </li>
               ) : (
-                <a href="#" onClick={copyEmailToClipboard}>
-                  <FontAwesomeIcon icon={method.icon} bounce={hoveredItem === method.name.toLowerCase()} />
-                  <span>{method.name}</span>
-                </a>
-              )}
-            </li>
-        
-              ))}
-          {/* {contactMethods.map((method) => (
-            {method.url ? (
-              <li
-                key={method.name}
-                onClick={() => window.open(method.url, '_blank')}
+                <li
+                  key={method.name}
+                  onClick={method.action === 'copy' ? copyEmailToClipboard : undefined}
+                  onMouseEnter={() => setHoveredItem(method.name.toLowerCase())}
+                  onMouseLeave={() => setHoveredItem(null)}
               >
-                <FontAwesomeIcon icon={method.icon} />
+                <FontAwesomeIcon icon={method.icon} bounce={hoveredItem === method.name.toLowerCase()} />
                 <span>{method.name}</span>
               </li>
-            ) : (
-              <li
-                key={method.name}
-                onClick={method.action === 'copy' ? copyEmailToClipboard : undefined}
-                onMouseEnter={() => setHoveredItem(method.name.toLowerCase())}
-                onMouseLeave={() => setHoveredItem(null)}
-            >
-              <FontAwesomeIcon icon={method.icon} bounce={hoveredItem === method.name.toLowerCase()} />
-              <span>{method.name}</span>
-            </li>
-          ))} */}
-        </ul>
-      </section>
+            ))} */}
+          </ul>
+        </section>
+      </div>
     </main>
   )}
 

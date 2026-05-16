@@ -8,7 +8,7 @@ import './scss/LightDarkToggle.scss'
 
 
 export default function LightDarkToggle() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
   
   useEffect(() => {
       document.documentElement.classList.toggle('dark-mode', darkMode)
