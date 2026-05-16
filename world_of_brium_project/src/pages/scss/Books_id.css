@@ -55,9 +55,6 @@
   a {
     color: var(--link-color);
   }
-  a:hover {
-    color: #747bff;
-  }
   button.theme-toggle-btn {
     padding: 0.65rem 1rem;
     border: 1px solid var(--button-border);
