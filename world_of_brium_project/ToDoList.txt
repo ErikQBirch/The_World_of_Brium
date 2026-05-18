@@ -1,5 +1,3 @@
-1. Fix HomePage
-2. Adjust books_id gallery
-3. Add related books (doesn't have to be a carousel, a scroll-overflow would surfice)
-4. Light Mode and Dark Mode
-5. AI updates
+1. Upload PDF and convert it to Blog Post/ News Letter (create Database system)
+2. About tab gives option for different wiki pages (like the News Letter/Blog Post), for author and worlds
+3. 
