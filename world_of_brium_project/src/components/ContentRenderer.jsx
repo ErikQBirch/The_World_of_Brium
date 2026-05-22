@@ -1,6 +1,6 @@
 import React from 'react';
-import './scss//ContentRenderer.scss';
 import { Link } from 'react-router-dom';
+import './scss//ContentRenderer.scss';
 // import './scss/documents.scss';
 
 // A generic renderer that takes an array of content objects and

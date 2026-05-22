@@ -54,26 +54,21 @@ export default function Books() {
 
   return (
     <main className="page books" id="booksIdPage">
-
-        
-          <div className="contentHolder">
-            {bookComponentElement}
+      {bookComponentElement}
+      <div className="sticky-button-wrapper" ref={dropdownWrapperRef}>
+        <button
+          className="sticky-external-link"
+          onClick={toggleDropdown}
+          aria-label="Open store links"
+        >
+          Store
+        </button>
+        {dropdownOpen && (
+          <div className="store-dropdown">
+            {/* store links would go here */}
           </div>
-
-          <div className="sticky-button-wrapper" ref={dropdownWrapperRef}>
-            <button
-              className="sticky-external-link"
-              onClick={toggleDropdown}
-              aria-label="Open store links"
-            >
-              Store
-            </button>
-            {dropdownOpen && (
-              <div className="store-dropdown">
-                {/* store links would go here */}
-              </div>
-            )}
-          </div>
+        )}
+      </div>
     
     </main>
   )
