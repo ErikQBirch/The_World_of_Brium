@@ -101,6 +101,13 @@ export default function BooksComponent() {
     }
   ];
 
+  const storeLinks = [
+    {
+      href: "https://www.amazon.com/Legacy-Lykai-World-Brium-Book/dp/B0CGLQZL9P",
+      text: "Buy on Amazon"
+    }
+  ];
+
 
   return (
     <div className='contentHolder'>
