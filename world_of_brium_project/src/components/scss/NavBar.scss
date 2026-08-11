@@ -82,16 +82,20 @@
         z-index: 1000;
         padding: 0rem;
         // gap: 2rem;
-      }
-      .nav-menu.open {
-        transform: translateX(0);
+
+        li a {
+          color: white;
+          text-decoration: none;
+          font-size: 40px;
+        }
       }
       .nav-menu li {
         margin: 0;
         // overflow:hidden;
         // border-radius: 4px;
         font-size: 2.5rem;
-        .nav a {
+        color:white;
+        a {
           // color: rgb(150, 150, 150);
           color:white;
           text-decoration: none;
@@ -99,26 +103,32 @@
           // padding: 0.4rem 0.6rem;
           transition: all 0.3s ease;
           // padding: 1rem 2rem;
-          font-size: 1.2rem;
+          font-size: 40px;
+          font-weight: 500;
           border-radius: 2.5rem;
           // border-radius: 15% 15% 15% 15%;
         }
       
-        .nav a:active {
+        a:active {
           background: $tertiary-color;
           color: #fff;
         }
       
-        .nav a:hover {
+        a:hover {
           background: $accent-color;
           color: #fff;
         }
       }
-      .articles-dropdown {
+      .nav-menu.open {
+        transform: translateX(0);
+      }
+      .articles-dropdown,
+      .about-dropdown {
         position: relative;
         font-size: 1.2rem;
         font-weight: 500;
-        .articles-button {
+        .articles-button,
+        .about-button {
           background: none;
           border: none;
           color: white;
@@ -130,11 +140,13 @@
           border-radius: 2.5rem;
           font-family: inherit;
         }
-        .articles-button:active {
+        .articles-button:active,
+        .about-button:active {
           background: $tertiary-color;
           color: #fff;
         }
-        .articles-button:hover {
+        .articles-button:hover,
+        .about-button:hover {
           background: $accent-color;
           color: #fff;
         }
@@ -226,9 +238,11 @@
             }
           }
         }
-        .articles-dropdown {
+        .articles-dropdown,
+        .about-dropdown {
           position: relative;
-          .articles-button {
+          .articles-button,
+          .about-button {
             background: none;
             border: none;
             color: white;
@@ -239,7 +253,8 @@
             border-radius: 2.5rem;
             font-family: inherit;
           }
-          .articles-button:hover {
+          .articles-button:hover,
+          .about-button:hover {
             background: $accent-color;
             color: #fff;
           }
