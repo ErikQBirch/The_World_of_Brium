@@ -68,8 +68,8 @@ export default function NavBar() {
               About
             </button>
             <ul className={`dropdown-menu ${isAboutDropdownOpen ? 'open' : ''}`}>
-              <li><NavLink to="/author" className={({isActive}) => isActive ? 'active' : ''} onClick={() => { setIsMenuOpen(false); closeAboutDropdown(); }}>Author</NavLink></li>
-              <li><NavLink to="/wordbuilding" className={({isActive}) => isActive ? 'active' : ''} onClick={() => { setIsMenuOpen(false); closeAboutDropdown(); }}>World Building</NavLink></li>
+              <li><NavLink to="/about/author" className={({isActive}) => isActive ? 'active' : ''} onClick={() => { setIsMenuOpen(false); closeAboutDropdown(); }}>Author</NavLink></li>
+              <li><NavLink to="/about/worldbuilding" className={({isActive}) => isActive ? 'active' : ''} onClick={() => { setIsMenuOpen(false); closeAboutDropdown(); }}>World Building</NavLink></li>
             </ul>
           </li>
           <li className="articles-dropdown" onMouseEnter={() => setIsArticlesDropdownOpen(true)} onMouseLeave={() => setIsArticlesDropdownOpen(false)}>

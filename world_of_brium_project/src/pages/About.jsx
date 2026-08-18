@@ -19,27 +19,8 @@ export default function About() {
   const isAuthor = location.pathname.includes('/about/author')
   const isWorldBuilding = location.pathname.includes('/about/worldbuilding')
 
-  const handleToggle = (type) => {
-    navigate(`/about/${type}`)
-  }
-
   return (
     <main className="page books" id="aboutPage">
-      <div className="about-toggle">
-        <button
-          className={`toggle-btn ${isAuthor ? 'active' : ''}`}
-          onClick={() => handleToggle('author')}
-        >
-          Author
-        </button>
-        <button
-          className={`toggle-btn ${isWorldBuilding ? 'active' : ''}`}
-          onClick={() => handleToggle('worldbuilding')}
-        >
-          World Building
-        </button>
-      </div>
-
       {isAuthor && author && (
         <div className="contentHolder">
           <ContentRenderer content={author.contentSections[0]} />
