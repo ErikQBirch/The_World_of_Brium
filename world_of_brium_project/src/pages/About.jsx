@@ -1,14 +1,16 @@
 import React, { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
-import authorJSON from '../assets/author.json'
-import './scss/About.scss'
+// import authorJSON from '../assets/author.json'
+import aboutJSON from '../assets/about.json'
+// import './scss/About.scss'
+// import './scss/InfoPage.scss'
 import { ContentRenderer } from '../components/ContentRenderer'
-import WordBuilding from './WorldBuilding'
 
 export default function About() {
   const location = useLocation()
   const navigate = useNavigate()
-  const author = authorJSON.Author
+  const author = aboutJSON.About[0]
+  const worldBuilding = aboutJSON.About[1]
 
   useEffect(() => {
     if (location.pathname === '/about' || location.pathname === '/about/') {
@@ -20,14 +22,15 @@ export default function About() {
   const isWorldBuilding = location.pathname.includes('/about/worldbuilding')
 
   return (
-    <main className="page books" id="aboutPage">
-      {isAuthor && author && (
-        <div className="contentHolder">
-          <ContentRenderer content={author.contentSections[0]} />
+    <main className="page books infoPage" id="aboutPage">
+      <div className="contentHolder">
+        {isAuthor && author && (
+            <ContentRenderer content={author.contentSections[0]} />
+          )}
+        {isWorldBuilding && worldBuilding && (
+            <ContentRenderer content={worldBuilding.contentSections[0]} />
+          )}
         </div>
-      )}
-
-      {isWorldBuilding && <WordBuilding />}
     </main>
   )
 }

@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import About from './pages/About'
 import Books from './pages/Books'
 import Books_id from './pages/Books_id'
-import WordBuilding from './pages/WorldBuilding'
-import Author from './pages/Author'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import NavBar from './components/NavBar'

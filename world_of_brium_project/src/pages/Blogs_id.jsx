@@ -13,12 +13,8 @@ import { ContentRenderer } from "../components/ContentRenderer";
     useEffect(() => {
       window.scrollTo(0, 0)
     }, [id])
-    
-    console.log('id from params', id);
-    console.log('blogsJSON', blogsJSON);
-    console.log('blogsJSON.Blogs', blogsJSON.Blogs);
+  
     const blog = blogsJSON.Blogs.find(blog => blog.id === id);
-    console.log('blog found', blog);
 
     return (
       <main className="page blogs" id="blogsIdPage">

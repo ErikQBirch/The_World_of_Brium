@@ -1,7 +1,8 @@
 import React, { lazy, Suspense, useEffect, useState, useRef, useMemo } from 'react';
 import { useParams } from "react-router-dom";
 // import booksJSON from '../assets/examples/books_two.json'; 
-import './scss/Books_id.scss'
+// import './scss/Books_id.scss'
+import '../components/scss/infoPage.scss'
 
 
 export default function Books() {
@@ -53,7 +54,7 @@ export default function Books() {
   };
 
   return (
-    <main className="page books" id="booksIdPage">
+    <main className="page books infoPage" id="booksIdPage">
       {bookComponentElement}
       <div className="sticky-button-wrapper" ref={dropdownWrapperRef}>
         <button

@@ -35,7 +35,7 @@ export const ContentRenderer = ({ content }) => {
   // Helper function to render items recursively
   const renderItems = (items, contentType) => {
     return items.map((item, index) => {
-      const { element, value, src, alt, srcImg, ...rest } = item;
+      const { element, value, src, alt, srcImg, style, ...rest } = item;
 
       // console.log(item);
       // console.log(element, value, src, alt, srcImg);
@@ -62,7 +62,18 @@ export const ContentRenderer = ({ content }) => {
               );
             case 'img':
               return (
-              <figure key={index}>
+              <figure
+                key={index}
+                style={
+                  style
+                    ? {
+                        float: style.placement ? style.placement : undefined,
+                        width: style.width ? `${style.width}px` : undefined,
+                        margin: style.placement=="center" ? `0rem auto` : '2.5rem',
+                      }
+                    : undefined
+                }
+              >
                 <img 
                   src={`${import.meta.env.BASE_URL}${src.replace(/^\//,'')}`} 
                   alt={alt || ''} 
