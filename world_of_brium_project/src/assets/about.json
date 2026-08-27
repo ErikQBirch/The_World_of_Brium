@@ -25,7 +25,8 @@
               { "element":"h3", "value":"- Do you feel it helps you reach your divine purpose? How?"},
               { "element":"p", "value":"I do. Creating a story emulates what it is like for God to make our divine plans. I put the characters in the places they need to be to grow. They either choose the right path, or continue down the wrong, much like we do. It is up to us to be what God wants us to be, and I believe i understand better how people work as I continue to write. Through that, I understand how God works."},
               { "element":"h3", "value":"- Any other advice you'd give?"},
-              { "element":"p", "value":"Take up a creative hobby, no matter what it is. Seek to inspire, but don't be outward with your intentions. Make a message that is true no matter what you believe. True things are fundamentally good things."}
+              { "element":"p", "value":"Take up a creative hobby, no matter what it is. Seek to inspire, but don't be outward with your intentions. Make a message that is true no matter what you believe. True things are fundamentally good things."},
+              { "element":"img","src":"/images/author.jpg", "alt":"image1", "style":{ "placement": "center", "width":"300"}}
             ]
           }
         ]

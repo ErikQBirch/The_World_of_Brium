@@ -69,7 +69,7 @@ export const ContentRenderer = ({ content }) => {
                     ? {
                         float: style.placement ? style.placement : undefined,
                         width: style.width ? `${style.width}px` : undefined,
-                        margin: style.placement=="center" ? `0rem auto` : '2.5rem',
+                        margin: style.placement=="center" ? `2.5rem auto` : '2.5rem',
                       }
                     : undefined
                 }
@@ -82,20 +82,20 @@ export const ContentRenderer = ({ content }) => {
                </figure>
               );
             case "a":
-              return srcImg ? (
-                <a key={index} href={item.href} {...rest}>
-                  <img src={`${import.meta.env.BASE_URL}${srcImg.replace(/^\//,'')}`} alt={alt || ''} />
-                </a>
-              ) : (
-                <a key={index} href={item.href} {...rest}>{value}</a>
-              );
             case "link":
-              return srcImg ? (
-                <Link key={index} to={item.to} {...rest}>
-                  <img src={`${import.meta.env.BASE_URL}${srcImg.replace(/^\//,'')}`} alt={alt || ''} />
-                </Link>
-              ) : (
-                <Link key={index} to={item.to} {...rest}>{value}</Link>
+              return (
+                <a
+                  key={index}
+                  href={item.href ? item.href : undefined}
+                  to={item.to ? item.to : undefined}
+                  {...rest}
+                >
+                  {srcImg ? (
+                    <img src={`${import.meta.env.BASE_URL}${srcImg.replace(/^\//,'')}`} alt={alt || ''} />
+                  ) : (
+                    value
+                  )}
+                </a>
               );
             case 'div':
               // Recursive rendering for div elements

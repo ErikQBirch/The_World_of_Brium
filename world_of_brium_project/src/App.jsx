@@ -1,5 +1,6 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import About from './pages/About'
 import Books from './pages/Books'
 import Books_id from './pages/Books_id'
@@ -16,12 +17,20 @@ import ScrollToTopBtn from './components/ScrollToTopBtn'
 import LightDarkToggle from './components/LightDarkToggle'
 import 'animate.css' //worthless?
 
-function App() {
-  
+function ScrollToTop() {
+  const { pathname } = useLocation()
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [pathname])
+
+  return null
+}
+
+function App() {
   return (
     <Router basename='/The_World_of_Brium'>
-
+      <ScrollToTop />
       <NavBar />
       <div className="container">
         <Routes>
