@@ -6,6 +6,9 @@
 @media only all and (min-width: 0){
     main#booksPage{
       color:white;
+      a * {
+        color: white !important;
+      }
       h1{
         font-size: 2rem;
         text-align: center;

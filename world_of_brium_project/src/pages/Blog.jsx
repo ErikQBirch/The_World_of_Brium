@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
 import blogsJSON from '../assets/blogs.json'; 
@@ -10,7 +10,18 @@ import ContentComingSoon from '../components/ContentComingSoon';
 export default function Blog() {
   const navigate = useNavigate()
   const blogsArray = blogsJSON.Blogs;
+  const [visibleLimit, setVisibleLimit] = useState(12);
+  const [visibleBlogs, setVisibleBlogs] = useState(blogsArray?.slice(0, visibleLimit));
   console.log('blogsArray', blogsArray);
+
+  const handleShowMore = () => {
+    setVisibleLimit((currentLimit) => {
+      const remainingBlogs = blogsArray.length - currentLimit;
+      const nextLimit = currentLimit + Math.min(12, remainingBlogs);
+      setVisibleBlogs(blogsArray.slice(0, nextLimit));
+      return nextLimit;
+    });
+  };
 
   // Redirect to book detail if only 1 book exists
   useEffect(() => {
@@ -38,7 +49,7 @@ export default function Blog() {
               {blogsArray?.length === 0 ? (
                 <ContentComingSoon />
               ) : (
-              blogsArray
+              visibleBlogs
                 .map(blog => (
                   <Link to={`/blogs/${blog.id}`} key={blog.id} className="blog-item">
                     <figure>
@@ -53,6 +64,11 @@ export default function Blog() {
                 ))
               )}
         </div>
+        {blogsArray?.length > visibleLimit && (
+          <button className="moreOrLess" onClick={handleShowMore}>
+            Show More
+          </button>
+        )}
       </section>
     </main>
   )

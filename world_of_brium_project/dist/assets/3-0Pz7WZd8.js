@@ -1,1 +1,0 @@
-import{c as t,j as n}from"./index-CDBd3yQF.js";function c(){const e=t.c(1);let o;return e[0]===Symbol.for("react.memo_cache_sentinel")?(o=n.jsx("div",{className:"content-coming-soon",children:n.jsx("h1",{children:"Content Coming Soon"})}),e[0]=o):o=e[0],o}export{c as default};

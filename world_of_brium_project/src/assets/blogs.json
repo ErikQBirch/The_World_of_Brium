@@ -1,6 +1,6 @@
 {
   "Blogs": [
-        {
+    {
       "id":"1",
       "Title":"First Blog Post",
       "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
@@ -21,7 +21,26 @@
       ]
     },
     {
-      "id":"1",
+      "id":"2",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"3",
       "Title":"First Blog Post",
       "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
       "Thumbnail": "/images/author.jpg",
@@ -32,7 +51,846 @@
           "sectionTitle":"Extended Summary",
           "contentType":"document",
           "elementArray": [
-            { "element":"h1", "value":"Jeremy Cole Blog Post 1"},
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"4",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"5",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"6",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"7",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"8",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"9",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"10",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"11",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"12",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"13",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"14",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"15",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"16",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"17",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"18",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"19",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"20",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"21",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"22",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"23",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"24",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"25",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"26",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"27",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"28",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"29",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"30",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"31",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"32",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"33",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"34",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"35",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"36",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"37",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"38",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"39",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"40",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"41",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"42",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"43",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"44",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
+            { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
+            { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+        {
+      "id":"45",
+      "Title":"First Blog Post",
+      "Summary":",This is my first blog post,This is my first blog post,This is my first blog post,This is my first blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/21/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"First Blog Post"},
+            { "element":"img","src":"/images/bookCovers/sample_book1.png", "alt":"image1"},
+            { "element":"h2", "value": "Summary"},
+            { "element":"p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":"46",
+      "Title":"Second Blog Post",
+      "Summary":",This is my second blog post,This is my second blog post,This is my second blog post,This is my second blog post",
+      "Thumbnail": "/images/author.jpg",
+      "Date":"03/22/2026",
+      "contentSections" : [
+        {
+          "label":"ExtendedSummary",
+          "sectionTitle":"Extended Summary",
+          "contentType":"document",
+          "elementArray": [
+            { "element":"h1", "value":"Jeremy Cole Blog Post 2"},
             { "element": "p", "value": "I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
             { "element": "p", "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa voluptates culpa expedita necessitatibus commodi ea pariatur quibusdam quisquam suscipit? Maxime earum fuga provident quia quis quo laborum asperiores totam itaque vel adipisci facilis delectus excepturi dolorem cupiditate molestias, praesentium et quaerat aliquam consequatur atque! Iure, nemo dicta! Blanditiis assumenda tempore dicta dolorem fuga, quisquam adipisci! Laborum ea exercitationem accusantium sunt, voluptate nesciunt sequi modi provident quasi porro quisquam ad facilis neque! Dolorum exercitationem itaque voluptate eaque consequatur vitae suscipit earum et officiis ex, laudantium dignissimos facere dolor harum. Delectus commodi architecto dolores pariatur ipsam eaque atque quae dignissimos sequi."}
           ]

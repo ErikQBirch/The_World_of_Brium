@@ -35,11 +35,11 @@
                 padding: 25px 10px;
                 // background-color: $secondary-color;
                 transition: all 0.3s ease;
-                background-color: color.adjust($tertiary-color, $alpha: -0.5);
+                background-color: color.adjust($tertiary-color, $alpha: -0.25);
                 &:hover, &:active{
                   // background-color: $tertiary-color;
-                  background-color: color.adjust($accent-color, $alpha: -0.5);
-                  color:white;
+                  background-color: color.adjust($accent-color, $alpha: -0.25);
+                  color:white !important;
                   text-decoration: none;
                 }
                 figure{

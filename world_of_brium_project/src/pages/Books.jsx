@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
 // import booksJSON from '../assets/books.json'; 
-import booksJSON from '../assets/examples/books_two.json'; 
+import booksJSON from '../assets/books.json'; 
 // import booksJSON from '../assets/examples/books_many.json'; 
 import { Link } from 'react-router-dom';
 import './scss/Books.scss'
@@ -47,7 +47,7 @@ export default function Books() {
               {booksArray
                 .filter(book => book.seriesID === series.id)
                 .map(book => (
-                  <Link to={book.id}key={book.id} className="book-item">
+                  <Link to={`/books/${book.id}`} key={book.id} className="book-item">
                     <figure>
                       <img src={`${import.meta.env.BASE_URL}${book.bookCover.replace(/^\//,'')}`} alt={book.Title} />
                     </figure>

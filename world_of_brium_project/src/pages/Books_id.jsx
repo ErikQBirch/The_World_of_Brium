@@ -1,14 +1,19 @@
 import React, { lazy, Suspense, useEffect, useState, useRef, useMemo } from 'react';
 import { useParams } from "react-router-dom";
-// import booksJSON from '../assets/examples/books_two.json'; 
-// import './scss/Books_id.scss'
+import booksJSON from '../assets/books.json'; 
+import { ContentRenderer } from "../components/ContentRenderer";
+import './scss/Books_id.scss'
 import '../components/scss/infoPage.scss'
 
 
 export default function Books() {
   const { id } = useParams();
+  const book = booksJSON.Books.find(book => book.id === id)
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownWrapperRef = useRef(null);
+
+
   const BookComponent = lazy(() => {
     // Dynamically import the book component based on the id from the URL
     return import(`../components/Books/${id}.jsx`).catch(() => {
@@ -20,7 +25,14 @@ export default function Books() {
   const bookComponentElement = useMemo(() => {
     return (
       <Suspense fallback={<div>Loading...</div>}>
-        <BookComponent />
+      {book && (
+        <div className="contentHolder">
+          {book.contentSections.map((section, index) => (
+            <ContentRenderer key={section.id || index} content={section} />
+          ))}
+        </div>
+      )}
+        
       </Suspense>
     );
   }, [id]);
@@ -66,7 +78,15 @@ export default function Books() {
         </button>
         {dropdownOpen && (
           <div className="store-dropdown">
-            {/* store links would go here */}
+            <ul>
+              {Object.entries(book?.storeLinks ?? {}).map(([storeName, storeUrl]) => (
+                <li key={storeName}>
+                  <a href={storeUrl} target="_blank" rel="noreferrer">
+                    {storeName}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         )}
       </div>

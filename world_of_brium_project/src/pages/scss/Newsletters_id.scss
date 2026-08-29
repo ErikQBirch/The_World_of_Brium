@@ -3,22 +3,22 @@
 
 //Variables
 
-@media (prefers-color-scheme: light) {
-    main#newslettersIdPage{
-      .contentHolder{
-        background-color: color.adjust($light-background-color, $alpha: -0.5);
-        color:black;
-      }
-    }
-  }
-@media (prefers-color-scheme: dark) {
-    main#newslettersIdPage{
-      .contentHolder{
-        background-color: color.adjust($primary-color, $alpha: -0.25);
-        color: white;
-      }
-    }
-  }
+// @media (prefers-color-scheme: light) {
+//     main#newslettersIdPage{
+//       .contentHolder{
+//         background-color: color.adjust($light-background-color, $alpha: -0.5);
+//         color:black;
+//       }
+//     }
+//   }
+// @media (prefers-color-scheme: dark) {
+//     main#newslettersIdPage{
+//       .contentHolder{
+//         background-color: color.adjust($primary-color, $alpha: -0.25);
+//         color: white;
+//       }
+//     }
+//   }
 
 
 @media only all and (min-width: 0){
@@ -28,12 +28,13 @@
     align-items: center;
     justify-content: center;
     // padding: 20px;
-    color:white;
+    // color:white;
     .contentHolder{
       max-width: 800px;
       width: 60%;
       margin: 2.5rem auto;
       padding: 0 50px;
+      background-color: var(--section-bg-color);
       section{
       }
       #ExtendedSummary{

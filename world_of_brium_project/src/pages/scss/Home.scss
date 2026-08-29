@@ -55,7 +55,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            color: white;
+            color: white !important;
             h1{
               margin:0rem;
               text-align:center;
@@ -114,6 +114,7 @@
         flex-direction: column;
         display:flex;
         width: 100%;
+        
         figure{
           width: 250px;
           // max-width: 400px;
@@ -149,6 +150,9 @@
             }
             button{
               margin: 2.5rem auto;
+              a:link, a:visited, a:hover, a:active{
+                color: white !important;
+              }
             }
         }
       }

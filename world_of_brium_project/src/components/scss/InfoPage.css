@@ -93,14 +93,12 @@
     max-width: 800px;
     width: 60%;
     margin: 2.5rem auto;
-    padding: 0 50px;
+    padding: 2.5rem 50px;
     background-color: var(--section-bg-color);
     border-radius: 15px;
     box-shadow: 0 0 50px var(--section-bg-color);
   }
   main.infoPage .contentHolder section {
-    margin: 2rem auto;
-    padding: 2.5rem 0;
     display: block;
   }
   main.infoPage .contentHolder section figure {

@@ -11,7 +11,7 @@ import './scss//ContentRenderer.scss';
 // and avoids repeating switch logic in every page component.
 export const ContentRenderer = ({ content }) => {
   const [popup, setPopup] = React.useState(null);
-  const [showAll, setShowAll] = React.useState(false);
+  const [visibleLimit, setVisibleLimit] = React.useState(8);
 
   // choose which items actually get rendered.  For galleries we only
   // want image items (JSON currently uses type: 'img').
@@ -23,7 +23,14 @@ export const ContentRenderer = ({ content }) => {
       : content?.elementArray || [];
       
 
-  const rendered = content.contentType === 'gallery' && !showAll ? filtered.slice(0, 8) : filtered;
+  const rendered = content.contentType === 'gallery' ? filtered.slice(0, visibleLimit) : filtered;
+
+  const handleShowMore = () => {
+    setVisibleLimit((currentLimit) => {
+      const remainingImages = filtered.length - currentLimit;
+      return currentLimit + Math.min(8, remainingImages);
+    });
+  };
 
   // debug: make sure JSON is arriving
   // console.log('rendered content', content, rendered);
@@ -36,12 +43,6 @@ export const ContentRenderer = ({ content }) => {
   const renderItems = (items, contentType) => {
     return items.map((item, index) => {
       const { element, value, src, alt, srcImg, style, ...rest } = item;
-
-      // console.log(item);
-      // console.log(element, value, src, alt, srcImg);
-
-
-
           switch (element) {
             case 'h1':
               return <h1 key={index} {...rest}>{value}</h1>;
@@ -78,7 +79,7 @@ export const ContentRenderer = ({ content }) => {
                   src={`${import.meta.env.BASE_URL}${src.replace(/^\//,'')}`} 
                   alt={alt || ''} 
                   {...rest} 
-                  onClick={(contentType==='gallery') ? () => setPopup({ src: src, alt: alt }) : undefined}/>
+                  onClick={(contentType==='gallery') ? () => setPopup({ item: item }) : undefined}/>
                </figure>
               );
             case "a":
@@ -129,32 +130,47 @@ export const ContentRenderer = ({ content }) => {
   // an id attribute.
   return (
     <section id={content.label || undefined}>
-      {content.contentType === 'gallery' ? 
-      <>
-        <h2>Image Gallery</h2>
-        <div className="contentHolder_Gallery">
-          {renderItems(rendered, content.contentType)}
-        </div> 
-      </>
-        : 
-        renderItems(rendered, content.contentType)
-      }
+      {(() => {
+        switch (content.contentType) {
+          case 'gallery':
+            return (
+              <>
+                <h2>Image Gallery</h2>
+                <div className="contentHolder_Gallery">
+                  {renderItems(rendered, content.contentType)}
+                </div>
+                {filtered.length > visibleLimit && (
+                  <button className="showMore" onClick={handleShowMore}>
+                    Show More
+                  </button>
+                )}
+                { popup && (
+                  <div className="image-popup" onClick={() => setPopup(null)}>
+                    <div className="inner">
+                      <button className="close" aria-label="close">×</button>
+                      {popup.item ? renderItems([popup.item], content.contentType) : (
+                        <img src={`${import.meta.env.BASE_URL}${popup.src.replace(/^\//,'')}`} alt={popup.alt || ''} />
+                          )}
+                    </div>
+                  </div>
+                )}
+              </>
+            );
+          case 'carousel':
+            return (
+              <>
+                <h2>Related Books</h2>
+                <div className="contentHolder_RelatedBooks">
+                  {renderItems(rendered, content.contentType)}
+                </div>
+              </>
+            );
+          default:
+            return renderItems(rendered, content.contentType);
+        }
+      })()}
       
-      {content.contentType === 'gallery' && filtered.length > 8 && (
-        <button className="moreOrLess" onClick={() => setShowAll(!showAll)}>
-          {showAll ? 'Show Less' : 'Show More'}
-        </button>
-      )}
-
-      {/* popup overlay for gallery images */}
-      {content.contentType === 'gallery' && popup && (
-        <div className="image-popup" onClick={() => setPopup(null)}>
-          <div className="inner">
-            <button className="close" aria-label="close">×</button>
-            <img src={`${import.meta.env.BASE_URL}${popup.src.replace(/^\//,'')}`} alt={popup.alt || ''} />
-          </div>
-        </div>
-      )}
+    
     </section>
   );
 };

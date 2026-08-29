@@ -5,7 +5,7 @@ export default function ContentComingSoon() {
 
   return (
     <div className='content-coming-soon'>
-      <h1>Content Coming Soon</h1>
+      <h1>Content Coming Soon!</h1>
     </div>
   )
 }
