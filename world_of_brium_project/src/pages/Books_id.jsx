@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import booksJSON from '../assets/books.json'; 
 import { ContentRenderer } from "../components/ContentRenderer";
 import './scss/Books_id.scss'
-import '../components/scss/infoPage.scss'
+import '../components/scss/InfoPage.scss'
 
 
 export default function Books() {
