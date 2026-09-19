@@ -11,7 +11,7 @@
             "contentType":"document",
             "elementArray": [
               { "element":"img","src":"/images/author.jpg", "alt":"image1", "style":{ "placement": "right", "width":"300"}},
-              { "element":"h1", "value":"Jeremy Cole"},
+              { "element":"h1", "value":"Jeremy Cole!"},
               { "element":"p", "value":"I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
               { "element":"h2", "value":"Q&A"},
               { "element":"h3", "value":"- How much time do you typically spend writing each week?"},
@@ -40,7 +40,7 @@
             "label":"JeremyColeBio",
             "contentType":"document",
             "elementArray": [
-              { "element":"img","src":"/images/author.jpg", "alt":"image1", "style":{ "placement": "center", "width":"300"}},
+              { "element":"img","src":"/images/author.jpg", "alt":"image1", "style":{ "placement": "none", "width":"300"}},
               { "element":"h1", "value":"Jeremy Cole"},
               { "element":"p", "value":"I write fantasy novels for young adults, tackling deeper theme with approachable writing. I seek to describe the world in detail, to have the audience understand the characters through their actions and expression. A vast world awaits you, one that will evolve and develop over the course of my series."},
               { "element":"h2", "value":"Q&A"},

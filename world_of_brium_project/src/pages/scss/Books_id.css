@@ -114,12 +114,13 @@
   }
   main#booksIdPage .contentHolder #ExtendedSummary {
     margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
+    display: block;
     align-items: center;
   }
   main#booksIdPage .contentHolder #ExtendedSummary figure {
     max-width: 300px;
+    display: block;
+    float: left;
   }
   main#booksIdPage .contentHolder #ExtendedSummary figure img {
     display: flex;

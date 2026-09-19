@@ -43,14 +43,15 @@
       }
       #ExtendedSummary{
         margin-bottom: 2rem;
-        display:flex;
-        flex-direction: column;
+        display:block;
         align-items: center;
         h1{
           // text-align:center;
         }
         figure{
           max-width: 300px;
+          display:block;
+          float: left;
           img{
             display:flex;
             width:100%;

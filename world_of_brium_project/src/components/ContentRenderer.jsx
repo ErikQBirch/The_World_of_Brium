@@ -70,7 +70,7 @@ export const ContentRenderer = ({ content }) => {
                     ? {
                         float: style.placement ? style.placement : undefined,
                         width: style.width ? `${style.width}px` : undefined,
-                        margin: style.placement=="center" ? `2.5rem auto` : '2.5rem',
+                        margin: style.placement=="none" ? `2.5rem auto` : '2.5rem',
                       }
                     : undefined
                 }

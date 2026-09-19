@@ -9,13 +9,11 @@ export default function Articles() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    // If the path is just /articles, redirect to /articles/newsletter
     if (location.pathname === '/articles' || location.pathname === '/articles/') {
       navigate('/articles/newsletter', { replace: true })
     }
   }, [location.pathname, navigate])
 
-  // Determine which component to render based on the current path
   const isNewsletter = location.pathname.includes('/articles/newsletter')
   const isBlog = location.pathname.includes('/articles/blog')
 
